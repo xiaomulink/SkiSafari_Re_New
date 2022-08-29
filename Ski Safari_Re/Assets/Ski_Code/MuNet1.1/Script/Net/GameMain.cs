@@ -31,7 +31,6 @@ public class GameMain : MonoBehaviour
         }
         PanelManager.PanelClear();
         PanelManager.Clear();
-        PanelManager.Init();
 
         //PanelManager.Open<QuickRoomPanel>();
 

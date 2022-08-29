@@ -205,7 +205,6 @@ public class Terrain : MonoBehaviour
 	private List<ChunkInfo> m_pooledChunks = new List<ChunkInfo>();
 
 	public List<ChunkInfo> m_chunks = new List<ChunkInfo>();
-	public List<ChunkInfo> m_Lastchunks = new List<ChunkInfo>();
 
 	private int m_chunkIndexOffset;
 
@@ -1008,7 +1007,6 @@ public class Terrain : MonoBehaviour
 		chunkInfo.endSegmentIndex = num6 + segmentsPerChunk;
 		chunkInfo.gameObject.SetActive(true);
 		m_chunks.Add(chunkInfo);
-        m_Lastchunks.Add(chunkInfo);
 		return true;
 	}
 
@@ -1171,10 +1169,7 @@ public class Terrain : MonoBehaviour
 		}
 	}
 
-    private void OnEnable()
-    {
-        m_chunks = new List<ChunkInfo>(m_Lastchunks);
-    }
+
 
     private void OnDisable()
 	{

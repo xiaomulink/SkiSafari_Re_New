@@ -58,7 +58,6 @@ public class StartingSkier : Item
 	{
 		if (ItemManager.Instance.GetItemSet("starting_skier").UnlockedItemCount > 1)
 		{
-
 			m_guiSign = UnityEngine.Object.Instantiate(signPrefab);
 			m_guiSign.transform.parent = base.transform;
 			UpdateSignTransform();

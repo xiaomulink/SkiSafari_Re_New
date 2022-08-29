@@ -1360,6 +1360,7 @@ public class SkiGameManager : MonoBehaviour
                 if (GUIAchievements.Instance.AutoShow)
                 {
                     Instance.ShowAchievementsGUI = true;
+
                 }
                 break;
             case State.Shop:
@@ -1596,11 +1597,13 @@ public class SkiGameManager : MonoBehaviour
 
         AchievementManager.Instance.PopulateActiveAchievements();
     
-
         SendStartupApsalarEvents();
 		Reset();
 		SocialManager.Instance.LoadAchievements();
-
+   
+        await Task.Delay(3000);
+        PanelManager.Init();
+        PanelManager.Open<Tip>(PanelManager.UIstyle.Default, "公告 \n 没有什么公告");
     }
 
     private void Update()

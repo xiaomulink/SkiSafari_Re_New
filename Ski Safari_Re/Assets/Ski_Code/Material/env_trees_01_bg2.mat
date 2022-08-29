@@ -66,4 +66,4 @@ Material:
     - _MainColor: {r: 1, g: 1, b: 1, a: 1}
     - _SoftParticleFadeParams: {r: 0, g: 0, b: 0, a: 0}
     - _SpecColor: {r: 1, g: 1, b: 1, a: 1}
-    - _TintColor: {r: 0.015686275, g: 0.17254902, b: 0.27450982, a: 1}
+    - _TintColor: {r: 0.043137256, g: 0.19215687, b: 0.2901961, a: 1}

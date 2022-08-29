@@ -4,8 +4,9 @@
 Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_Name: fx_yeti_fur
   m_Shader: {fileID: 203, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: 
@@ -29,4 +30,4 @@ Material:
     - _Color: {r: 0, g: 0, b: 0, a: 0.14901961}
     - _Emission: {r: 1, g: 1, b: 1, a: 0.23137255}
     - _SpecColor: {r: 0, g: 0, b: 0, a: 1}
-    - _TintColor: {r: 1, g: 1, b: 1, a: 1}
+    - _TintColor: {r: 0.99607843, g: 0.99607843, b: 0.99607843, a: 1}

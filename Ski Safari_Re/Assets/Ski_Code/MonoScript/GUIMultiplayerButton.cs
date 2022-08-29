@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using JEngine.Core;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -29,6 +30,8 @@ public class GUIMultiplayerButton : GUIButton
         //Deactivate();
         //SkiGameManager.Instance.ShowCustom = true;
         base.Click(position);
+        AssetMgr.LoadSceneAsync("Assets/HotUpdateResources/Scene/skiMultiplayer.unity");
+
     }
 
     protected override void OnActivate()

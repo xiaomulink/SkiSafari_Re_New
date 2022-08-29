@@ -18,7 +18,6 @@ public class GameMenuMain : MonoBehaviour
     {
         PanelManager.PanelClear();
         PanelManager.Clear();
-        PanelManager.Init(); 
     }
 
     // 每次更新都要调用的方法
