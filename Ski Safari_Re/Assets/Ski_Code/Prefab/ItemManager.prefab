@@ -1,0 +1,195 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1260794550630229}
+  m_IsPrefabParent: 1
+--- !u!1 &1260794550630229
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4868282714415768}
+  - 114: {fileID: 114368871487989894}
+  m_Layer: 0
+  m_Name: ItemManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4868282714415768
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1260794550630229}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &114368871487989894
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1260794550630229}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27da7e0ff547d0c4894373aaf02794bf, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  itemSets:
+  - name: costume
+    displayName: Costumes
+    displayNamePrefix:
+    items:
+    - {fileID: 114651883636573396, guid: 4b4473c034004d2479be3095f439c360, type: 2}
+    - {fileID: 114905683183092831, guid: af0a9398810d25243b5616d74ae3b605, type: 2}
+    - {fileID: 114753189013415242, guid: c06dce382555edf47be756f9be2cdb53, type: 2}
+    - {fileID: 114729845060626885, guid: 67c37f85fccac8745956c93d05864c6e, type: 2}
+    - {fileID: 114514373348892607, guid: 9eeb360c0dd29b84897a49455ec2732d, type: 2}
+    - {fileID: 114574258701102657, guid: 44bc1b29b4212a34ab89b7d03cb13ecf, type: 2}
+    - {fileID: 114531899128901973, guid: aced06ea5664cf54690b213d5e2da9f6, type: 2}
+    - {fileID: 114979307219330396, guid: 88f8466931707cf458932d60b042bdbf, type: 2}
+    - {fileID: 114079327473317858, guid: fae00983172c0a249b1f3d50192dd585, type: 2}
+    - {fileID: 114180462931104626, guid: 985a986907f7420428a32cddfd0e1afc, type: 2}
+    - {fileID: 114618990274141513, guid: 903de5028a18a5741868ec85110e0181, type: 2}
+    - {fileID: 114431351922854750, guid: ca4afc53067087f47b8760ebd5db7084, type: 2}
+    - {fileID: 114303754602138043, guid: 386eb770b1e39a448b49a7cf87a30f0f, type: 2}
+    - {fileID: 114217152840067712, guid: 2fc17cc37d680cd458d9335e8fd7de1d, type: 2}
+    - {fileID: 114432891302070318, guid: 672131c496e228f448ecd010019a0d99, type: 2}
+    defaultIndex: 0
+    canEquipItems: 1
+  - name: gizmo
+    displayName: Gizmos
+    displayNamePrefix:
+    items:
+    - {fileID: 114594455398479946, guid: fb836cc702105104c9071cbc8c6b70c0, type: 2}
+    - {fileID: 114317065063768404, guid: fe09d8d68beed9e4f9970cdb9cde3f09, type: 2}
+    defaultIndex: -1
+    canEquipItems: 1
+  - name: upgrade
+    displayName: Upgrades
+    displayNamePrefix:
+    items:
+    - {fileID: 114946663682560185, guid: bfa91d581daab2d4cb941ae3c52ceab9, type: 2}
+    - {fileID: 114841265934785938, guid: 6ef71bcccbc8f9e449a663b56b34df35, type: 2}
+    - {fileID: 114496520279786284, guid: 64a3eec6ea937894b8e668308808c85e, type: 2}
+    - {fileID: 114280687960247700, guid: 205f112a0f1b42a41952c274761bf9ab, type: 2}
+    - {fileID: 114720781507344305, guid: 6c6abc8ffc1c246478d3a73ae4bea205, type: 2}
+    - {fileID: 114835110228865839, guid: 9e27694ade4aab34eb39b76d0cf3807c, type: 2}
+    defaultIndex: -1
+    canEquipItems: 1
+  - name: snowmobile
+    displayName: Snowmobiles
+    displayNamePrefix:
+    items:
+    - {fileID: 114722810989315938, guid: a1eb30403cca650418af7df5c19c5e31, type: 2}
+    - {fileID: 114502496229887855, guid: ccac11950ea3dce4eae1c9b7443cfad9, type: 2}
+    - {fileID: 114086140883218601, guid: 9ff00c79a5aee4945b7d041d32aa84ba, type: 2}
+    - {fileID: 114582189668062846, guid: 5c15b5defefa40041a785a321bcf2bfc, type: 2}
+    - {fileID: 114662102852372975, guid: a04482406fd674b4da1234a6e3d5d0cc, type: 2}
+    - {fileID: 114317560559932833, guid: bbe59d12714ee6d469edbe43f54c12b5, type: 2}
+    - {fileID: 114535629997226349, guid: 4057c5bb4a1b587458d37e8d0b20b8e3, type: 2}
+    - {fileID: 114791249742973953, guid: 045c61fcb0a3c0d40b98e19cb8dcbea9, type: 2}
+    - {fileID: 114509659811339363, guid: e0a3be22478844e40910a65c009b70e6, type: 2}
+    - {fileID: 114162540415665306, guid: 699d4334db289f24299c1ea1414f177b, type: 2}
+    - {fileID: 114948514449111154, guid: bd6602ff50e49f24f9bfd24b649a3ad6, type: 2}
+    - {fileID: 114246398493092274, guid: 139f64051fd7bb448b9adcc376089c26, type: 2}
+    defaultIndex: 0
+    canEquipItems: 1
+  - name: coinpack
+    displayName: Coin Packs
+    displayNamePrefix:
+    items:
+    - {fileID: 114852752451352177, guid: bb4a11a82e520ab47a87d330b93f6989, type: 2}
+    - {fileID: 114745707935996334, guid: e936cbe2d7fbd7448a0f59f5dd46b010, type: 2}
+    - {fileID: 114688371971903648, guid: 25cd8cd5e0d57f14f94ca568c9bb796c, type: 2}
+    defaultIndex: -1
+    canEquipItems: 0
+  - name: product
+    displayName: Bonuses
+    displayNamePrefix:
+    items:
+    - {fileID: 114452467614566341, guid: e677d52918cc64a40bdccffeaa5a3b46, type: 2}
+    defaultIndex: -1
+    canEquipItems: 0
+  - name: scarf
+    displayName: Scarves
+    displayNamePrefix:
+    items:
+    - {fileID: 114916845125624789, guid: 3a25cd71c9780d34582e4622b4240779, type: 2}
+    - {fileID: 114146135336250803, guid: fd564c7c1e8832f449d96f427d9a44b4, type: 2}
+    - {fileID: 114139962118323807, guid: f6769cf8563d53644a2d8a510ffeb27c, type: 2}
+    - {fileID: 114168879582951694, guid: c501874b6e035364698f717b750177cf, type: 2}
+    - {fileID: 114262100921757641, guid: b947ee570af216743affa6a1a3b91495, type: 2}
+    - {fileID: 114577678278072283, guid: 03c92f14a6e849d449690a7398cab0ea, type: 2}
+    - {fileID: 114516137619660977, guid: e165cce90ab4e6b4abd3b4a2d7ac212d, type: 2}
+    - {fileID: 114445735174916825, guid: 342593e19d3526948afa0225033c021e, type: 2}
+    - {fileID: 114502567505726870, guid: 39f9574684215a14f93d9353045fae4e, type: 2}
+    - {fileID: 114268906668164474, guid: 39fb4337993f8894892199f2c726be09, type: 2}
+    - {fileID: 114228203421742082, guid: d79ccccbe5277674384b2b2298516503, type: 2}
+    - {fileID: 114108191482632958, guid: 0bf5a1af6c5270d49ab933020773591c, type: 2}
+    - {fileID: 114860031923251719, guid: 3ae7f70f6516fd94298db9d1a70ab2f4, type: 2}
+    defaultIndex: 0
+    canEquipItems: 1
+  - name: slope
+    displayName: Slopes
+    displayNamePrefix:
+    items:
+    - {fileID: 114203825375261785, guid: 1667f2be565a39a4c8cc48beb6f6468b, type: 2}
+    - {fileID: 114873771161201675, guid: 962275e5659d8474d95b91417ffa6149, type: 2}
+    - {fileID: 114050576716708692, guid: 6645e3486e34c754fa14719a25ee6ea8, type: 2}
+    - {fileID: 114303937476916316, guid: dffdc2ee63d4cf24e8b590b9edb99f7d, type: 2}
+    - {fileID: 114809421813411304, guid: def9181acee600240b6dbc8f7f709fbc, type: 2}
+    - {fileID: 114271980192298724, guid: 9867cf0630705f740951c445ded52d76, type: 2}
+    defaultIndex: 0
+    canEquipItems: 1
+  - name: powerup
+    displayName: Powerups
+    displayNamePrefix:
+    items:
+    - {fileID: 114670909959049572, guid: 39bca9805f2d016409714bf3f125d8b3, type: 2}
+    - {fileID: 114368473315689838, guid: 5fecc4281a618b94fbb9bf47de7beae7, type: 2}
+    defaultIndex: -1
+    canEquipItems: 1
+  - name: starting_skier
+    displayName: Skiers
+    displayNamePrefix: Starting
+    items:
+    - {fileID: 114907642703786278, guid: a2c5ef14175452d43b69b266720affdc, type: 2}
+    - {fileID: 114729964659164580, guid: 03ad65697832735439055a585f261b76, type: 2}
+    - {fileID: 114672043329721940, guid: d7d89d5157ff7cf4a84b91fd791660ec, type: 2}
+    - {fileID: 114922276999135508, guid: 2d37470b2cee81740bd970f831aad382, type: 2}
+    - {fileID: 114660384652731680, guid: b4cbc97a32c246d4b972b58eed6f9d5e, type: 2}
+    - {fileID: 114762096595847013, guid: 098d4cb0ebfe50e45913175bd6189e95, type: 2}
+    - {fileID: 114629372491044191, guid: 1214f645122b7f148ab1fafcee39fcf9, type: 2}
+    - {fileID: 114271903576992416, guid: 452c404f28fc0e64a8d4bdb1d561b829, type: 2}
+    defaultIndex: 0
+    canEquipItems: 1
+  - name: booster
+    displayName: Boosters
+    displayNamePrefix:
+    items:
+    - {fileID: 114306810119498139, guid: 200b7b8024e19e045afe7b6c93cb091b, type: 2}
+    - {fileID: 114354430292067435, guid: f65b9da7f97801e45aa010d451432410, type: 2}
+    - {fileID: 114124766670447429, guid: 5b25d128b1fe0d344837708e4f81e3ce, type: 2}
+    - {fileID: 114286094729235580, guid: f803705273bd6dc45ae905a9681a4b5c, type: 2}
+    defaultIndex: 0
+    canEquipItems: 0
+  boosters:
+  - {fileID: 114101827332313965, guid: 0bd62195131952a419359300199dfedf, type: 2}
+  - {fileID: 114837710388821885, guid: 9deef9a11266ac54ba7a6805af10d3e2, type: 2}
+  googlePlayPublicKey: MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA6sw+gjHX1HHhPLLo+2o8cCbLnMSDcjbNaaq6QRg+MUfdpQTutXg58BJHoohM50AYkVNKnYuzl7VrXmJFg95Mt538cQSj/GsOUOsv/3JGg0jQ2ZbYY7M0x0sLl7t6+b6nMhb/ChLXgfEMZsNs075jne1iPjIRyBN1WgrR8kSEeCRb4TU5rygCTOarGX36uwtnSXmeU8Ciu3gZnQCStHlJv4Vk2AJmjWaBTMT14q8VQsg2VEVNx7umPGBzn1PI6Qg3+p0CJSzZetf/yXsatUhtGZ9BDRUKZeeXDBATLzX2x6w7YIIpIvyH7ZctOmljo8lpp/DzSSTNgvgceiAn9ks+FwIDAQAB

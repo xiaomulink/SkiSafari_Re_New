@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1915471645841809}
+  m_IsPrefabParent: 1
+--- !u!1 &1915471645841809
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4800687656028117}
+  - 114: {fileID: 114180462931104626}
+  m_Layer: 0
+  m_Name: Costume_Elf
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4800687656028117
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1915471645841809}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &114180462931104626
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1915471645841809}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64c120db8bc629f478dbc42c37d348e3, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  cost: 5000
+  discountCost: 2000
+  discountYear: 2013
+  discountMonthStart: 12
+  discountDayStart: 18
+  discountMonthEnd: 1
+  discountDayEnd: 1
+  requiredLevel: 0
+  requiredItem: {fileID: 0}
+  lockedUntilUpdate: 0
+  displayName: Elf Sven
+  description: Santa's little helper.
+  descriptionTextScale: 1
+  iconTextureName: gui_item_costume_elf
+  bannerTextureName:
+  iOSBannerUrl:
+  iOSProductId:
+  googlePlayBannerUrl:
+  amazonBannerUrl:
+  nookBannerUrl:
+  selectSound: {fileID: 11400000, guid: 5498a61c4e0fda541ae6e35c206c0614, type: 2}
+  achievements:
+  - {fileID: 114832173814118596, guid: 22f125f39033e0344ab9445b7c3b5733, type: 2}
+  - {fileID: 114872782922769173, guid: 71cd8c1920038464ebca631d64cf1fa5, type: 2}
+  - {fileID: 114703126321393241, guid: 73665bc20c626ba45bfa301247150bcf, type: 2}
+  achievementFlags: 0
+  guiReward: {fileID: 0}
+  guiShopPopup: {fileID: 0}
+  bundles: []
+  key:
+  materialName: player
+  textureName: player_skier_elf

@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1066211636116330}
+  m_IsPrefabParent: 1
+--- !u!1 &1066211636116330
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4862583758361595}
+  - 114: {fileID: 114729845060626885}
+  m_Layer: 0
+  m_Name: Costume_Bunny
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4862583758361595
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1066211636116330}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &114729845060626885
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1066211636116330}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64c120db8bc629f478dbc42c37d348e3, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  cost: 2000
+  discountCost: -1
+  discountYear: 0
+  discountMonthStart: 0
+  discountDayStart: 0
+  discountMonthEnd: 0
+  discountDayEnd: 0
+  requiredLevel: 0
+  requiredItem: {fileID: 0}
+  lockedUntilUpdate: 0
+  displayName: Bunny Sven
+  description: When you're not feeding bunnies...
+  descriptionTextScale: 1
+  iconTextureName: gui_item_costume_bunny
+  bannerTextureName: gui_promo_small_rocketbunnies
+  iOSBannerUrl: itms-apps://itunes.com/apps/rocketbunnies
+  iOSProductId: 497870755
+  googlePlayBannerUrl: market://details?id=com.DefiantDev.RocketBunnies
+  amazonBannerUrl: amzn://apps/android?p=com.DefiantDev.RocketBunnies
+  nookBannerUrl: https://nookdeveloper.barnesandnoble.com/tools/dev/linkManager/2940043858535
+  selectSound: {fileID: 11400000, guid: 5cb6c7ced2f13804c936beb4c1aaebe3, type: 2}
+  achievements:
+  - {fileID: 114925278603288418, guid: 8c464379cb111ce4bada7b13628a070a, type: 2}
+  - {fileID: 114676466886106354, guid: 222019225459c444c8d18db459d94219, type: 2}
+  - {fileID: 114156732919767051, guid: 93b371f59e541164c91b828c559e1435, type: 2}
+  achievementFlags: 0
+  guiReward: {fileID: 0}
+  guiShopPopup: {fileID: 0}
+  bundles: []
+  key:
+  materialName: player
+  textureName: player_skier_bunny

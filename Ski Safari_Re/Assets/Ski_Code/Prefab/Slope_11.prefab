@@ -1,0 +1,200 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1393800774238108}
+  m_IsPrefabParent: 1
+--- !u!1 &1393800774238108
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4313585348374924}
+  - component: {fileID: 114271980192298724}
+  m_Layer: 0
+  m_Name: Slope_11
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4313585348374924
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1393800774238108}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114271980192298724
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1393800774238108}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 16852b9997a4136429210198fa1addac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cost: 10000
+  discountCost: 5000
+  discountYear: 2013
+  discountMonthStart: 1
+  discountDayStart: 1
+  discountMonthEnd: 11
+  discountDayEnd: 30
+  requiredLevel: 0
+  requiredItem: {fileID: 0}
+  lockedUntilUpdate: 0
+  displayName: "\u8D35\u7269\u884C"
+  description: "\u5F92\u5F1F\u4F60\u5728\u54EA~\u5F92\u5F1F~\u571F\u5730\u7237~"
+  descriptionTextScale: 1
+  iconTextureName: gui_item_slope_tudimiao
+  bannerTextureName: 
+  iOSBannerUrl: 
+  iOSProductId: 
+  googlePlayBannerUrl: 
+  amazonBannerUrl: 
+  nookBannerUrl: 
+  selectSound: {fileID: 11400000, guid: f341654b4584e9142b7be122acf24d54, type: 2}
+  achievements:
+  - {fileID: 114194065600210620, guid: 70ca837c6f88afe4c99c117951c6649d, type: 2}
+  - {fileID: 114899170908269904, guid: 7ab9c9c2b96e1d84296ed1512ba0b917, type: 2}
+  - {fileID: 114356525285087675, guid: ac3223a65786c694ca231f8833fa14e9, type: 2}
+  - {fileID: 114921129245348739, guid: 3d813a2d0d5dc624f939d79c0ac777c9, type: 2}
+  - {fileID: 114457689741602476, guid: dd246a3f420542d47947e4fb5ad811f3, type: 2}
+  - {fileID: 114143712851568307, guid: be8546c0e3d030b4c81d8b419021a721, type: 2}
+  - {fileID: 114597699173131273, guid: b0477a0fcfdac8d48981e598f87f7c93, type: 2}
+  achievementFlags: 0
+  guiReward: {fileID: 0}
+  guiShopPopup: {fileID: 0}
+  bundles:
+  - {fileID: 11400000, guid: fb594a684d835f84282815f54dc66fdc, type: 2}
+  - {fileID: 11400000, guid: 4a50986c45c75f74d949e4ff40c5a669, type: 2}
+  - {fileID: 11400000, guid: 095052f872a04cb45a514744e12bfdce, type: 2}
+  - {fileID: 11400000, guid: 00b9f06c6a26b404ea65686ba02b7ce1, type: 2}
+  - {fileID: 11400000, guid: e2c59a95e3689e8428d1414cec748357, type: 2}
+  - {fileID: 11400000, guid: 4e1ac8517154d784e89d0c2670bce2af, type: 2}
+  leaderboardId: high_scores_6
+  leaderboardTextScale: 1
+  scorePerDistance: 1
+  theme: {fileID: 11400000, guid: 165d0d06844888948ac2b509fb8f2ea9, type: 2}
+  signPrefab: {fileID: 114365480748013986, guid: ced3bf5cde1144d498e03b465c05918e,
+    type: 2}
+  titleParticles: {fileID: 198253160254366532, guid: 47dd1b0cb99616c43ade81ca98fce04b,
+    type: 2}
+  titleParticlesSound: {fileID: 11400000, guid: 45b23217f0e54b04aac765619498681c,
+    type: 2}
+  titleErodeDelay: 2
+  titleErodeDuration: 1.5
+  titleCameraOffset: {x: -0.5, y: 6.5, z: -20}
+  tutorialPageSetOverrides: []
+  startingSkierOverrides:
+  - oldStartingSkier: {fileID: 114762096595847013, guid: 098d4cb0ebfe50e45913175bd6189e95,
+      type: 2}
+    newStartingSkier: {fileID: 114312342695843160, guid: 1c04ff8535890f44f9ab67708063e681,
+      type: 2}
+  - oldStartingSkier: {fileID: 114729964659164580, guid: 03ad65697832735439055a585f261b76,
+      type: 2}
+    newStartingSkier: {fileID: 114003958147159720, guid: feec2afd363fe624cbbd0f3493bc0102,
+      type: 2}
+  - oldStartingSkier: {fileID: 114922276999135508, guid: 2d37470b2cee81740bd970f831aad382,
+      type: 2}
+    newStartingSkier: {fileID: 114459643883516979, guid: 99b9e5952d15933439e9bec87d9e614e,
+      type: 2}
+  - oldStartingSkier: {fileID: 114672043329721940, guid: d7d89d5157ff7cf4a84b91fd791660ec,
+      type: 2}
+    newStartingSkier: {fileID: 114093256395332363, guid: 2207eed8d5b6f1e43adacdad507b426f,
+      type: 2}
+  - oldStartingSkier: {fileID: 114271903576992416, guid: 452c404f28fc0e64a8d4bdb1d561b829,
+      type: 2}
+    newStartingSkier: {fileID: 114459643883516979, guid: 99b9e5952d15933439e9bec87d9e614e,
+      type: 2}
+  startPositionOffset: {x: -2, y: 3, z: 0}
+  sleepingEffectOffset: {x: -2, y: 1.5, z: 0}
+  slopeSignPosition: {x: -14, y: -0.75, z: 0.5}
+  startingSkierSignOffset: {x: 5, y: 0, z: 0}
+  startingAmbientSpawns:
+  - {fileID: 114252443846685524, guid: 5d23e9c3c4e8ae14e8f00aba604ab622, type: 2}
+  - {fileID: 114950056158218110, guid: 1e604386d943e2846b722c94d97d0a1a, type: 2}
+  - {fileID: 114364431216097280, guid: 08dd915971956fa448c622ce06a54835, type: 2}
+  - {fileID: 114737768008653941, guid: 7f4c1c10263803a4586ff1b13e008e75, type: 2}
+  initialQueuedSpawns:
+  - spawnParams: {fileID: 114545449766282856, guid: 223a76895f651a944abb33cde0445406,
+      type: 2}
+    spawnFlags: -1
+    minPosX: 0
+  - spawnParams: {fileID: 114668115729270048, guid: 991392971fbf77f46817f9d91a55e50c,
+      type: 2}
+    spawnFlags: -1
+    minPosX: 100
+  randomAttachments:
+  - {fileID: 114692738236160005, guid: 6ce2fc499cf838c49b5d9b51bf1383ad, type: 2}
+  spawnParams:
+  - {fileID: 114485987667397284, guid: 9a89f605c3e1d4c4cb9f70489a8c924e, type: 2}
+  - {fileID: 114311728647495702, guid: a1a365149407ec54c97c9e1938015c95, type: 2}
+  - {fileID: 114164625255775941, guid: 8b6a645d404680c4385397264b30139c, type: 2}
+  - {fileID: 114333341919986793, guid: 552f87dc8e13169478026bfe8d92450f, type: 2}
+  - {fileID: 114252443846685524, guid: 5d23e9c3c4e8ae14e8f00aba604ab622, type: 2}
+  - {fileID: 114737768008653941, guid: 7f4c1c10263803a4586ff1b13e008e75, type: 2}
+  - {fileID: 114364431216097280, guid: 08dd915971956fa448c622ce06a54835, type: 2}
+  - {fileID: 114507966431811325, guid: b5b68016ef0b9a248a4bcecd0beaf02b, type: 2}
+  - {fileID: 114340189128041727, guid: 88465fc38d41d5347b0ef65359aaa7cf, type: 2}
+  - {fileID: 114080373800911800, guid: 314272d557d16234796db665882f9e6e, type: 2}
+  - {fileID: 114950056158218110, guid: 1e604386d943e2846b722c94d97d0a1a, type: 2}
+  - {fileID: 114950056158218110, guid: 1e604386d943e2846b722c94d97d0a1a, type: 2}
+  - {fileID: 114923001894835756, guid: 1fd93347ef208dd41ad7ad86f31c346b, type: 2}
+  - {fileID: 114878571652852846, guid: 9ff962f8f6a27f34393f30147100a738, type: 2}
+  - {fileID: 114127391937678403, guid: a279ecfa15fdc8740b7725fda4bf4cb2, type: 2}
+  - {fileID: 114552016520777930, guid: b6fd080b1652ac94ba2e5b121a51361d, type: 2}
+  - {fileID: 114668115729270048, guid: 72b81521ed0b4d04bb72cac083ea3dc8, type: 2}
+  cloudSpawnParams:
+  - {fileID: 114283891627055551, guid: 9ea1bdc0d9cdaa148993fddecbbae239, type: 2}
+  spawnParamsBG1:
+  - {fileID: 114399712615155294, guid: 469a04d4be4840044be2d68c732f51ab, type: 2}
+  - {fileID: 114969151641385983, guid: 0e65b8629f9c57a4cacb12f7f19c00e0, type: 2}
+  - {fileID: 114574723747727503, guid: 5f9e948936cc16b48aaa1c01727731f8, type: 2}
+  spawnParamsBG2:
+  - {fileID: 114852508211862103, guid: e7c70adf7c5ada74586651db5ca8f347, type: 2}
+  - {fileID: 114524710830609846, guid: 3be2d1abbd773ed44b26c652ed1b930c, type: 2}
+  - {fileID: 114712220459989213, guid: 88ddd5bd0a9af234b86a96fbea65edb2, type: 2}
+  initialCurveParams: {fileID: 114728648624084208, guid: 0d55881cb03cca145b454f16bcf63073,
+    type: 2}
+  curveParams:
+  - {fileID: 114186879716615043, guid: 70e56e7696db04e4da30967e11bd8ecb, type: 2}
+  - {fileID: 114938218374590255, guid: 76d77e667fcdd444fbb566da4d87e183, type: 2}
+  - {fileID: 114255055655250896, guid: bc33795cff1509d4e9cdea9f2c1d7e87, type: 2}
+  - {fileID: 114453355967809841, guid: b641f6e50680a234297874e92007f2ee, type: 2}
+  - {fileID: 114295038282108861, guid: 97c70fced941441498d48915cf9326aa, type: 2}
+  - {fileID: 114063475565634399, guid: 265975190e95bff47a23ca763a2cd93f, type: 2}
+  - {fileID: 114569689674837031, guid: 410e08f9ba2a45245a16c2120b816da5, type: 2}
+  initialCurveParamsBG1: {fileID: 114915683625751887, guid: 0ea50ea8b053fdf4dad45e1158b42e33,
+    type: 2}
+  curveParamsBG1:
+  - {fileID: 114678073895759624, guid: d9ca760ec10f3704093e41529911f28f, type: 2}
+  initialCurveParamsBG2: {fileID: 114217368895399122, guid: cbd8193839141a24b99acee0c7a4020f,
+    type: 2}
+  curveParamsBG2:
+  - {fileID: 114241235758015983, guid: 8eea56a2d6a377143bb3b38bfc03e6fd, type: 2}
+  avalanchePrefab: {fileID: 114459590378143072, guid: 2bfec566ff86a88419098cae0254e1bd,
+    type: 2}
+  avalancheStartDistance: -55
+  skyBoxPrefab: {fileID: 1380132286066974, guid: f295cfe71f49d3942a559bb5a78d58a5,
+    type: 2}
+  skyParticlesPrefab: {fileID: 1459847206851260, guid: 6025496857e5cdc47ab02c1e3368f596,
+    type: 2}

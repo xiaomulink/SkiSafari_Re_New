@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1086503041944486}
+  m_IsPrefabParent: 1
+--- !u!1 &1086503041944486
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4315895872192137}
+  - 114: {fileID: 114011961795079173}
+  m_Layer: 0
+  m_Name: SpawnParams_Caves_Small
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4315895872192137
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1086503041944486}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &114011961795079173
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1086503041944486}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2031ae3dc37a9b24284b31d080d8ea83, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  achievementFlags: 0
+  prefabs:
+  - {fileID: 1433111149834729, guid: ee1dbb883eed647409e01fa64d1f1395, type: 2}
+  maxActiveSpawns: 10
+  requiredDistance: 200
+  blackListCurves:
+  - sheer
+  - climb
+  - jumpy
+  - rocketramp
+  blackListCurveDistance: 200
+  radius: 8
+  leftClearance: 8
+  rightClearance: 8
+  minSeparation: 300
+  maxSeparation: 300
+  groupable: 0
+  groupChance: 1
+  minSlope: -30
+  maxSlope: 30
+  matchSlopeRotation: 0
+  terrainHeightOffset: 0
+  randomTerrainHeightOffset: 0
+  avoidCaveBoundaries: 0
+  cullBehindDistance: 400
+  cullForwardDistance: 400

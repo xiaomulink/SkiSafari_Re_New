@@ -1,0 +1,104 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1986122012202880}
+  m_IsPrefabParent: 1
+--- !u!1 &1986122012202880
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4144370148234938}
+  - 114: {fileID: 114502219352793007}
+  m_Layer: 0
+  m_Name: Stunt_BreakLine
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4144370148234938
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1986122012202880}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &114502219352793007
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1986122012202880}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64c4f9e6dc24e104fbd64a39c1020c0c, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  lineDescriptors:
+  - colliderCategory: cloud
+    mountDescriptors:
+    - mountCategory: penguin
+      description: Penguin 云半身像！
+      score: 200
+    - mountCategory: yeti
+      description: Monster 云半身像！
+      score: 600
+    - mountCategory: eagle
+      description: 鹰云半身像！
+      score: 800
+    - mountCategory: snowmobile
+      description: Sled 云半身像！
+      score: 1000
+    - mountCategory: wolf
+      description: 狼云半身像！
+      score: 1000
+    - mountCategory: rocket
+      description: Rocket 云半身像！
+      score: 2000
+    - mountCategory: bat
+      description: Bat 云半身像！
+      score: 400
+    - mountCategory: hand
+      description: Hand 云半身像！
+      score: 200
+    - mountCategory: frankenstein
+      description: Monster 云半身像！
+      score: 1000
+    - mountCategory: snowball
+      description: Snowball 云半身像！
+      score: 1000
+    - mountCategory: reindeer
+      description: Rein 云半身像！
+      score: 1000
+    - mountCategory: panda
+      description: Panda 云半身像！
+      score: 600
+    - mountCategory: crane
+      description: Crane 云半身像！
+      score: 800
+    - mountCategory: llama
+      description: Llama 云半身像！
+      score: 1000
+    - mountCategory: redpanda
+      description: 小熊猫云朵终结者！
+      score: 200
+    defaultDescriptor:
+      mountCategory:
+      description: 云半身像！
+      score: 200

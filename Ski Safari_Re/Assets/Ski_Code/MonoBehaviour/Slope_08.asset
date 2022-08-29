@@ -1,0 +1,201 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfc92633e96eb6844b65f27e8c7d258b, type: 3}
+  m_Name: Slope_08
+  m_EditorClassIdentifier: 
+  resident: 0
+  version: 17
+  library:
+    textures:
+    - name: env_cabin_christmas
+      materials:
+      - {fileID: 2100000, guid: 0d4d4cc0c44a0c64f9a8b51b2b7b5de1, type: 2}
+      - {fileID: 2100000, guid: 24b96a92a25350944be95fa491fb0531, type: 2}
+    - name: env_cabin_christmas_bg
+      materials:
+      - {fileID: 2100000, guid: 98346eeba0e9f454189b1819a7f6779b, type: 2}
+      - {fileID: 2100000, guid: dbc509448215cd148b7040d757eebe28, type: 2}
+    - name: env_cabin_glow_christmas
+      materials:
+      - {fileID: 2100000, guid: 4ba8ba3717045fe4bb9f6e471b97b54f, type: 2}
+    - name: env_cave_wall_christmas
+      materials:
+      - {fileID: 2100000, guid: 0033bd4f0fdd9dd46917310d1786d3a0, type: 2}
+    - name: env_christmas_presents
+      materials:
+      - {fileID: 2100000, guid: 6141b338ad4f3e44a9e97396c57a101b, type: 2}
+      - {fileID: 2100000, guid: eefc0c588ba793b478e9052a73e62134, type: 2}
+    - name: env_follower_rope
+      materials:
+      - {fileID: 2100000, guid: 45124ef628508d743ae88aa78ebe30d6, type: 2}
+    - name: env_signs_christmas
+      materials:
+      - {fileID: 2100000, guid: b5b45ec87ae85984f9386a60799d6661, type: 2}
+      - {fileID: 2100000, guid: 8dd0b8e64cc60df4bbe94416b58bbaed, type: 2}
+    - name: env_sky_christmas
+      materials:
+      - {fileID: 2100000, guid: 9e59cfc260292b9458b52d463e4617a9, type: 2}
+    - name: env_slope_sign_christmas
+      materials:
+      - {fileID: 2100000, guid: 5390f8798107b9740ade80ce326487ea, type: 2}
+    - name: env_snowball
+      materials:
+      - {fileID: 2100000, guid: b071a1028d9986542a559891ba735841, type: 2}
+    - name: env_snowball_skier_overlay
+      materials:
+      - {fileID: 2100000, guid: 41a3da5d6fc019f4f8618bb90e7891cf, type: 2}
+    - name: env_snowman
+      materials:
+      - {fileID: 2100000, guid: 82b69bdd523916c4da98d68a7255c385, type: 2}
+      - {fileID: 2100000, guid: 6e80294052ff0a14db48c6aadbcba38f, type: 2}
+    - name: env_terrain_05_bg1_edge
+      materials:
+      - {fileID: 2100000, guid: 76b0472c25aa8094a99beb16f0df005c, type: 2}
+    - name: env_terrain_05_bg1_fill
+      materials:
+      - {fileID: 2100000, guid: c461bca578f02344cbf09163d6b1f94d, type: 2}
+    - name: env_terrain_05_bg2_edge
+      materials:
+      - {fileID: 2100000, guid: 9cecfacc721389048bae09f7b81bc28b, type: 2}
+    - name: env_terrain_05_bg2_fill
+      materials:
+      - {fileID: 2100000, guid: 21efbb173b7620d4ebc4a070701e8187, type: 2}
+    - name: env_terrain_05_game_edge
+      materials:
+      - {fileID: 2100000, guid: 9a22aa6a85b5dc84eb88b3faba6f3cc4, type: 2}
+    - name: env_terrain_05_game_fill
+      materials:
+      - {fileID: 2100000, guid: 42c59418b80c988469d8d871c72b2aca, type: 2}
+    - name: env_trees_christmas
+      materials:
+      - {fileID: 2100000, guid: 80c736742c5f13840af7254f73401667, type: 2}
+      - {fileID: 2100000, guid: 7b3904d26a872e647baa80d814ca482c, type: 2}
+      - {fileID: 2100000, guid: 1f1b0242b27ec434081e307e9b0111d7, type: 2}
+      - {fileID: 2100000, guid: 40f7cdeaedea4a2468615b1d37f328dc, type: 2}
+      - {fileID: 2100000, guid: 9417286aa66d3ed4f97d4d623726d96d, type: 2}
+    - name: npc_penguin_christmas
+      materials:
+      - {fileID: 2100000, guid: 8ddd8bfdddacc7b4bb0dd16e7e473e91, type: 2}
+    - name: npc_reindeer
+      materials:
+      - {fileID: 2100000, guid: 65435a957e18daa4f9e9826151b882d9, type: 2}
+    - name: npc_rudolf
+      materials:
+      - {fileID: 2100000, guid: bafb49b96825d5349bbc7daf42d491cd, type: 2}
+    - name: npc_yeti_christmas
+      materials:
+      - {fileID: 2100000, guid: d319575aa23418a47b2953f4359d616f, type: 2}
+      - {fileID: 2100000, guid: 48a3ec16848476642a32a07c32c89cc7, type: 2}
+      - {fileID: 2100000, guid: c42fa73c34281e443b96f84524d79fb0, type: 2}
+    - name: npc_yeti_sheet2_christmas
+      materials:
+      - {fileID: 2100000, guid: 77008a1ef433693498cc366a959df3c0, type: 2}
+    sounds:
+    - name: fx_break_snowman
+      sounds:
+      - {fileID: 11400000, guid: 127bc129bb2a11746bd9c7825e36a205, type: 2}
+    - name: fx_knock_hat
+      sounds:
+      - {fileID: 11400000, guid: d1ffdeb7fb382b443a1de62ab316c85b, type: 2}
+    - name: fx_reindeer_jingle
+      sounds:
+      - {fileID: 11400000, guid: cce84a97f59d88f48bd3f8ee7a7181cf, type: 2}
+    - name: fx_reindeer_run_snow
+      sounds:
+      - {fileID: 11400000, guid: fc5ba204c66fe95439ca1cda508597e2, type: 2}
+    - name: fx_reindeer_run_wood
+      sounds:
+      - {fileID: 11400000, guid: b59f98e79e2fbce499b6996c99305092, type: 2}
+    - name: fx_sleigh_bell
+      sounds:
+      - {fileID: 11400000, guid: 1389a96e025a6b246ab50e2b62841075, type: 2}
+      - {fileID: 11400000, guid: 1b77acecbceb6a1478038ce60f983e08, type: 2}
+    - name: fx_snowball_muffle
+      sounds:
+      - {fileID: 11400000, guid: f4ab55faa05da614093e29fbca79c57c, type: 2}
+    - name: fx_snowball_snow
+      sounds:
+      - {fileID: 11400000, guid: 4c6196e661582eb42b522d11bd02d680, type: 2}
+    - name: fx_star_touch
+      sounds:
+      - {fileID: 11400000, guid: c6a0b85924c48894eb9340a25a7834b7, type: 2}
+    - name: music_game_christmas
+      sounds:
+      - {fileID: 11400000, guid: e29cc8ba218402b42ba531ea86e12167, type: 2}
+    - name: music_title_christmas
+      sounds:
+      - {fileID: 11400000, guid: 4b1d921bce146f841b8fa4bf6c9eba51, type: 2}
+  platforms:
+  - platform: 0
+    sd:
+      mode: 0
+      version: 0
+      assetBundleName: 
+      remoteURL: 
+      size: 0
+    hd:
+      mode: 0
+      version: 0
+      assetBundleName: 
+      remoteURL: 
+      size: 0
+  - platform: 1
+    sd:
+      mode: 0
+      version: 9
+      assetBundleName: 
+      remoteURL: 
+      size: 0
+    hd:
+      mode: 0
+      version: 9
+      assetBundleName: 
+      remoteURL: 
+      size: 0
+  - platform: 2
+    sd:
+      mode: 0
+      version: 0
+      assetBundleName: 
+      remoteURL: 
+      size: 0
+    hd:
+      mode: 0
+      version: 0
+      assetBundleName: 
+      remoteURL: 
+      size: 0
+  - platform: 3
+    sd:
+      mode: 0
+      version: 0
+      assetBundleName: 
+      remoteURL: 
+      size: 0
+    hd:
+      mode: 0
+      version: 0
+      assetBundleName: 
+      remoteURL: 
+      size: 0
+  - platform: 4
+    sd:
+      mode: 0
+      version: 0
+      assetBundleName: 
+      remoteURL: 
+      size: 0
+    hd:
+      mode: 2
+      version: 0
+      assetBundleName: 
+      remoteURL: 
+      size: 0

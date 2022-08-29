@@ -1,0 +1,317 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1780290987683322}
+  m_IsPrefabParent: 1
+--- !u!1 &1780290987683322
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4284834138628655}
+  - 114: {fileID: 114663160376747936}
+  - 114: {fileID: 114450997397940008}
+  - 114: {fileID: 114823487136865099}
+  - 114: {fileID: 114536227067033903}
+  - 114: {fileID: 114787044398091648}
+  m_Layer: 9
+  m_Name: NPC_Yeti
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4284834138628655
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1780290987683322}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4502627824501402}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &114663160376747936
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1780290987683322}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0829bf6915f7d41489bc81d6879b1916, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  terrainLayer: 0
+  radius: 1.2
+  velocity: {x: 20, y: 0, z: 0}
+  gravity: -50
+  maxSpeed: 28
+  bounce: 0
+  reflect: 0
+  suction: 0
+  drag: 0
+  groundContactTimeThreshold: 0.1
+  maxCollisionSteps: 2
+--- !u!114 &114450997397940008
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1780290987683322}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc10d6c4945b69f45a8595d34af7224e, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  usePlayerSkierModifiers: 0
+  minLateralDrag: 0
+  maxLateralDrag: 0
+  reverseDrag: 20
+  minJumpImpulse: 10
+  maxJumpImpulse: 20
+  timeBetweenAirJumps: -1
+  rotateTowardsVelocity: 0
+  rotateTowardsVelocityWhenJumping: 0
+  rotateTowardsVelocityOnCollision: 0
+  applyJumpInLocalSpace: 0
+  airRotationFilter: 20
+  alwaysApplyGravityRotation: 0
+  minGravityRotationSpeed: 30
+  maxGravityRotationSpeed: 90
+  minInputRotationSpeed: 90
+  maxInputRotationSpeed: 180
+  maxInputRotation: 360
+  maxInputRotationIsRelativeToVelocity: 0
+  inputRotationSpeedRampDuration: 0.5
+  maxHeightAboveTerrainForInput: -1
+  minHeightAboveTerrainForInput: -1
+  jumpSnapRotation: 0
+  initialSpeedLimit: 0
+  initialSpeedLimitDuration: 0
+  airDrag: 0
+  groundRotationFilter: 5
+  groundRotationOffset: 5
+  groundAcceleration: 15
+  minGroundSpeed: 13
+  maxSpeedForGroundAcceleration: 100
+  groundSuction: 50
+  groundDrag: 0
+  minForwardSpeedForGlide: 20
+  maxLateralSpeedForGlide: 5
+  surfaceEffectPrefabs:
+  - {fileID: 114970823696738803, guid: f3be82dfa51226745ab137cf554c0bb1, type: 2}
+  defaultSurfaceType: 0
+  maxTimeOffGroundForEffects: 0.15
+  jumpSounds: []
+  forcePlayJumpSound: 0
+  landSounds: []
+  badLandSounds: []
+  badLandSpeed: 20
+--- !u!114 &114823487136865099
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1780290987683322}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f27dd19796a0db45ba654e789b3cd80, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  sprite: {fileID: 0}
+--- !u!114 &114536227067033903
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1780290987683322}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03f836d37220459448722836a473d43f, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  audioSourceSettings: {fileID: 11400000, guid: 3d133e1ee58bed94788ab9222480d0d7, type: 2}
+  chatterSounds:
+  - {fileID: 11400000, guid: 0fa7b91504f7feb4083155638847002d, type: 2}
+  - {fileID: 11400000, guid: e250aa82eadb9c84eb9b0640e4d47725, type: 2}
+  - {fileID: 11400000, guid: f51b13a9104396a439e2fa99d6501f4a, type: 2}
+  - {fileID: 11400000, guid: 32551064c3fcb7e479e3b81c8ed1fb08, type: 2}
+  minTimeBetweenChatter: 3
+  maxTimeBetweenChatter: 10
+--- !u!114 &114787044398091648
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1780290987683322}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce650321416741f4a9361b1ab9903db1, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  radius: 2
+  category: yeti
+  mountConfig:
+    prefab: {fileID: 114575497836926590, guid: 35a468a3e4810a34f8afbdaac3f1b960, type: 2}
+    initialDelay: 1
+    spawnDirectionOverride: {x: 0, y: 0, z: 0}
+    velocityOverride: {x: 0, y: 0, z: 0}
+    usePlayerPosition: 0
+    usePlayerRotation: 0
+    startIgnited: 0
+    disableOnMount: 0
+    instantMount: 0
+    playerAttachment: {fileID: 0}
+    numInitialRandomAttachments: 0
+    sounds:
+    - {fileID: 11400000, guid: bf0c94c4326087640a023feaade2c248, type: 2}
+    - {fileID: 11400000, guid: a31abe071d62eb44ea2379f4ca3e00cf, type: 2}
+    - {fileID: 11400000, guid: 5555af414fbcb8541aca38829f9764e3, type: 2}
+  followConfig:
+    leaderPrefabs: []
+    followSound: {fileID: 0}
+  attachConfig:
+    prefab: {fileID: 114250357479863250, guid: 79164372d0bb11c47be002185d8599bc, type: 2}
+  tumbleConfig:
+    prefab: {fileID: 0}
+    categories: []
+    initialDelay: 1
+    kickVelocity: {x: 0, y: 0, z: 0}
+    sound: {fileID: 0}
+    effect: {fileID: 0}
+  passConfig:
+    initialDelay: 1
+    effect: {fileID: 0}
+    disableOnPass: 0
+  disableOnTrigger: 0
+  destroyableOwner: {fileID: 0}
+--- !u!1 &1363765420748207
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4502627824501402}
+  - 23: {fileID: 23591561238680825}
+  - 33: {fileID: 33715175409138114}
+  - 114: {fileID: 114984328313074716}
+  m_Layer: 9
+  m_Name: Sprite
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4502627824501402
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1363765420748207}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.65719175, z: 0}
+  m_LocalScale: {x: 4, y: 4, z: 4}
+  m_Children: []
+  m_Father: {fileID: 4284834138628655}
+  m_RootOrder: 0
+--- !u!23 &23591561238680825
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1363765420748207}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_Materials:
+  - {fileID: 2100000, guid: d319575aa23418a47b2953f4359d616f, type: 2}
+  m_SubsetIndices: []
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_ReflectionProbeUsage: 1
+  m_ProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &33715175409138114
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1363765420748207}
+  m_Mesh: {fileID: 4300000, guid: 61d452eda4b93ca4d89cfd9d3504b6b9, type: 2}
+--- !u!114 &114984328313074716
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1363765420748207}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ef5293669d216149aca25912c716ab3, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  rect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 128
+    height: 128
+  bakedMesh: {fileID: 4300000, guid: 61d452eda4b93ca4d89cfd9d3504b6b9, type: 2}
+  realtime: 0
+  animations:
+  - name: run
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 128
+      height: 128
+    frameCount: 16
+    initialFrame: 0
+    fps: 30
+    looping: 1
+    hold: 0
+    synchronise: 0
+    sound: {fileID: 0}
+    nodeTracks: []
+    bakedMeshes:
+    - {fileID: 4300000, guid: 01576b76d633b4740abb24e70c102166, type: 2}
+    - {fileID: 4300000, guid: 26127181a54b9ad4c9a5177fba0656a6, type: 2}
+    - {fileID: 4300000, guid: 46243d5a527fd5645b24a2cf328838d4, type: 2}
+    - {fileID: 4300000, guid: ef4968ba69ddb624ca9d8dc7c2657fbd, type: 2}
+    - {fileID: 4300000, guid: f31ae08b285feae4daa906ced1873b5f, type: 2}
+    - {fileID: 4300000, guid: ead2b2481a0ab7b47ba3a97e2880696b, type: 2}
+    - {fileID: 4300000, guid: 2634141a9b6bed04194fadd5170dca85, type: 2}
+    - {fileID: 4300000, guid: f7cc6b2ee808fdd4ba558a92ab519de7, type: 2}
+    - {fileID: 4300000, guid: af18d2a550780e74488931206f0e04d2, type: 2}
+    - {fileID: 4300000, guid: f635d79730465804aa70271c50eeca96, type: 2}
+    - {fileID: 4300000, guid: 45964eed8d8c6ac4a83eedeef98417cb, type: 2}
+    - {fileID: 4300000, guid: 2fd55c74ad10cdf4ba06f6855d518c84, type: 2}
+    - {fileID: 4300000, guid: 46e6da0057852b948832ceab714c2d63, type: 2}
+    - {fileID: 4300000, guid: 0f84e76fd7d99344c9756892bb9c3ac4, type: 2}
+    - {fileID: 4300000, guid: ad243b56dd4bcd44791735a28fb9abc3, type: 2}
+    - {fileID: 4300000, guid: d677af2a7672a1b4fb159a9e5454138d, type: 2}
+  initialAnimationName: run

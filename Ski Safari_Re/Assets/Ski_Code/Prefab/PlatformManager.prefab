@@ -1,0 +1,99 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1329849478731008}
+  m_IsPrefabParent: 1
+--- !u!1 &1329849478731008
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4970127979481283}
+  - 114: {fileID: 114443459898759413}
+  m_Layer: 0
+  m_Name: PlatformManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4970127979481283
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1329849478731008}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &114443459898759413
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1329849478731008}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71f0982e9d9a7e9449458f08888b0efa, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  commonManagers:
+  - {fileID: 1079029484614471, guid: 3d0d2f141efa67d48b4b954b3ae322da, type: 2}
+  - {fileID: 1444943107732289, guid: 1807578315b9d8a46a203b81e619dbac, type: 2}
+  editor:
+    managers:
+    - {fileID: 1366744166203726, guid: 694be098acb12574880ddf8f2b651547, type: 2}
+    - {fileID: 1921329374337038, guid: 98c6868478d3c3b40a717720d7e80776, type: 2}
+    - {fileID: 1037343957539624, guid: 90352b1b00b7d714597478e8bc979216, type: 2}
+    - {fileID: 1639851311486703, guid: 2895dbf23d1d8374eb88ae34f9d77fb1, type: 2}
+  iOS:
+    managers:
+    - {fileID: 1206077034425335, guid: 46dae7fef95ee484e962b1687fa49a8d, type: 2}
+    - {fileID: 1549581146279580, guid: 32d27916627d56c47a593db96c5c6fe3, type: 2}
+    - {fileID: 1841937573166218, guid: 69465689723ebbb40b016582bf16d026, type: 2}
+    - {fileID: 1579496459793251, guid: 76f946923e7de014ea36be83c012b22b, type: 2}
+    - {fileID: 1617380218516723, guid: e2e864b88b4996a4bb68173e21f11457, type: 2}
+  googlePlay:
+    managers:
+    - {fileID: 1035661770381941, guid: dabf32346122e85469ed24edc515b8c0, type: 2}
+    - {fileID: 1022132944467024, guid: 3c7a58ff8bbd0354195ef7ce77923302, type: 2}
+    - {fileID: 1645896405596612, guid: 5d75ea038f081ef4783eab6ef52c7660, type: 2}
+    - {fileID: 1654219520119684, guid: a9931948585a8cb418ea1f0d554b1534, type: 2}
+    - {fileID: 1437890588633002, guid: 73293d0a74897724590e6adf2e3f6531, type: 2}
+    - {fileID: 1579496459793251, guid: 76f946923e7de014ea36be83c012b22b, type: 2}
+    - {fileID: 1617380218516723, guid: e2e864b88b4996a4bb68173e21f11457, type: 2}
+  amazon:
+    managers:
+    - {fileID: 1035661770381941, guid: dabf32346122e85469ed24edc515b8c0, type: 2}
+    - {fileID: 1455216060038446, guid: cf5fa8986e75daa488e75a8fea24e15f, type: 2}
+    - {fileID: 1380134909487042, guid: da56e5ec2dfde864db25fade0e08bca2, type: 2}
+    - {fileID: 1271924909999130, guid: e4ab1d34ce119bb49ab71df2ff1e3985, type: 2}
+    - {fileID: 1379964351819517, guid: 8b4853cd0fb89f741ab144401c569022, type: 2}
+    - {fileID: 1037343957539624, guid: 90352b1b00b7d714597478e8bc979216, type: 2}
+    - {fileID: 1642252522944072, guid: 757125831e1c37f4ba28579c740300d3, type: 2}
+  nook:
+    managers:
+    - {fileID: 1035661770381941, guid: dabf32346122e85469ed24edc515b8c0, type: 2}
+    - {fileID: 1228525623155004, guid: 34d0a2f122b9d0a4fb6f0e0732aba043, type: 2}
+    - {fileID: 1114161974794264, guid: 303adf5bafa743e42b2a6de159184438, type: 2}
+    - {fileID: 1037343957539624, guid: 90352b1b00b7d714597478e8bc979216, type: 2}
+    - {fileID: 1642252522944072, guid: 757125831e1c37f4ba28579c740300d3, type: 2}
+  unknown:
+    managers:
+    - {fileID: 1228525623155004, guid: 34d0a2f122b9d0a4fb6f0e0732aba043, type: 2}
+    - {fileID: 1114161974794264, guid: 303adf5bafa743e42b2a6de159184438, type: 2}
+    - {fileID: 1037343957539624, guid: 90352b1b00b7d714597478e8bc979216, type: 2}
+    - {fileID: 1642252522944072, guid: 757125831e1c37f4ba28579c740300d3, type: 2}

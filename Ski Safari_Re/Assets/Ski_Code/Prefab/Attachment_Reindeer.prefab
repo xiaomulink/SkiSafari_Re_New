@@ -1,0 +1,173 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1566568116448094}
+  m_IsPrefabParent: 1
+--- !u!1 &1566568116448094
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4051400906447728}
+  - 114: {fileID: 114078273402513840}
+  m_Layer: 9
+  m_Name: Attachment_Reindeer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4051400906447728
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1566568116448094}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4356398398075777}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &114078273402513840
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1566568116448094}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8009ae2a9fc92da43a6549da67a14bc9, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  attachmentGroup: 20
+  attachmentCategory: reindeer
+  detachedPrefab: {fileID: 1539990643361184, guid: 782cab2f05c075449ac623c5b04165a8, type: 2}
+  leaderPrefabs:
+  - {fileID: 114217242322494274, guid: c1f67d205482b314d952ce2d172e946b, type: 2}
+  - {fileID: 114386624463358634, guid: b351508f58f4f47408b349af30e386b8, type: 2}
+  - {fileID: 114425330521343730, guid: 94ff00bb73b440549afde9ef6fbaefea, type: 2}
+  sprite: {fileID: 114159255436743279}
+  autoDetachDelay: -1
+  alwaysOverwrite: 0
+  attachSound: {fileID: 0}
+  igniteSound: {fileID: 0}
+  detachSound: {fileID: 0}
+  detachEffectPrefab: {fileID: 1360371552913503, guid: 2ef9f7ac688369d458d7c39db9665ab1, type: 2}
+  followSound: {fileID: 0}
+  isPlayer: 0
+--- !u!1 &1179655976821336
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4356398398075777}
+  - 23: {fileID: 23303063288141259}
+  - 33: {fileID: 33551490028764776}
+  - 114: {fileID: 114159255436743279}
+  m_Layer: 9
+  m_Name: Sprite
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4356398398075777
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1179655976821336}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.050889343, y: 1.7949361, z: 0}
+  m_LocalScale: {x: 4, y: 4, z: 4}
+  m_Children: []
+  m_Father: {fileID: 4051400906447728}
+  m_RootOrder: 0
+--- !u!23 &23303063288141259
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1179655976821336}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 65435a957e18daa4f9e9826151b882d9, type: 2}
+  m_SubsetIndices: []
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_ReflectionProbeUsage: 1
+  m_ProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &33551490028764776
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1179655976821336}
+  m_Mesh: {fileID: 4300000, guid: 29ce72b42fc7f0341a217ccc4662a108, type: 2}
+--- !u!114 &114159255436743279
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1179655976821336}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ef5293669d216149aca25912c716ab3, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  rect:
+    serializedVersion: 2
+    x: 0
+    y: 384
+    width: 128
+    height: 128
+  bakedMesh: {fileID: 4300000, guid: 29ce72b42fc7f0341a217ccc4662a108, type: 2}
+  realtime: 0
+  animations:
+  - name: idle
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 384
+      width: 128
+      height: 128
+    frameCount: 4
+    initialFrame: 0
+    fps: 12
+    looping: 1
+    hold: 0
+    synchronise: 0
+    sound: {fileID: 0}
+    nodeTracks: []
+    bakedMeshes:
+    - {fileID: 4300000, guid: 2179bdfdcc5e11c429513bc721502f7f, type: 2}
+    - {fileID: 4300000, guid: 597450a4b6b3da344ba5e03bbf5f4b41, type: 2}
+    - {fileID: 4300000, guid: cdd990621fa38364992594a7240343c9, type: 2}
+    - {fileID: 4300000, guid: 6197323f7b8829849a9622b7bafa2f69, type: 2}
+  initialAnimationName: idle

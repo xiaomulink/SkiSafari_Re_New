@@ -1,0 +1,14 @@
+obj/
+Library/
+Temp/
+Logs/
+*.csproj
+*.sln
+Horo/
+!*.dll
+!*.exe
+!*.so
+!*.a
+.idea/
+.vs/
+.vscode/

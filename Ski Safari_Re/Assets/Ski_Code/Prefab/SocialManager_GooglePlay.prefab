@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1645896405596612}
+  m_IsPrefabParent: 1
+--- !u!1 &1645896405596612
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4642992888764731}
+  - 114: {fileID: 114613870567957123}
+  m_Layer: 0
+  m_Name: SocialManager_GooglePlay
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4642992888764731
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1645896405596612}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &114613870567957123
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1645896405596612}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db99b2c983f1a42409f44aadbca3acdd, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  achievements:
+  - id: CgkI9baep44FEAIQDQ
+    achievement: {fileID: 114938721587246589, guid: 9e36f4c3c1fad7242b7009d9991d3219, type: 2}
+    steps: 0
+  - id: CgkI9baep44FEAIQDg
+    achievement: {fileID: 114136095970423137, guid: bf4eb3a06146c144a9fc7cac5cc18485, type: 2}
+    steps: 0
+  - id: CgkI9baep44FEAIQDw
+    achievement: {fileID: 114133154818258983, guid: 3099435b83eef3f47bdbd42c9cad8048, type: 2}
+    steps: 0
+  - id: CgkI9baep44FEAIQDA
+    achievement: {fileID: 114080785974553137, guid: 7551bf2d51a6573449c9d7ef75ed85ac, type: 2}
+    steps: 0
+  - id: CgkI9baep44FEAIQEQ
+    achievement: {fileID: 114831187261938638, guid: afae91b99aad0624b8461a3d1bf8e059, type: 2}
+    steps: 0
+  clientId: 175639075701-ts21r057oncp13bs6tceclv6p4naist1.apps.googleusercontent.com
+  leaderboardMappings:
+  - leaderboardId: best_distance
+    googlePlayId: CgkI9baep44FEAIQCg
+  - leaderboardId: high_scores
+    googlePlayId: CgkI9baep44FEAIQAQ
+  - leaderboardId: high_scores_2
+    googlePlayId: CgkI9baep44FEAIQAw
+  - leaderboardId: high_scores_3
+    googlePlayId: CgkI9baep44FEAIQBA
+  - leaderboardId: high_scores_4
+    googlePlayId: CgkI9baep44FEAIQBQ
+  - leaderboardId: high_scores_5
+    googlePlayId: CgkI9baep44FEAIQBg
+  - leaderboardId: high_scores_6
+    googlePlayId: CgkI9baep44FEAIQBw
+  signInPopup: {fileID: 0}

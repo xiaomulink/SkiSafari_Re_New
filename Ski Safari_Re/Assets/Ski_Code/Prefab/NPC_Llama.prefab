@@ -1,0 +1,330 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1118243914345314}
+  m_IsPrefabParent: 1
+--- !u!1 &1118243914345314
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4512402020168571}
+  - 114: {fileID: 114969697406639301}
+  - 114: {fileID: 114365722782830595}
+  - 114: {fileID: 114324869912449332}
+  - 114: {fileID: 114408127015075419}
+  - 114: {fileID: 114320546121661322}
+  m_Layer: 9
+  m_Name: NPC_Llama
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4512402020168571
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1118243914345314}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4323195332726677}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &114969697406639301
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1118243914345314}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0829bf6915f7d41489bc81d6879b1916, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  terrainLayer: 0
+  radius: 1.2
+  velocity: {x: 20, y: 0, z: 0}
+  gravity: -50
+  maxSpeed: 29
+  bounce: 0
+  reflect: 0
+  suction: 0
+  drag: 0
+  groundContactTimeThreshold: 0.1
+  maxCollisionSteps: 2
+--- !u!114 &114365722782830595
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1118243914345314}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc10d6c4945b69f45a8595d34af7224e, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  usePlayerSkierModifiers: 0
+  minLateralDrag: 0
+  maxLateralDrag: 0
+  reverseDrag: 20
+  minJumpImpulse: 10
+  maxJumpImpulse: 20
+  timeBetweenAirJumps: -1
+  rotateTowardsVelocity: 0
+  rotateTowardsVelocityWhenJumping: 0
+  rotateTowardsVelocityOnCollision: 0
+  applyJumpInLocalSpace: 0
+  airRotationFilter: 20
+  alwaysApplyGravityRotation: 0
+  minGravityRotationSpeed: 30
+  maxGravityRotationSpeed: 90
+  minInputRotationSpeed: 90
+  maxInputRotationSpeed: 180
+  maxInputRotation: 360
+  maxInputRotationIsRelativeToVelocity: 0
+  inputRotationSpeedRampDuration: 0.5
+  maxHeightAboveTerrainForInput: -1
+  minHeightAboveTerrainForInput: -1
+  jumpSnapRotation: 0
+  initialSpeedLimit: 10
+  initialSpeedLimitDuration: 2
+  airDrag: 0
+  groundRotationFilter: 5
+  groundRotationOffset: 5
+  groundAcceleration: 20
+  minGroundSpeed: 15
+  maxSpeedForGroundAcceleration: 100
+  groundSuction: 50
+  groundDrag: 0
+  minForwardSpeedForGlide: 20
+  maxLateralSpeedForGlide: 5
+  surfaceEffectPrefabs:
+  - {fileID: 114222425807869630, guid: 6cf4683ae752ad4498ed61057babce5f, type: 2}
+  defaultSurfaceType: 0
+  maxTimeOffGroundForEffects: 0.15
+  jumpSounds: []
+  forcePlayJumpSound: 0
+  landSounds: []
+  badLandSounds: []
+  badLandSpeed: 20
+--- !u!114 &114324869912449332
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1118243914345314}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f27dd19796a0db45ba654e789b3cd80, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  sprite: {fileID: 0}
+--- !u!114 &114408127015075419
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1118243914345314}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03f836d37220459448722836a473d43f, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  audioSourceSettings: {fileID: 11400000, guid: 3d133e1ee58bed94788ab9222480d0d7, type: 2}
+  chatterSounds: []
+  minTimeBetweenChatter: 3
+  maxTimeBetweenChatter: 10
+--- !u!114 &114320546121661322
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1118243914345314}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce650321416741f4a9361b1ab9903db1, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  radius: 2
+  category: llama
+  mountConfig:
+    prefab: {fileID: 114200663383864268, guid: d42fdfc836ab7ad4099e25394e0c520c, type: 2}
+    initialDelay: 1
+    spawnDirectionOverride: {x: 0, y: 0, z: 0}
+    velocityOverride: {x: 0, y: 0, z: 0}
+    usePlayerPosition: 1
+    usePlayerRotation: 0
+    startIgnited: 0
+    disableOnMount: 0
+    instantMount: 0
+    playerAttachment: {fileID: 0}
+    numInitialRandomAttachments: 0
+    sounds:
+    - {fileID: 11400000, guid: c2d1143e5b8337d4d89af2fb542a8b6e, type: 2}
+  followConfig:
+    leaderPrefabs:
+    - {fileID: 114553669727148288, guid: 26e51e5a3ca078d4a89fc1e3cf0fd940, type: 2}
+    followSound: {fileID: 11400000, guid: 20a1f45a4fd490c45b7f21af10e30d72, type: 2}
+  attachConfig:
+    prefab: {fileID: 114775850550181633, guid: f819d65c88cd07e4ca2bcda1b831a27c, type: 2}
+  tumbleConfig:
+    prefab: {fileID: 1410525446772275, guid: ec54eb3de564fb84db7795f935643960, type: 2}
+    categories:
+    - panda
+    - pandarolling
+    initialDelay: 1
+    kickVelocity: {x: 75, y: 100, z: 0}
+    sound: {fileID: 11400000, guid: 20a1f45a4fd490c45b7f21af10e30d72, type: 2}
+    effect: {fileID: 1466692252687917, guid: e7a0e3ca5197bf547aff26807fb69a91, type: 2}
+  passConfig:
+    initialDelay: 1
+    effect: {fileID: 0}
+    disableOnPass: 0
+  disableOnTrigger: 0
+  destroyableOwner: {fileID: 0}
+--- !u!1 &1338681867350828
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4323195332726677}
+  - 23: {fileID: 23914093575967300}
+  - 33: {fileID: 33896605951230473}
+  - 114: {fileID: 114813619317119095}
+  m_Layer: 9
+  m_Name: Sprite
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4323195332726677
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1338681867350828}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.5267029, z: 0}
+  m_LocalScale: {x: 4, y: 4, z: 4}
+  m_Children: []
+  m_Father: {fileID: 4512402020168571}
+  m_RootOrder: 0
+--- !u!23 &23914093575967300
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1338681867350828}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_Materials:
+  - {fileID: 2100000, guid: c498d574ac3a289438760b34daf50e92, type: 2}
+  m_SubsetIndices: []
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_ReflectionProbeUsage: 1
+  m_ProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &33896605951230473
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1338681867350828}
+  m_Mesh: {fileID: 4300000, guid: 960b9b9a93544d4488d7cf20c41d319e, type: 2}
+--- !u!114 &114813619317119095
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1338681867350828}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ef5293669d216149aca25912c716ab3, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  rect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 128
+    height: 128
+  bakedMesh: {fileID: 4300000, guid: e3ec664039a2d1749aa10f937c847206, type: 2}
+  realtime: 0
+  animations:
+  - name: run
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 128
+      height: 128
+    frameCount: 12
+    initialFrame: 0
+    fps: 30
+    looping: 1
+    hold: 0
+    synchronise: 0
+    sound: {fileID: 0}
+    nodeTracks: []
+    bakedMeshes:
+    - {fileID: 4300000, guid: 960b9b9a93544d4488d7cf20c41d319e, type: 2}
+    - {fileID: 4300000, guid: 6a5af5220713da245a11da5079484e28, type: 2}
+    - {fileID: 4300000, guid: c56e09bdedc5d2c4ab23e6048da9353b, type: 2}
+    - {fileID: 4300000, guid: fc687621e4f6c9a428ffc02b82855d13, type: 2}
+    - {fileID: 4300000, guid: 02913cc82a834a74a8f3bf5d107cdf54, type: 2}
+    - {fileID: 4300000, guid: 32f9d5a0b5ea14443b10e45c749128bb, type: 2}
+    - {fileID: 4300000, guid: ccf97e1e1128c5f4a8510e0b86617791, type: 2}
+    - {fileID: 4300000, guid: d5802580b937b974a9bfc48d08490a6e, type: 2}
+    - {fileID: 4300000, guid: 2646d3b5db9ac8242b942545b9e8eb1e, type: 2}
+    - {fileID: 4300000, guid: 8190481871a2c054b99fed851c62a2c0, type: 2}
+    - {fileID: 4300000, guid: c4039e272a4e12a458d2ea4484e9c470, type: 2}
+    - {fileID: 4300000, guid: 9f5fe235b7e451a43aa18047dcd8d3fc, type: 2}
+  - name: glide
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 384
+      width: 128
+      height: 128
+    frameCount: 4
+    initialFrame: 0
+    fps: 30
+    looping: 1
+    hold: 0
+    synchronise: 0
+    sound: {fileID: 0}
+    nodeTracks: []
+    bakedMeshes:
+    - {fileID: 4300000, guid: 917cdbab97e74f14795c60d1326e4315, type: 2}
+    - {fileID: 4300000, guid: 2a26d69b5ce6aea4c8f051ebf92d05b7, type: 2}
+    - {fileID: 4300000, guid: 889ff21a4aa75cf438bc6a2b2ea25b02, type: 2}
+    - {fileID: 4300000, guid: 9eea2dcefb9bb154fb595987ff6d4730, type: 2}
+  initialAnimationName: run

@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1725173719564014}
+  m_IsPrefabParent: 1
+--- !u!1 &1725173719564014
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4228441843973155}
+  - 114: {fileID: 114459643883516979}
+  m_Layer: 0
+  m_Name: StartingSkier_Crane
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4228441843973155
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1725173719564014}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &114459643883516979
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1725173719564014}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fc3293675974f34f852011f6c320c95, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  cost: 0
+  discountCost: -1
+  discountYear: 0
+  discountMonthStart: 0
+  discountDayStart: 0
+  discountMonthEnd: 0
+  discountDayEnd: 0
+  requiredLevel: 7
+  requiredItem: {fileID: 0}
+  lockedUntilUpdate: 0
+  displayName: kite
+  description: The kite flies high with Sven.
+  descriptionTextScale: 1
+  iconTextureName: gui_item_starting_skier_eagle
+  bannerTextureName:
+  iOSBannerUrl:
+  iOSProductId:
+  googlePlayBannerUrl:
+  amazonBannerUrl:
+  nookBannerUrl:
+  selectSound: {fileID: 11400000, guid: 47f996dd06dc25c458d47fe3e4bdfa09, type: 2}
+  achievements: []
+  achievementFlags: 0
+  guiReward: {fileID: 114387965712503769, guid: 4454166a648d8424c8f5c5dbeead10e2, type: 2}
+  guiShopPopup: {fileID: 0}
+  bundles: []
+  animal: {fileID: 1362430299937338, guid: a4762820bfbb268499a1e8ffc80cf5ed, type: 2}
+  animalOffset: {x: -25, y: 8, z: 0}
+  animalSpawnDelay: 1.5
+  skier: {fileID: 114398013397482015, guid: 7cf80a4db774e1343ac0b8c6ff35792c, type: 2}
+  spawnDelay: 2.3
+  npcSpawnParams: {fileID: 114364431216097280, guid: 08dd915971956fa448c622ce06a54835, type: 2}
+  guiStartingSkier: {fileID: 114344322818378212, guid: 33a091879c10e97428666ffb068ca63f, type: 2}
+  signPrefab: {fileID: 114776485192021606, guid: 9949599d06d622c4ea629dcee62b931a, type: 2}
+  signPosition: {x: 6, y: -1, z: 1}
+  signRotation: {x: 0, y: 0, z: 0, w: 1}

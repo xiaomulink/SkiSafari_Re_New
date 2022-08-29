@@ -1,0 +1,753 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfc92633e96eb6844b65f27e8c7d258b, type: 3}
+  m_Name: Common
+  m_EditorClassIdentifier:
+  resident: 1
+  version: 37
+  library:
+    textures:
+    - name: env_avalanche_trail
+      materials:
+      - {fileID: 2100000, guid: 737c87696cc526b4f99c3bda8f02faf9, type: 2}
+    - name: env_coin
+      materials:
+      - {fileID: 2100000, guid: a0e2fc6a823bd694d9370321334f1fc9, type: 2}
+      - {fileID: 2100000, guid: d1741e5eab558df429ea62cfd3cdd67b, type: 2}
+    - name: env_scarf_bling
+      materials: []
+    - name: env_scarf_bluestreak
+      materials: []
+    - name: env_scarf_china
+      materials: []
+    - name: env_scarf_christmas
+      materials: []
+    - name: env_scarf_default
+      materials: []
+    - name: env_scarf_dracula
+      materials: []
+    - name: env_scarf_elf
+      materials: []
+    - name: env_scarf_fireball
+      materials: []
+    - name: env_scarf_greengold
+      materials: []
+    - name: env_scarf_greenmonster
+      materials: []
+    - name: env_scarf_ninja
+      materials: []
+    - name: env_scarf_platinum
+      materials: []
+    - name: env_scarf_sweden
+      materials: []
+    - name: fx_cabin_debris_01
+      materials:
+      - {fileID: 2100000, guid: d7934f6dea6af9d49a33cef317ffa60f, type: 2}
+    - name: fx_cabin_debris_02
+      materials:
+      - {fileID: 2100000, guid: d2661a1c07f610d479fb835e0f714ea3, type: 2}
+    - name: fx_coin_pickup
+      materials:
+      - {fileID: 2100000, guid: 7657fa8e2c5ac0b4494cbb1c321c96d4, type: 2}
+    - name: fx_fire_head_4
+      materials:
+      - {fileID: 2100000, guid: 9330fab253c55cf48b6a7a1143fcd9f4, type: 2}
+    - name: fx_fire_trail
+      materials:
+      - {fileID: 2100000, guid: c87ab1210e2e2d346bd5f1224c4fe983, type: 2}
+      - {fileID: 2100000, guid: 135033802d2d7814dbafd8eaeef498d1, type: 2}
+      - {fileID: 2100000, guid: 0ed07c79167fac141a5218c5c7cb1e0c, type: 2}
+      - {fileID: 2100000, guid: 207fe450bccebd846a980c3b576d5cc5, type: 2}
+    - name: fx_ground_trail
+      materials: []
+    - name: fx_missing
+      materials:
+      - {fileID: 2100000, guid: 6e49a0a4c34ce0a4cba7943a3ce1db97, type: 2}
+    - name: fx_rock_bits
+      materials:
+      - {fileID: 2100000, guid: 7f010602dd11fdb4ebd944d002cb735c, type: 2}
+      - {fileID: 2100000, guid: 86768860fbacb1d4489c128ff0a337c7, type: 2}
+    - name: fx_snow_puff
+      materials:
+      - {fileID: 2100000, guid: df0c6b569c315f84a9562bb56e01d49e, type: 2}
+      - {fileID: 2100000, guid: 914fbd7bdf2cc6e4c962aa8c282b95ec, type: 2}
+      - {fileID: 2100000, guid: cc069b7f730d06141976a9b95e776fb6, type: 2}
+    - name: fx_snowflake_01
+      materials:
+      - {fileID: 2100000, guid: 676cecdfa9bcc514685f86a994e4e487, type: 2}
+    - name: fx_zzz
+      materials:
+      - {fileID: 2100000, guid: 83de2fe02ddaf3f44b54f04ddeb5e562, type: 2}
+    - name: gui_booster_blue_boosters
+      materials: []
+    - name: gui_booster_pocket_rockets
+      materials:
+      - {fileID: 2100000, guid: e18d77cd3820cf64cb59be5d2ad6b503, type: 2}
+    - name: gui_coin_doubler
+      materials: []
+    - name: gui_coin_pack_large
+      materials: []
+    - name: gui_coin_pack_large_cutoff
+      materials: []
+    - name: gui_coin_pack_mega
+      materials: []
+    - name: gui_coin_pack_mega_cutoff
+      materials: []
+    - name: gui_coin_pack_small
+      materials: []
+    - name: gui_coin_pack_small_cutoff
+      materials: []
+    - name: gui_elements
+      materials:
+      - {fileID: 2100000, guid: a058c93cfd40dc0458557e127c5b433e, type: 2}
+    - name: gui_facebook_button
+      materials: []
+    - name: gui_item_booster_pocket_rocket
+      materials: []
+    - name: gui_item_booster_pocket_rocket_5
+      materials: []
+    - name: gui_item_booster_super_blue_boost
+      materials: []
+    - name: gui_item_booster_super_blue_boost_5
+      materials: []
+    - name: gui_item_costume_bug
+      materials: []
+    - name: gui_item_costume_bunny
+      materials: []
+    - name: gui_item_costume_default
+      materials: []
+    - name: gui_item_costume_dracula
+      materials: []
+    - name: gui_item_costume_elf
+      materials: []
+    - name: gui_item_costume_gold
+      materials: []
+    - name: gui_item_costume_hero
+      materials: []
+    - name: gui_item_costume_mandarin
+      materials: []
+    - name: gui_item_costume_ninja
+      materials: []
+    - name: gui_item_costume_panda
+      materials: []
+    - name: gui_item_costume_platinum
+      materials: []
+    - name: gui_item_costume_qin
+      materials: []
+    - name: gui_item_costume_santa
+      materials: []
+    - name: gui_item_costume_sauna
+      materials: []
+    - name: gui_item_costume_yeti
+      materials: []
+    - name: gui_item_gift
+      materials: []
+    - name: gui_item_gizmo_coin_magnet
+      materials: []
+    - name: gui_item_gizmo_second_chance_jetpack
+      materials: []
+    - name: gui_item_powerup_cabin_boosts
+      materials: []
+    - name: gui_item_powerup_rockets
+      materials: []
+    - name: gui_item_scarf_bling
+      materials: []
+    - name: gui_item_scarf_bluestreak
+      materials: []
+    - name: gui_item_scarf_china
+      materials: []
+    - name: gui_item_scarf_christmas
+      materials: []
+    - name: gui_item_scarf_default
+      materials: []
+    - name: gui_item_scarf_dracula
+      materials: []
+    - name: gui_item_scarf_elf
+      materials: []
+    - name: gui_item_scarf_fireball
+      materials: []
+    - name: gui_item_scarf_greengold
+      materials: []
+    - name: gui_item_scarf_greenmonster
+      materials: []
+    - name: gui_item_scarf_ninja
+      materials: []
+    - name: gui_item_scarf_platinum
+      materials: []
+    - name: gui_item_scarf_sweden
+      materials: []
+    - name: gui_item_slope_01
+      materials: []
+    - name: gui_item_slope_02
+      materials: []
+    - name: gui_item_slope_03
+      materials: []
+    - name: gui_item_slope_04
+      materials: []
+    - name: gui_item_slope_05
+      materials: []
+    - name: gui_item_slope_06
+      materials: []
+    - name: gui_item_slope_07
+      materials: []
+    - name: gui_item_snowmobile_bluestreak
+      materials: []
+    - name: gui_item_snowmobile_christmas
+      materials: []
+    - name: gui_item_snowmobile_coffin
+      materials: []
+    - name: gui_item_snowmobile_default
+      materials: []
+    - name: gui_item_snowmobile_dino
+      materials: []
+    - name: gui_item_snowmobile_dragon
+      materials: []
+    - name: gui_item_snowmobile_fireball
+      materials: []
+    - name: gui_item_snowmobile_gold
+      materials: []
+    - name: gui_item_snowmobile_monster
+      materials: []
+    - name: gui_item_snowmobile_ninja
+      materials: []
+    - name: gui_item_snowmobile_platinum
+      materials: []
+    - name: gui_item_snowmobile_sleigh
+      materials: []
+    - name: gui_item_starting_skier_bat
+      materials: []
+    - name: gui_item_starting_skier_eagle
+      materials: []
+    - name: gui_item_starting_skier_penguin
+      materials: []
+    - name: gui_item_starting_skier_rocket
+      materials: []
+    - name: gui_item_starting_skier_sleeping
+      materials: []
+    - name: gui_item_starting_skier_snowmobile
+      materials: []
+    - name: gui_item_starting_skier_wolf
+      materials: []
+    - name: gui_item_starting_skier_yeti
+      materials: []
+    - name: gui_item_upgrade_backflippers
+      materials: []
+    - name: gui_item_upgrade_bedbouncer
+      materials: []
+    - name: gui_item_upgrade_pandastabiliser
+      materials: []
+    - name: gui_item_upgrade_snowmobilewings
+      materials: []
+    - name: gui_item_upgrade_supereagle
+      materials: []
+    - name: gui_item_upgrade_wolfbooster
+      materials: []
+    - name: gui_item_utility_complete_challenge
+      materials: []
+    - name: gui_logo_sleepyz
+      materials: []
+    - name: gui_logo_yodo1
+      materials: []
+    - name: gui_promo_large_rocketbunnies
+      materials: []
+    - name: gui_promo_large_skisafari2
+      materials: []
+    - name: gui_promo_small_heroescall
+      materials:
+      - {fileID: 2100000, guid: 9dc1b040b29dc7048846e0d61246c36d, type: 2}
+    - name: gui_promo_small_rocketbunnies
+      materials: []
+    - name: gui_rollout_elements
+      materials:
+      - {fileID: 2100000, guid: 9f53df3e4a6a1624c8823381da7c010f, type: 2}
+    - name: gui_shop_clouds
+      materials:
+      - {fileID: 2100000, guid: 19f90d807549f3840b7d6cd3204710fb, type: 2}
+    - name: gui_tut_cabin_fever
+      materials: []
+    - name: gui_tut_change_slope
+      materials: []
+    - name: gui_tut_change_slope_christmas
+      materials: []
+    - name: gui_tut_coins
+      materials: []
+    - name: gui_tut_complete_achievements
+      materials: []
+    - name: gui_tut_final
+      materials: []
+    - name: gui_tut_glide_smoothly
+      materials: []
+    - name: gui_tut_hold_to_backflip
+      materials: []
+    - name: gui_tut_land_backflips
+      materials: []
+    - name: gui_tut_rank_up
+      materials: []
+    - name: gui_tut_starting_skier
+      materials: []
+    - name: gui_tut_tap_to_jump
+      materials: []
+    - name: gui_tut_tap_to_recover
+      materials: []
+    - name: gui_tut_trail
+      materials: []
+    - name: gui_tut_trail_unlock
+      materials: []
+    - name: gui_update_5_3
+      materials: []
+    - name: gui_update_star
+      materials: []
+    - name: item_jetpack
+      materials: []
+    - name: launcher_panda_roll
+      materials: []
+    - name: npc_evana_bg
+      materials:
+      - {fileID: 2100000, guid: 06a9cc311cfeb634ea0f2b744f6230f3, type: 2}
+    - name: npc_evana_hair_bg
+      materials:
+      - {fileID: 2100000, guid: 50d13f3c69148284c835912a7be01f09, type: 2}
+    - name: npc_rocket_pocket
+      materials:
+      - {fileID: 2100000, guid: 723c956ddb8cc8e4497ca59d28cd4496, type: 2}
+      - {fileID: 2100000, guid: 9fb4c102ebd5262478528c8649c3f9b4, type: 2}
+    - name: npc_snowmobile_bluestreak
+      materials: []
+    - name: npc_snowmobile_christmas
+      materials: []
+    - name: npc_snowmobile_coffin
+      materials: []
+    - name: npc_snowmobile_default
+      materials: []
+    - name: npc_snowmobile_dino
+      materials: []
+    - name: npc_snowmobile_dragon
+      materials: []
+    - name: npc_snowmobile_fireball
+      materials: []
+    - name: npc_snowmobile_gold
+      materials: []
+    - name: npc_snowmobile_monster
+      materials: []
+    - name: npc_snowmobile_ninja
+      materials: []
+    - name: npc_snowmobile_platinum
+      materials: []
+    - name: npc_snowmobile_sleigh
+      materials: []
+    - name: player_skier_bug
+      materials: []
+    - name: player_skier_bunny
+      materials: []
+    - name: player_skier_default
+      materials: []
+    - name: player_skier_dracula
+      materials: []
+    - name: player_skier_elf
+      materials: []
+    - name: player_skier_gold
+      materials: []
+    - name: player_skier_hero
+      materials: []
+    - name: player_skier_mandarin
+      materials: []
+    - name: player_skier_ninja
+      materials: []
+    - name: player_skier_panda
+      materials: []
+    - name: player_skier_platinum
+      materials: []
+    - name: player_skier_qin
+      materials: []
+    - name: player_skier_santa
+      materials: []
+    - name: player_skier_sauna
+      materials: []
+    - name: player_skier_yeti
+      materials: []
+    - name: player_sleeping
+      materials:
+      - {fileID: 2100000, guid: c6a4f6c1a079c294f8e1adfcc9507ac8, type: 2}
+    - name: player_sleeping_upgrade
+      materials: []
+    sounds:
+    - name: fx_avalanche_rumble
+      sounds:
+      - {fileID: 11400000, guid: d8aee119794901c4585a17a45f8d5484, type: 2}
+    - name: fx_break_log_01
+      sounds:
+      - {fileID: 11400000, guid: 9ec15c625b2c1154c829d3490ce3c64b, type: 2}
+    - name: fx_break_log_02
+      sounds:
+      - {fileID: 11400000, guid: 8797a8c10e86acd4d97602a53352df86, type: 2}
+    - name: fx_break_rock_01
+      sounds:
+      - {fileID: 11400000, guid: e94a4fd97c4a87240bae0b34bedb21fa, type: 2}
+    - name: fx_break_rock_02
+      sounds:
+      - {fileID: 11400000, guid: 44b0b3d17f4f37e41b4ec5a3440f5dd4, type: 2}
+    - name: fx_cabin_crash_01
+      sounds:
+      - {fileID: 11400000, guid: 927ae3e32856c0d4395e846a0417c7c8, type: 2}
+      - {fileID: 11400000, guid: 4349ea6264203944bace572452c9eb35, type: 2}
+    - name: fx_cabin_crash_02
+      sounds:
+      - {fileID: 11400000, guid: 645465ad470e4e54e8dc8a85d36af99b, type: 2}
+    - name: fx_coin_01
+      sounds:
+      - {fileID: 11400000, guid: 1569fd1efe1e71f49b19bf577457ee95, type: 2}
+    - name: fx_coin_02
+      sounds:
+      - {fileID: 11400000, guid: ab147654930391c438b91afdd16eb2a4, type: 2}
+    - name: fx_collectable_pickup_01
+      sounds:
+      - {fileID: 11400000, guid: 251b2ab5408e5aa428baa0b9c053563e, type: 2}
+    - name: fx_destroy_cabin
+      sounds:
+      - {fileID: 11400000, guid: 6b065ab58b79a4a438647bfb3ea0c5f6, type: 2}
+    - name: fx_door_open_01
+      sounds:
+      - {fileID: 11400000, guid: fc9afaaecfe63114a892239e42e89c6e, type: 2}
+    - name: fx_door_open_02
+      sounds:
+      - {fileID: 11400000, guid: fc063544cc8062242bf1e2963654c329, type: 2}
+    - name: fx_flaming_01
+      sounds:
+      - {fileID: 11400000, guid: 3f521e96c9a4dcf41b0792254a776a05, type: 2}
+    - name: fx_ignite_01
+      sounds:
+      - {fileID: 11400000, guid: 532968487082c3440befdcb4411c4f91, type: 2}
+    - name: fx_ignite_02
+      sounds:
+      - {fileID: 11400000, guid: fb09ff516fb0ad44e94e910568378424, type: 2}
+    - name: fx_ignite_03
+      sounds:
+      - {fileID: 11400000, guid: ddadd2b65bbcb284d967bca243a27430, type: 2}
+      - {fileID: 11400000, guid: 88dae2f64453cde4dbe0172cf2c8bfd4, type: 2}
+    - name: fx_ignite_04
+      sounds:
+      - {fileID: 11400000, guid: 22dd6208674bd544eb6dbfa6bfe49d18, type: 2}
+    - name: fx_jetpack_pre_explode
+      sounds:
+      - {fileID: 11400000, guid: 62423e9089b727a448292d709078168f, type: 2}
+    - name: fx_jump_cloud_01
+      sounds:
+      - {fileID: 11400000, guid: 29bfcdda78fc99041993550cc2aec486, type: 2}
+    - name: fx_jump_snow_01
+      sounds:
+      - {fileID: 11400000, guid: 3a64e399daf00d541ab6a28cfa9ffb18, type: 2}
+    - name: fx_jump_snow_02
+      sounds:
+      - {fileID: 11400000, guid: 0c21828cd10788f49803757b2e78af45, type: 2}
+    - name: fx_jump_snow_03
+      sounds:
+      - {fileID: 11400000, guid: 379cb566bc577954eafaf5a49ff9facd, type: 2}
+    - name: fx_jump_wood_01
+      sounds:
+      - {fileID: 11400000, guid: 6a46caf93f243974c8b1d698fc2d0f54, type: 2}
+    - name: fx_jump_wood_02
+      sounds:
+      - {fileID: 11400000, guid: 1f885cf152667364f93b5f613b0d4f51, type: 2}
+    - name: fx_land_snow_01
+      sounds:
+      - {fileID: 11400000, guid: fe924f0ea70f3944dbfb0aed85b5add4, type: 2}
+    - name: fx_land_snow_02
+      sounds:
+      - {fileID: 11400000, guid: c8bd994ae82c20c4885600a0e944a792, type: 2}
+    - name: fx_land_snow_03
+      sounds:
+      - {fileID: 11400000, guid: f5040bd220cbb90488545a171be5fbfb, type: 2}
+    - name: fx_land_wood_01
+      sounds:
+      - {fileID: 11400000, guid: 9accb9a3af9f4ed44a76168686eb566a, type: 2}
+    - name: fx_land_wood_02
+      sounds:
+      - {fileID: 11400000, guid: 23105cd3f03d3b44c99425dfc2d4f258, type: 2}
+    - name: fx_land_wood_03
+      sounds:
+      - {fileID: 11400000, guid: 9b3b2999cc1589d478af273f8d8b6ca3, type: 2}
+    - name: fx_pocket_rocket_unfold
+      sounds:
+      - {fileID: 11400000, guid: 4b61a3a3b3f1ed645949f14540c28344, type: 2}
+    - name: fx_rocket_pre_explode
+      sounds:
+      - {fileID: 11400000, guid: 24bdcf7cf6b392342b6daf4aa0ab76e0, type: 2}
+    - name: fx_rocket_takeoff
+      sounds:
+      - {fileID: 11400000, guid: d1386630c01471c4284879de2f82efd0, type: 2}
+    - name: fx_run_snow_01
+      sounds:
+      - {fileID: 11400000, guid: bba2d28ed7399d645b524fe574f2b5f5, type: 2}
+    - name: fx_run_wood_01
+      sounds:
+      - {fileID: 11400000, guid: a7e9d3c79c0273c49b89a5effcd45949, type: 2}
+    - name: fx_slap_01
+      sounds:
+      - {fileID: 11400000, guid: 1375e76c31e7d9f4f9e10a4035c24b0c, type: 2}
+    - name: fx_slide_snow_01
+      sounds:
+      - {fileID: 11400000, guid: de479e9aff4ab4343a0339d66c566fef, type: 2}
+    - name: fx_slide_snow_02
+      sounds:
+      - {fileID: 11400000, guid: 858cba1913cc9ff41b1ef81340468c3c, type: 2}
+    - name: fx_slide_wood_01
+      sounds:
+      - {fileID: 11400000, guid: 22bc0608d78a7b5419d914d826ac6595, type: 2}
+    - name: fx_slide_wood_02
+      sounds:
+      - {fileID: 11400000, guid: 74b4f65335e88a0439ea8c72546d74a3, type: 2}
+    - name: fx_snowmobile_air
+      sounds:
+      - {fileID: 11400000, guid: e0d937332cdc40542806e9380934d3e1, type: 2}
+    - name: fx_snowmobile_explode
+      sounds:
+      - {fileID: 11400000, guid: 3ee67b18deeb5e9408d8ac44c8f88aca, type: 2}
+    - name: fx_snowmobile_horn_1
+      sounds:
+      - {fileID: 11400000, guid: 9156a99ee31a8ee409815b159cadcbc3, type: 2}
+      - {fileID: 11400000, guid: b16d78fb716ce984090ad3b9efa4c3ec, type: 2}
+    - name: fx_snowmobile_horn_2
+      sounds:
+      - {fileID: 11400000, guid: c6884ee4e815ce344a756e2bf231eed1, type: 2}
+    - name: fx_snowmobile_idle
+      sounds:
+      - {fileID: 11400000, guid: c926c40bd16085242af8ec7911e0d290, type: 2}
+    - name: fx_snowmobile_ignition
+      sounds:
+      - {fileID: 11400000, guid: 825828d23f2e8d848bb0604c1d9927e9, type: 2}
+    - name: fx_snowmobile_revs
+      sounds:
+      - {fileID: 11400000, guid: c3d256374b62d2a498f45278c56c0bdc, type: 2}
+    - name: fx_wind_01
+      sounds:
+      - {fileID: 11400000, guid: 8a8adc76d7865464d98bac29b05bcbbb, type: 2}
+    - name: gui_blort
+      sounds:
+      - {fileID: 11400000, guid: f1ad9a406c602854db2c3eeb32d8287c, type: 2}
+    - name: gui_button_press_01
+      sounds:
+      - {fileID: 11400000, guid: 7db2cbf5ae0e36c44891be599db517f9, type: 2}
+    - name: gui_button_press_02
+      sounds:
+      - {fileID: 11400000, guid: ccc3af7d8fdf982438e556f3ce3ef5f4, type: 2}
+    - name: gui_buy_complete
+      sounds:
+      - {fileID: 11400000, guid: 23f0fa7351631c64193d89a7759939ab, type: 2}
+    - name: gui_buy_loop
+      sounds:
+      - {fileID: 11400000, guid: 15dfe75f11d4f6349b8323c2f8b81aba, type: 2}
+    - name: gui_combo_break
+      sounds:
+      - {fileID: 11400000, guid: 3ab75a17f96368143862ddef553a4616, type: 2}
+    - name: gui_item_costume_bunny
+      sounds:
+      - {fileID: 11400000, guid: 5cb6c7ced2f13804c936beb4c1aaebe3, type: 2}
+    - name: gui_item_costume_default
+      sounds:
+      - {fileID: 11400000, guid: e539747b8862a3b4fab88f6297ddb2f3, type: 2}
+    - name: gui_item_costume_dracula
+      sounds:
+      - {fileID: 11400000, guid: a9dc946b14816bc43bb443c4b9170261, type: 2}
+    - name: gui_item_costume_elf
+      sounds:
+      - {fileID: 11400000, guid: 5498a61c4e0fda541ae6e35c206c0614, type: 2}
+    - name: gui_item_costume_gold
+      sounds:
+      - {fileID: 11400000, guid: 57998b42a31bc4d418d14b83170eb0a3, type: 2}
+    - name: gui_item_costume_hero
+      sounds:
+      - {fileID: 11400000, guid: ddd5074476d738343b86bd6e31a72a81, type: 2}
+    - name: gui_item_costume_mandarin
+      sounds:
+      - {fileID: 11400000, guid: 7cdff7ca6aee56a46979a40554963426, type: 2}
+    - name: gui_item_costume_ninja
+      sounds:
+      - {fileID: 11400000, guid: cea4ae1d07814934a961facf532a1450, type: 2}
+    - name: gui_item_costume_panda
+      sounds:
+      - {fileID: 11400000, guid: 4f6a10ac8a97d794baa65a26e345d48a, type: 2}
+    - name: gui_item_costume_qin
+      sounds:
+      - {fileID: 11400000, guid: 967c778481d252e4680b42e1a6fa9415, type: 2}
+    - name: gui_item_costume_santa
+      sounds:
+      - {fileID: 11400000, guid: cc765b58cc45b9d4f8c21f404310b9f0, type: 2}
+    - name: gui_item_costume_sauna
+      sounds:
+      - {fileID: 11400000, guid: 5a16e4967d6e12f4799648ab15a4b70b, type: 2}
+    - name: gui_item_costume_yeti
+      sounds:
+      - {fileID: 11400000, guid: dae13757dff888b45b391d1655adbab1, type: 2}
+    - name: gui_item_gizmo_coin_magnet
+      sounds:
+      - {fileID: 11400000, guid: 69abd9716294145459260ddb8e30017b, type: 2}
+    - name: gui_item_gizmo_second_chance_jetpack
+      sounds:
+      - {fileID: 11400000, guid: 179ac7568c375c947a0258683a953c1f, type: 2}
+    - name: gui_item_powerup_cabin_boosts
+      sounds:
+      - {fileID: 11400000, guid: 87dd3e706f7476f4cbbb3c2ef8f81291, type: 2}
+    - name: gui_item_powerup_rockets
+      sounds:
+      - {fileID: 11400000, guid: 14aa139cc087dc245b070c9dac1edb26, type: 2}
+    - name: gui_levelup_eagle
+      sounds:
+      - {fileID: 11400000, guid: e4a8f871d087b5244ad998c32a7394c1, type: 2}
+    - name: gui_levelup_penguin
+      sounds:
+      - {fileID: 11400000, guid: 10073502e4921c449bbdbb57cf4d90ae, type: 2}
+    - name: gui_levelup_yeti
+      sounds:
+      - {fileID: 11400000, guid: 3e37738c8aeee4643829d09d790e5325, type: 2}
+    - name: gui_promo_rocketbunnies
+      sounds:
+      - {fileID: 11400000, guid: 1f635bccba0ca794bbc88e719ce43516, type: 2}
+    - name: gui_promo_snowjinks
+      sounds:
+      - {fileID: 11400000, guid: 338f2f75b9c55ab4d88b8b65e225868e, type: 2}
+    - name: gui_reward_coins
+      sounds:
+      - {fileID: 11400000, guid: 69166a489f131e94abd35e62c1b5af71, type: 2}
+    - name: gui_select_bed
+      sounds:
+      - {fileID: 11400000, guid: 4f62c0da644347e4f952e44be2918e63, type: 2}
+    - name: gui_slap
+      sounds:
+      - {fileID: 11400000, guid: f8bc0d50a1f31704bb89001cd1410281, type: 2}
+    - name: gui_star_complete
+      sounds:
+      - {fileID: 11400000, guid: e0203c804d1daa644bdfa570f6a27bdd, type: 2}
+    - name: gui_start_press
+      sounds:
+      - {fileID: 11400000, guid: 83b034b9982a39b4891d4cf3265b17e8, type: 2}
+    - name: gui_swish_in
+      sounds:
+      - {fileID: 11400000, guid: efa7c34233d3b62439c1fa0e8d0bbfe9, type: 2}
+    - name: gui_swish_out
+      sounds:
+      - {fileID: 11400000, guid: ce80a8e816884984eb1abdd0ac926897, type: 2}
+    - name: gui_update_stars
+      sounds:
+      - {fileID: 11400000, guid: 0dd59a5ffc9cf9047aaa88210ba1bcf3, type: 2}
+    - name: gui_whoosh
+      sounds:
+      - {fileID: 11400000, guid: aab0357841a719942a96c792d7fb0c0b, type: 2}
+    - name: gui_yeti_orrgh
+      sounds:
+      - {fileID: 11400000, guid: c8cd25ac8fdb7294ab614aea83356986, type: 2}
+    - name: gui_yeti_rarr
+      sounds:
+      - {fileID: 11400000, guid: 5165fdea4b21020438835776f6ce311c, type: 2}
+    - name: gui_yeti_rrarrrh
+      sounds:
+      - {fileID: 11400000, guid: 6c84847753458e44e921e41d92252639, type: 2}
+    - name: gui_yeti_ruhruhruhroh
+      sounds:
+      - {fileID: 11400000, guid: 54faa046b13aabb4db2b2a104314ead5, type: 2}
+    - name: gui_yeti_yay
+      sounds:
+      - {fileID: 11400000, guid: 8b0b17f3d59894a4ca9fb1d3fc9270a2, type: 2}
+    - name: missing
+      sounds:
+      - {fileID: 11400000, guid: d05155f62cd23f842aafd0adcd5df7f8, type: 2}
+    - name: music_levelend_sting
+      sounds:
+      - {fileID: 11400000, guid: 1f28aa8c59b468044a0b9e5499bd7966, type: 2}
+    - name: music_shop
+      sounds:
+      - {fileID: 11400000, guid: f5ced74a260a34d4da40327d10723d50, type: 2}
+    - name: vo_sven_badland_01
+      sounds:
+      - {fileID: 11400000, guid: 30354452594deaf45a126fd208b4c6a7, type: 2}
+    - name: vo_sven_badland_02
+      sounds:
+      - {fileID: 11400000, guid: d1b5db12069279e4383137a516ef6db7, type: 2}
+    - name: vo_sven_hit_01
+      sounds:
+      - {fileID: 11400000, guid: 55d6cee38fb65eb49a20028d7a4a78bc, type: 2}
+    - name: vo_sven_hit_02
+      sounds:
+      - {fileID: 11400000, guid: dfd59fbb314edae43b2231fb6c42f29e, type: 2}
+    - name: vo_sven_piledrive
+      sounds:
+      - {fileID: 11400000, guid: 2f5231cbda45cf24a80f57df076a42c2, type: 2}
+    - name: vo_sven_snore
+      sounds:
+      - {fileID: 11400000, guid: 708e247ffae3f4147ba66209bd0116ea, type: 2}
+    - name: vo_sven_wahoo
+      sounds:
+      - {fileID: 11400000, guid: 44498001dcad1824b8ffde58dd795076, type: 2}
+  platforms:
+  - platform: 0
+    sd:
+      mode: 0
+      version: 0
+      assetBundleName:
+      remoteURL:
+      size: 0
+    hd:
+      mode: 0
+      version: 0
+      assetBundleName:
+      remoteURL:
+      size: 0
+  - platform: 1
+    sd:
+      mode: 0
+      version: 0
+      assetBundleName:
+      remoteURL:
+      size: 0
+    hd:
+      mode: 0
+      version: 0
+      assetBundleName:
+      remoteURL:
+      size: 0
+  - platform: 2
+    sd:
+      mode: 0
+      version: 0
+      assetBundleName:
+      remoteURL:
+      size: 0
+    hd:
+      mode: 0
+      version: 0
+      assetBundleName:
+      remoteURL:
+      size: 0
+  - platform: 3
+    sd:
+      mode: 0
+      version: 0
+      assetBundleName:
+      remoteURL:
+      size: 0
+    hd:
+      mode: 0
+      version: 0
+      assetBundleName:
+      remoteURL:
+      size: 0
+  - platform: 4
+    sd:
+      mode: 0
+      version: 0
+      assetBundleName:
+      remoteURL:
+      size: 0
+    hd:
+      mode: 2
+      version: 0
+      assetBundleName:
+      remoteURL:
+      size: 0

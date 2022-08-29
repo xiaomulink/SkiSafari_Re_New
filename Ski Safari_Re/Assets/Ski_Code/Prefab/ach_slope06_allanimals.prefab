@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1877331075760584}
+  m_IsPrefabParent: 1
+--- !u!1 &1877331075760584
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4446000645892792}
+  - 114: {fileID: 114597699173131273}
+  m_Layer: 0
+  m_Name: ach_slope06_allanimals
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4446000645892792
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1877331075760584}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &114597699173131273
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1877331075760584}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7101f70237ac26d4ca398963eec0969d, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  description: Taxi the Panda Pass animals together on the Dragon Mobile
+  descriptionTextScale: 0.85
+  requiredFlags: 0
+  requiredLevel: 0
+  requiredItem: {fileID: 114271980192298724, guid: 9867cf0630705f740951c445ded52d76, type: 2}
+  otherRequiredItems:
+  - {fileID: 114509659811339363, guid: e0a3be22478844e40910a65c009b70e6, type: 2}
+  persistent: 1
+  requiredCount: 1
+  requiredMountCategory: llama
+  requiredAttachmentCategories:
+  - snowmobile
+  - panda
+  - redpanda
+  - crane
+  attachmentMode: 0

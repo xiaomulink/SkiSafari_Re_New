@@ -1,0 +1,182 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1128851270159301}
+  m_IsPrefabParent: 1
+--- !u!1 &1128851270159301
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4972031563473182}
+  - component: {fileID: 114873771161201675}
+  m_Layer: 0
+  m_Name: Slope_03
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4972031563473182
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1128851270159301}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114873771161201675
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1128851270159301}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 16852b9997a4136429210198fa1addac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cost: 0
+  discountCost: -1
+  discountYear: 0
+  discountMonthStart: 0
+  discountDayStart: 0
+  discountMonthEnd: 0
+  discountDayEnd: 0
+  requiredLevel: 4
+  requiredItem: {fileID: 0}
+  lockedUntilUpdate: 0
+  displayName: Eagle Bluffs
+  description: 'Warning: Sheer drops!'
+  descriptionTextScale: 1
+  iconTextureName: gui_item_slope_03
+  bannerTextureName: 
+  iOSBannerUrl: 
+  iOSProductId: 
+  googlePlayBannerUrl: 
+  amazonBannerUrl: 
+  nookBannerUrl: 
+  selectSound: {fileID: 11400000, guid: f28386350afaa1841b3ddd7ea7dc7fcc, type: 2}
+  achievements:
+  - {fileID: 114867375683897210, guid: dc0675187cf808145bd86b0b57ca26c9, type: 2}
+  achievementFlags: 0
+  guiReward: {fileID: 114663801055890343, guid: 9809e632e5d8c3d49b8e1756b55b385f,
+    type: 2}
+  guiShopPopup: {fileID: 0}
+  bundles:
+  - {fileID: 11400000, guid: 913fa5c3e98db27428bc8d7d2bb914ab, type: 2}
+  - {fileID: 11400000, guid: 7199f220c8a90944b986260c23db5750, type: 2}
+  - {fileID: 11400000, guid: fb594a684d835f84282815f54dc66fdc, type: 2}
+  - {fileID: 11400000, guid: 4a50986c45c75f74d949e4ff40c5a669, type: 2}
+  - {fileID: 11400000, guid: 095052f872a04cb45a514744e12bfdce, type: 2}
+  - {fileID: 11400000, guid: df39235af8c6ed94c82af92b4dd358bd, type: 2}
+  - {fileID: 11400000, guid: 00b9f06c6a26b404ea65686ba02b7ce1, type: 2}
+  - {fileID: 11400000, guid: fba3a62391765d64cbcb4bb129bab20d, type: 2}
+  - {fileID: 11400000, guid: 9b607e13a43cd6b40983101a54f9de17, type: 2}
+  - {fileID: 11400000, guid: e3f4fe9238e202743b8856aa247a0a9b, type: 2}
+  - {fileID: 11400000, guid: 19f89dd28fcfff644baec94f600fde79, type: 2}
+  - {fileID: 11400000, guid: 2d3d7912008de394fa6ac4d809a0cac1, type: 2}
+  - {fileID: 11400000, guid: 8cab3d7bd9e957e4fb550fe705f11735, type: 2}
+  - {fileID: 11400000, guid: e2c59a95e3689e8428d1414cec748357, type: 2}
+  - {fileID: 11400000, guid: f79ef088ac905124da31f9e8f61426d2, type: 2}
+  - {fileID: 11400000, guid: b519cd411b7b4d24583051a1af3990fa, type: 2}
+  - {fileID: 11400000, guid: d34609e1b49e48a4aa9e7397a1842181, type: 2}
+  - {fileID: 11400000, guid: 2d9988f2bab2af34dbb10c00626804b8, type: 2}
+  - {fileID: 11400000, guid: d3126ce00e2b7f24881da5f94aab3b20, type: 2}
+  leaderboardId: high_scores_3
+  leaderboardTextScale: 1
+  scorePerDistance: 1
+  theme: {fileID: 11400000, guid: 2ca3c8821e8f60a43b461711a54c26f7, type: 2}
+  signPrefab: {fileID: 114997555972486542, guid: f19b6ff2e85c1d84cb975c5a5a4f04ff,
+    type: 2}
+  titleParticles: {fileID: 198253160254366532, guid: 47dd1b0cb99616c43ade81ca98fce04b,
+    type: 2}
+  titleParticlesSound: {fileID: 11400000, guid: 45b23217f0e54b04aac765619498681c,
+    type: 2}
+  titleErodeDelay: 2
+  titleErodeDuration: 1.5
+  titleCameraOffset: {x: 0, y: 6, z: -20}
+  tutorialPageSetOverrides: []
+  startingSkierOverrides: []
+  startPositionOffset: {x: 0, y: 1, z: 0}
+  sleepingEffectOffset: {x: 0, y: 0, z: 0}
+  slopeSignPosition: {x: -10, y: -0.75, z: 0.5}
+  startingSkierSignOffset: {x: 0, y: 0, z: 0}
+  startingAmbientSpawns:
+  - {fileID: 114956866661026302, guid: 1596bfc2c69f1a045a7a9fd63b46015a, type: 2}
+  - {fileID: 114619792008690819, guid: 3503776339eae114ebd50561cbefd156, type: 2}
+  - {fileID: 114048095941738342, guid: 3b04aaeaf5b1753458a8de31b77961da, type: 2}
+  initialQueuedSpawns:
+  - spawnParams: {fileID: 114306210957479944, guid: 0e54bca2b6e9edb49bd62ae77265f5ed,
+      type: 2}
+    spawnFlags: -1
+    minPosX: 0
+  - spawnParams: {fileID: 114311728647495702, guid: 7e7d4cb292ef4294b8e27d30b4219f00,
+      type: 2}
+    spawnFlags: -1
+    minPosX: 100
+  randomAttachments:
+  - {fileID: 114250383030878389, guid: b8835f729f6b1cb4bb081c72eb82b4e2, type: 2}
+  spawnParams:
+  - {fileID: 114552016520777930, guid: b6fd080b1652ac94ba2e5b121a51361d, type: 2}
+  - {fileID: 114311728647495702, guid: 7e7d4cb292ef4294b8e27d30b4219f00, type: 2}
+  - {fileID: 114668115729270048, guid: 72b81521ed0b4d04bb72cac083ea3dc8, type: 2}
+  - {fileID: 114164625255775941, guid: 8b6a645d404680c4385397264b30139c, type: 2}
+  - {fileID: 114306210957479944, guid: 0e54bca2b6e9edb49bd62ae77265f5ed, type: 2}
+  - {fileID: 114333341919986793, guid: 552f87dc8e13169478026bfe8d92450f, type: 2}
+  - {fileID: 114956866661026302, guid: 1596bfc2c69f1a045a7a9fd63b46015a, type: 2}
+  - {fileID: 114619792008690819, guid: 3503776339eae114ebd50561cbefd156, type: 2}
+  - {fileID: 114553497546292700, guid: aef6943c089dedb409a0be6e2dc518f6, type: 2}
+  - {fileID: 114507966431811325, guid: b5b68016ef0b9a248a4bcecd0beaf02b, type: 2}
+  - {fileID: 114000270127326395, guid: 40368da8f26175d4fb60222aabe47447, type: 2}
+  - {fileID: 114080373800911800, guid: 314272d557d16234796db665882f9e6e, type: 2}
+  - {fileID: 114643465150999422, guid: d4ac52fdce730f54eaf2f0498b5c1363, type: 2}
+  - {fileID: 114568581443239529, guid: bb8ba911821ad1a4884095e7fb8e6b24, type: 2}
+  cloudSpawnParams:
+  - {fileID: 114151805240525015, guid: d3ee3892fcdef6f4fb947e0d013fd424, type: 2}
+  spawnParamsBG1:
+  - {fileID: 114811480965769558, guid: 6599b53f4f060a94b9fef84d4c6f4693, type: 2}
+  - {fileID: 114768662948951159, guid: 3e8407ae3baadfd43bbfe19cc3631e8f, type: 2}
+  spawnParamsBG2:
+  - {fileID: 114247057498403919, guid: 23aa044ef77a2a549956ee2a9620db12, type: 2}
+  - {fileID: 114411509399576028, guid: dc96d11ad2fe6e24db632f44cc31f486, type: 2}
+  - {fileID: 114524710830609846, guid: 3be2d1abbd773ed44b26c652ed1b930c, type: 2}
+  initialCurveParams: {fileID: 114661425609326352, guid: 40978d6d77bff764d88815c0a2d79c1c,
+    type: 2}
+  curveParams:
+  - {fileID: 114569488952894233, guid: 118fe03605e7118488bfd4fb14ec520f, type: 2}
+  - {fileID: 114735764103737698, guid: e2ca2b66df417ad468884d550fb9cd4a, type: 2}
+  - {fileID: 114164972996738234, guid: d301f08aea4e84a40bb214c273424cec, type: 2}
+  - {fileID: 114537584162649517, guid: eb331c35f3f37834a8bf85e77d9a2666, type: 2}
+  - {fileID: 114238147000662374, guid: cc1b355ae27a6654e838e38a215861b2, type: 2}
+  - {fileID: 114949365135512872, guid: 82d7802e5bd11e54fa8ca992a1fb91a4, type: 2}
+  initialCurveParamsBG1: {fileID: 114629888857588702, guid: a5c3a6ef15cff9a4491e0903f76b0c21,
+    type: 2}
+  curveParamsBG1:
+  - {fileID: 114103919196894129, guid: 61904b1d8d7924f448ead17c950b0f4c, type: 2}
+  initialCurveParamsBG2: {fileID: 114345640375012257, guid: a863a89645a6cb242a80e15404badc7a,
+    type: 2}
+  curveParamsBG2:
+  - {fileID: 114594664996383587, guid: f547f4c003fdf3048897155ba11ac9ef, type: 2}
+  avalanchePrefab: {fileID: 114453886579227882, guid: b66616f9e361c8d4a8db165682cd05bc,
+    type: 2}
+  avalancheStartDistance: -55
+  skyBoxPrefab: {fileID: 1026797940805511, guid: 7f004242accd3b149a409cb34767166f,
+    type: 2}
+  skyParticlesPrefab: {fileID: 1715260308171886, guid: c7ed645f02719c9469c68770106b068b,
+    type: 2}

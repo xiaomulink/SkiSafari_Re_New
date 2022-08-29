@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94ce620f3719ba744a5048f9f35447b2, type: 3}
+  m_Name: Slope_03_0
+  m_EditorClassIdentifier: 
+  bundles: []
+  textures: []
+  colours:
+  - material: {fileID: 2100000, guid: 737c87696cc526b4f99c3bda8f02faf9, type: 2}
+    colour: {r: 0.9764706, g: 0.99215686, b: 0.9372549, a: 1}
+  - material: {fileID: 2100000, guid: 0b5b4fb37ca674849b95131b5cbd88bd, type: 2}
+    colour: {r: 1, g: 1, b: 1, a: 1}
+  - material: {fileID: 2100000, guid: 042afe75e0305cf4688847b9492939f1, type: 2}
+    colour: {r: 1, g: 1, b: 1, a: 1}
+  - material: {fileID: 2100000, guid: f7ddb1de7cb1f8345804590100d8c70e, type: 2}
+    colour: {r: 1, g: 1, b: 1, a: 1}
+  - material: {fileID: 2100000, guid: 1e8e52bda5accaf49a4d2e354a606baa, type: 2}
+    colour: {r: 1, g: 1, b: 1, a: 1}
+  - material: {fileID: 2100000, guid: 25417bb896162504db104d5d43d56bac, type: 2}
+    colour: {r: 0.15686274, g: 0.49773756, b: 0.5882353, a: 0.70980394}
+  - material: {fileID: 2100000, guid: 8996915bc9970194f99ad4b81c02b9a7, type: 2}
+    colour: {r: 1, g: 1, b: 1, a: 1}
+  - material: {fileID: 2100000, guid: 7162723ebbc0c7044b013a40e8bc7f19, type: 2}
+    colour: {r: 1, g: 1, b: 1, a: 1}
+  - material: {fileID: 2100000, guid: 9417286aa66d3ed4f97d4d623726d96d, type: 2}
+    colour: {r: 1, g: 1, b: 1, a: 1}
+  - material: {fileID: 2100000, guid: 80c736742c5f13840af7254f73401667, type: 2}
+    colour: {r: 0.6011918, g: 0.9477612, b: 0.9041371, a: 1}
+  - material: {fileID: 2100000, guid: 7b3904d26a872e647baa80d814ca482c, type: 2}
+    colour: {r: 0.54509807, g: 0.8156863, b: 0.5647059, a: 1}
+  - material: {fileID: 2100000, guid: 1f1b0242b27ec434081e307e9b0111d7, type: 2}
+    colour: {r: 1, g: 1, b: 1, a: 1}
+  - material: {fileID: 2100000, guid: 81f9d533bf4f24240a24289f03975ec8, type: 2}
+    colour: {r: 1, g: 1, b: 1, a: 1}
+  - material: {fileID: 2100000, guid: 11d4f1630128cd041abe7794965e4f49, type: 2}
+    colour: {r: 1, g: 1, b: 1, a: 1}
+  - material: {fileID: 2100000, guid: 8b43d9aeea6c83242935deaa4e5b53bf, type: 2}
+    colour: {r: 1, g: 1, b: 1, a: 0.6431373}
+  - material: {fileID: 2100000, guid: 7f010602dd11fdb4ebd944d002cb735c, type: 2}
+    colour: {r: 1, g: 1, b: 1, a: 1}
+  - material: {fileID: 2100000, guid: 86768860fbacb1d4489c128ff0a337c7, type: 2}
+    colour: {r: 1, g: 1, b: 1, a: 1}
+  - material: {fileID: 2100000, guid: 914fbd7bdf2cc6e4c962aa8c282b95ec, type: 2}
+    colour: {r: 1, g: 1, b: 1, a: 0.5019608}
+  - material: {fileID: 2100000, guid: 676cecdfa9bcc514685f86a994e4e487, type: 2}
+    colour: {r: 1, g: 1, b: 1, a: 0.23137255}
+  - material: {fileID: 2100000, guid: bb86f2e72ea31934faf2d7b4531b0019, type: 2}
+    colour: {r: 1, g: 1, b: 1, a: 1}
+  - material: {fileID: 2100000, guid: 8e95f2f4a14db39488c06d7ce5ed023f, type: 2}
+    colour: {r: 1, g: 1, b: 1, a: 1}
+  - material: {fileID: 2100000, guid: 06a9cc311cfeb634ea0f2b744f6230f3, type: 2}
+    colour: {r: 0.60784316, g: 0.8392157, b: 0.5803922, a: 1}
+  - material: {fileID: 2100000, guid: 50d13f3c69148284c835912a7be01f09, type: 2}
+    colour: {r: 0.60784316, g: 0.8392157, b: 0.5803922, a: 1}
+  - material: {fileID: 2100000, guid: 48a3ec16848476642a32a07c32c89cc7, type: 2}
+    colour: {r: 0.627451, g: 0.9490196, b: 0.90588236, a: 1}
+  - material: {fileID: 2100000, guid: c42fa73c34281e443b96f84524d79fb0, type: 2}
+    colour: {r: 0.5686275, g: 0.8156863, b: 0.5372549, a: 1}
+  sounds: []
