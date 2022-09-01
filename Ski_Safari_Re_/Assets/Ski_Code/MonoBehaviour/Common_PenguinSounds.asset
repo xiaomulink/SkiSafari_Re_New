@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfc92633e96eb6844b65f27e8c7d258b, type: 3}
+  m_Name: Common_PenguinSounds
+  m_EditorClassIdentifier:
+  resident: 0
+  version: 2
+  library:
+    textures: []
+    sounds:
+    - name: vo_penguin_hit_01
+      sounds:
+      - {fileID: 11400000, guid: 9e4ed487815d1b84887eb525f6398c11, type: 2}
+    - name: vo_penguin_mount_01
+      sounds:
+      - {fileID: 11400000, guid: e2a60e38208ab654cbdb4d914138d9f7, type: 2}
+    - name: vo_penguin_scree_01
+      sounds:
+      - {fileID: 11400000, guid: a6be13c26835a8c41b52ee478103e392, type: 2}
+  platforms:
+  - platform: 0
+    sd:
+      mode: 0
+      version: 0
+      assetBundleName:
+      remoteURL:
+      size: 0
+    hd:
+      mode: 0
+      version: 0
+      assetBundleName:
+      remoteURL:
+      size: 0
+  - platform: 1
+    sd:
+      mode: 0
+      version: 0
+      assetBundleName:
+      remoteURL:
+      size: 0
+    hd:
+      mode: 0
+      version: 0
+      assetBundleName:
+      remoteURL:
+      size: 0
+  - platform: 2
+    sd:
+      mode: 0
+      version: 0
+      assetBundleName:
+      remoteURL:
+      size: 0
+    hd:
+      mode: 0
+      version: 0
+      assetBundleName:
+      remoteURL:
+      size: 0
+  - platform: 3
+    sd:
+      mode: 0
+      version: 0
+      assetBundleName:
+      remoteURL:
+      size: 0
+    hd:
+      mode: 0
+      version: 0
+      assetBundleName:
+      remoteURL:
+      size: 0
+  - platform: 4
+    sd:
+      mode: 0
+      version: 0
+      assetBundleName:
+      remoteURL:
+      size: 0
+    hd:
+      mode: 2
+      version: 0
+      assetBundleName:
+      remoteURL:
+      size: 0

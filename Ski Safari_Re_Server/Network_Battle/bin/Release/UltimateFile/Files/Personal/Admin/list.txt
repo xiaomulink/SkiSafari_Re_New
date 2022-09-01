@@ -1,0 +1,20 @@
+﻿[
+  {
+    "FileName": "BLJQQ.thgamemap",
+    "FileSize": 7570334,
+    "MappingName": "239209ed49944d0a8d9bcc5231481b578203",
+    "DownloadTimes": 117,
+    "UploadTime": "2022-08-15T21:58:38.4558859+08:00",
+    "Owner": "Admin",
+    "Description": "服务器地图文件"
+  },
+  {
+    "FileName": "BLJQ_1.thgamemap",
+    "FileSize": 7571858,
+    "MappingName": "0051816dc15545bd9004e4038020fc675477",
+    "DownloadTimes": 6,
+    "UploadTime": "2022-08-15T22:03:33.3096855+08:00",
+    "Owner": "Admin",
+    "Description": "服务器地图文件"
+  }
+]

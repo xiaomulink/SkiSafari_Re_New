@@ -1,0 +1,235 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1053979319848973}
+  m_IsPrefabParent: 1
+--- !u!1 &1053979319848973
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4263369197463327}
+  - 114: {fileID: 114517868433405178}
+  m_Layer: 0
+  m_Name: Stunt_Mount
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4263369197463327
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1053979319848973}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &114517868433405178
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1053979319848973}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c474f9e827775004995f366d60d3eecd, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  mountDescriptors:
+  - mountCategory: eagle
+    ground:
+      description: Hang Time!
+      score: 600
+    groundTransfer:
+      description: 嗨手来了！
+      score: 800
+    air:
+      description: Hang Time!
+      score: 600
+    airTransfer:
+      description: 嗨手来了！
+      score: 800
+  - mountCategory: penguin
+    ground:
+      description: 唐老鸭滑了！
+      score: 100
+    groundTransfer:
+      description: 换乘！
+      score: 200
+    air:
+      description: 接得好!
+      score: 200
+    airTransfer:
+      description: 动作流畅！
+      score: 400
+  - mountCategory: yeti
+    ground:
+      description: 一眼万年！
+      score: 200
+    groundTransfer:
+      description: 换乘！
+      score: 300
+    air:
+      description: 换乘！
+      score: 400
+    airTransfer:
+      description: 换乘！
+      score: 800
+  - mountCategory: snowmobile
+    ground:
+      description: 火箭人！
+      score: 400
+    groundTransfer:
+      description: 火箭人！
+      score: 400
+    air:
+      description: Rocket Scientist!
+      score: 1000
+    airTransfer:
+      description: Rocket Scientist!
+      score: 1000
+  - mountCategory: wolf
+    ground:
+      description: Wolf Tamer!
+      score: 400
+    groundTransfer:
+      description: Wolf Tamer!
+      score: 400
+    air:
+      description: 空中狼群！
+      score: 1000
+    airTransfer:
+      description: 空中狼群！
+      score: 1000
+  - mountCategory: bat
+    ground:
+      description: Bat Boy!
+      score: 400
+    groundTransfer:
+      description: Pass the bat on!
+      score: 400
+    air:
+      description: Bat Wings!
+      score: 1000
+    airTransfer:
+      description: Pass the bat on!
+      score: 1000
+  - mountCategory: frankenstein
+    ground:
+      description: Monster Mount!
+      score: 200
+    groundTransfer:
+      description: Monster Mash!
+      score: 300
+    air:
+      description: Air Monster Mount!
+      score: 400
+    airTransfer:
+      description: Monster Mash!
+      score: 800
+  - mountCategory: hand
+    ground:
+      description: Handy Ride!
+      score: 200
+    groundTransfer:
+      description: Double Digits!
+      score: 300
+    air:
+      description: Handy Ride!
+      score: 400
+    airTransfer:
+      description: High Five!
+      score: 800
+  - mountCategory: snowball
+    ground:
+      description: Snowballer!
+      score: 400
+    groundTransfer:
+      description: Snowballer!
+      score: 400
+    air:
+      description: Snowballer!
+      score: 400
+    airTransfer:
+      description: Snowballer!
+      score: 400
+  - mountCategory: reindeer
+    ground:
+      description: Deer Tamer!
+      score: 400
+    groundTransfer:
+      description: Deer Tamer!
+      score: 400
+    air:
+      description: 空中鹿山！
+      score: 1000
+    airTransfer:
+      description: 空中鹿山！
+      score: 1000
+  - mountCategory: panda
+    ground:
+      description: 竹猎人！
+      score: 200
+    groundTransfer:
+      description: Cuddle Monster!
+      score: 300
+    air:
+      description: Midair Cuddle!
+      score: 400
+    airTransfer:
+      description: Cuddle Swap!
+      score: 800
+  - mountCategory: crane
+    ground:
+      description: 起重机骑士！
+      score: 600
+    groundTransfer:
+      description: Crane 换乘！
+      score: 800
+    air:
+      description: 起重机骑士！
+      score: 600
+    airTransfer:
+      description: Crane 换乘！
+      score: 800
+  - mountCategory: llama
+    ground:
+      description: Llama Tamer!
+      score: 400
+    groundTransfer:
+      description: Llama 换乘！
+      score: 400
+    air:
+      description: 空中火焰山！
+      score: 1000
+    airTransfer:
+      description: Aerial Llama 换乘！
+      score: 1000
+  - mountCategory: redpanda
+    ground:
+      description: 尾鞭！
+      score: 200
+    groundTransfer:
+      description: Tail 换乘！
+      score: 200
+    air:
+      description: 尾鞭！
+      score: 200
+    airTransfer:
+      description: Tail 换乘！
+      score: 400

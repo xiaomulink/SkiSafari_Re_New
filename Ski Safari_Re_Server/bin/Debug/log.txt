@@ -1,0 +1,1063 @@
+2022/5/19 星期四 23:01:34   [数据库]connect succ 
+2022/8/15 星期一 17:32:53   [数据库]connect succ 
+2022/8/15 星期一 17:32:54   [服务器]启动成功
+2022/8/15 星期一 17:33:11   Accept 127.0.0.1:61713
+2022/8/15 星期一 17:33:11   sendwelcome
+2022/8/15 星期一 17:33:29   Socket Close 127.0.0.1:61713
+2022/8/15 星期一 17:33:29   Close
+2022/8/15 星期一 17:33:50   Accept 127.0.0.1:61755
+2022/8/15 星期一 17:33:50   sendwelcome
+2022/8/30 星期二 21:02:58   文件服务器已开启
+2022/8/30 星期二 21:02:58   [数据库]connect succ 
+2022/8/30 星期二 21:03:11   文件服务器已开启
+2022/8/30 星期二 21:03:12   [数据库]connect succ 
+2022/8/30 星期二 21:03:38   文件服务器已开启
+2022/8/30 星期二 21:03:39   [数据库]connect succ 
+2022/8/30 星期二 21:03:56   文件服务器已开启
+2022/8/30 星期二 21:03:57   [数据库]connect succ 
+2022/8/30 星期二 21:03:57   [服务器]启动成功
+2022/8/30 星期二 21:06:22   文件服务器已开启
+2022/8/30 星期二 21:06:23   [数据库]connect succ 
+2022/8/30 星期二 21:06:23   [服务器]启动成功
+2022/8/30 星期二 21:08:44   Accept 127.0.0.1:54447
+2022/8/30 星期二 21:08:44   sendwelcome
+2022/8/30 星期二 21:08:56   Socket Close 127.0.0.1:54447
+2022/8/30 星期二 21:08:56   Close
+2022/8/30 星期二 21:11:07   Accept 127.0.0.1:54551
+2022/8/30 星期二 21:11:07   sendwelcome
+2022/8/30 星期二 21:11:12   Socket Close 127.0.0.1:54551
+2022/8/30 星期二 21:11:12   Close
+2022/8/30 星期二 22:10:14   Accept 127.0.0.1:51046
+2022/8/30 星期二 22:10:14   sendwelcome
+2022/8/30 星期二 22:10:19   Socket Close 127.0.0.1:51046
+2022/8/30 星期二 22:10:19   Close
+2022/8/30 星期二 22:11:14   Accept 127.0.0.1:51100
+2022/8/30 星期二 22:11:14   sendwelcome
+2022/8/30 星期二 22:11:35   Socket Close 127.0.0.1:51100
+2022/8/30 星期二 22:11:35   Close
+2022/8/30 星期二 22:11:47   Accept 127.0.0.1:51173
+2022/8/30 星期二 22:11:47   sendwelcome
+2022/8/30 星期二 22:12:39   Socket Close 127.0.0.1:51173
+2022/8/30 星期二 22:12:39   Close
+2022/8/30 星期二 22:15:08   Accept 127.0.0.1:63241
+2022/8/30 星期二 22:15:08   sendwelcome
+2022/8/30 星期二 22:15:24   Socket Close 127.0.0.1:63241
+2022/8/30 星期二 22:15:24   Close
+2022/8/30 星期二 22:16:03   Accept 127.0.0.1:63282
+2022/8/30 星期二 22:16:03   sendwelcome
+2022/8/30 星期二 22:16:48   Socket Close 127.0.0.1:63282
+2022/8/30 星期二 22:16:48   Close
+2022/8/30 星期二 22:17:13   Accept 127.0.0.1:63359
+2022/8/30 星期二 22:17:13   sendwelcome
+2022/8/30 星期二 22:17:25   Socket Close 127.0.0.1:63359
+2022/8/30 星期二 22:17:25   Close
+2022/8/30 星期二 22:17:43   Accept 127.0.0.1:63397
+2022/8/30 星期二 22:17:43   sendwelcome
+2022/8/30 星期二 22:18:57   Socket Close 127.0.0.1:63397
+2022/8/30 星期二 22:18:57   Close
+2022/8/30 星期二 22:19:38   Accept 127.0.0.1:63751
+2022/8/30 星期二 22:19:38   sendwelcome
+2022/8/30 星期二 22:20:02   Socket Close 127.0.0.1:63751
+2022/8/30 星期二 22:20:02   Close
+2022/8/30 星期二 22:20:40   Accept 127.0.0.1:63789
+2022/8/30 星期二 22:20:40   sendwelcome
+2022/8/30 星期二 22:22:35   Socket Close 127.0.0.1:63789
+2022/8/30 星期二 22:22:35   Close
+2022/8/30 星期二 22:22:58   Accept 127.0.0.1:63935
+2022/8/30 星期二 22:22:58   sendwelcome
+2022/8/30 星期二 22:23:09   Receive MsgGameChat
+2022/8/30 星期二 22:23:09   Chat
+2022/8/30 星期二 22:23:09   1
+2022/8/30 星期二 22:23:38   Socket Close 127.0.0.1:63935
+2022/8/30 星期二 22:23:38   Close
+2022/8/30 星期二 22:43:15   Accept 127.0.0.1:64850
+2022/8/30 星期二 22:43:15   sendwelcome
+2022/8/30 星期二 22:43:30   Socket Close 127.0.0.1:64850
+2022/8/30 星期二 22:43:30   Close
+2022/8/30 星期二 22:43:39   Accept 127.0.0.1:64876
+2022/8/30 星期二 22:43:39   sendwelcome
+2022/8/30 星期二 22:46:16   Socket Close 127.0.0.1:64876
+2022/8/30 星期二 22:46:16   Close
+2022/8/30 星期二 22:56:47   Accept 127.0.0.1:50156
+2022/8/30 星期二 22:56:47   sendwelcome
+2022/8/30 星期二 22:56:52   Socket Close 127.0.0.1:50156
+2022/8/30 星期二 22:56:52   Close
+2022/8/30 星期二 22:57:24   Accept 127.0.0.1:50189
+2022/8/30 星期二 22:57:24   sendwelcome
+2022/8/30 星期二 22:57:55   Socket Close 127.0.0.1:50189
+2022/8/30 星期二 22:57:55   Close
+2022/8/30 星期二 22:58:00   Accept 127.0.0.1:50270
+2022/8/30 星期二 22:58:00   sendwelcome
+2022/8/30 星期二 22:58:10   Socket Close 127.0.0.1:50270
+2022/8/30 星期二 22:58:10   Close
+2022/8/30 星期二 22:59:06   Accept 127.0.0.1:50319
+2022/8/30 星期二 22:59:06   sendwelcome
+2022/8/30 星期二 22:59:17   Socket Close 127.0.0.1:50319
+2022/8/30 星期二 22:59:17   Close
+2022/8/30 星期二 22:59:51   Accept 127.0.0.1:50354
+2022/8/30 星期二 22:59:51   sendwelcome
+2022/8/30 星期二 23:00:15   Socket Close 127.0.0.1:50354
+2022/8/30 星期二 23:00:15   Close
+2022/8/30 星期二 23:00:47   Accept 127.0.0.1:50390
+2022/8/30 星期二 23:00:47   sendwelcome
+2022/8/30 星期二 23:02:14   Socket Close 127.0.0.1:50390
+2022/8/30 星期二 23:02:14   Close
+2022/8/30 星期二 23:06:02   [数据库]connect succ 
+2022/8/30 星期二 23:11:33   Accept 127.0.0.1:51453
+2022/8/30 星期二 23:11:33   sendwelcome
+2022/8/30 星期二 23:11:46   Socket Close 127.0.0.1:51453
+2022/8/30 星期二 23:11:46   Close
+2022/8/30 星期二 23:16:39   Accept 127.0.0.1:51785
+2022/8/30 星期二 23:16:39   sendwelcome
+2022/8/30 星期二 23:17:02   Receive MsgTestPlayer
+2022/8/30 星期二 23:17:02   addPlayer
+2022/8/30 星期二 23:17:09   Receive MsgGameChat
+2022/8/30 星期二 23:17:09   Chat
+2022/8/30 星期二 23:17:09   2
+2022/8/30 星期二 23:25:54   文件服务器已开启
+2022/8/30 星期二 23:25:54   [数据库]connect succ 
+2022/8/30 星期二 23:25:54   [服务器]启动成功
+2022/8/30 星期二 23:26:28   Accept 127.0.0.1:52367
+2022/8/30 星期二 23:26:28   sendwelcome
+2022/8/30 星期二 23:26:44   Receive MsgTestPlayer
+2022/8/30 星期二 23:26:44   addPlayer
+2022/8/30 星期二 23:26:49   Receive MsgGameChat
+2022/8/30 星期二 23:26:49   Chat
+2022/8/30 星期二 23:26:49   2
+2022/8/30 星期二 23:28:09   文件服务器已开启
+2022/8/30 星期二 23:28:10   [数据库]connect succ 
+2022/8/30 星期二 23:28:10   [服务器]启动成功
+2022/8/30 星期二 23:28:22   Accept 127.0.0.1:52495
+2022/8/30 星期二 23:28:23   sendwelcome
+2022/8/30 星期二 23:28:32   Receive MsgTestPlayer
+2022/8/30 星期二 23:28:32   addPlayer
+2022/8/30 星期二 23:28:37   Receive MsgGameChat
+2022/8/30 星期二 23:28:37   Chat
+2022/8/30 星期二 23:28:37   2
+2022/8/30 星期二 23:28:57   Socket Close 127.0.0.1:52495
+2022/8/30 星期二 23:28:57   Close
+2022/8/30 星期二 23:29:17   Accept 127.0.0.1:52540
+2022/8/30 星期二 23:29:17   sendwelcome
+2022/8/30 星期二 23:29:28   Receive MsgTestPlayer
+2022/8/30 星期二 23:29:28   addPlayer
+2022/8/30 星期二 23:29:35   Receive MsgGameChat
+2022/8/30 星期二 23:29:35   Chat
+2022/8/30 星期二 23:29:35   2
+2022/8/30 星期二 23:30:32   文件服务器已开启
+2022/8/30 星期二 23:30:33   [数据库]connect succ 
+2022/8/30 星期二 23:30:34   [服务器]启动成功
+2022/8/30 星期二 23:30:38   Accept 127.0.0.1:52609
+2022/8/30 星期二 23:30:39   sendwelcome
+2022/8/30 星期二 23:30:48   Receive MsgTestPlayer
+2022/8/30 星期二 23:30:48   addPlayer
+2022/8/30 星期二 23:30:51   Receive MsgGameChat
+2022/8/30 星期二 23:30:51   Chat
+2022/8/30 星期二 23:30:51   3
+2022/8/30 星期二 23:30:51   2
+2022/8/30 星期二 23:31:17   文件服务器已开启
+2022/8/30 星期二 23:31:18   [数据库]connect succ 
+2022/8/30 星期二 23:31:18   [服务器]启动成功
+2022/8/30 星期二 23:35:42   Accept 127.0.0.1:52840
+2022/8/30 星期二 23:35:42   sendwelcome
+2022/8/30 星期二 23:35:52   Receive MsgTestPlayer
+2022/8/30 星期二 23:35:52   addPlayer
+2022/8/30 星期二 23:35:56   Receive MsgGameChat
+2022/8/30 星期二 23:35:56   Chat
+2022/8/30 星期二 23:35:56   3
+2022/8/30 星期二 23:36:00   Socket Close 127.0.0.1:52840
+2022/8/30 星期二 23:36:00   Close
+2022/8/30 星期二 23:36:08   Accept 127.0.0.1:52857
+2022/8/30 星期二 23:36:08   sendwelcome
+2022/8/30 星期二 23:36:13   Socket Close 127.0.0.1:52857
+2022/8/30 星期二 23:36:13   Close
+2022/8/30 星期二 23:36:38   Accept 127.0.0.1:52874
+2022/8/30 星期二 23:36:38   sendwelcome
+2022/8/30 星期二 23:36:42   Receive MsgTestPlayer
+2022/8/30 星期二 23:36:42   addPlayer
+2022/8/30 星期二 23:36:49   Receive MsgGameChat
+2022/8/30 星期二 23:36:49   Chat
+2022/8/30 星期二 23:36:49   3
+2022/8/30 星期二 23:37:56   Socket Close 127.0.0.1:52874
+2022/8/30 星期二 23:37:57   Close
+2022/8/30 星期二 23:38:13   Accept 127.0.0.1:52983
+2022/8/30 星期二 23:38:13   sendwelcome
+2022/8/30 星期二 23:38:16   Receive MsgTestPlayer
+2022/8/30 星期二 23:38:16   addPlayer
+2022/8/30 星期二 23:39:01   Socket Close 127.0.0.1:52983
+2022/8/30 星期二 23:39:01   Close
+2022/8/30 星期二 23:41:21   Accept 127.0.0.1:53613
+2022/8/30 星期二 23:41:21   sendwelcome
+2022/8/30 星期二 23:41:24   Receive MsgTestPlayer
+2022/8/30 星期二 23:41:24   addPlayer
+2022/8/30 星期二 23:41:36   Receive MsgGameChat
+2022/8/30 星期二 23:41:36   Chat
+2022/8/30 星期二 23:41:36   3
+2022/8/30 星期二 23:41:46   Receive MsgGameChat
+2022/8/30 星期二 23:41:46   Chat
+2022/8/30 星期二 23:41:46   3
+2022/8/30 星期二 23:41:52   Socket Close 127.0.0.1:53613
+2022/8/30 星期二 23:41:52   Close
+2022/8/31 星期三 11:10:10   文件服务器已开启
+2022/8/31 星期三 11:10:11   [数据库]connect succ 
+2022/8/31 星期三 11:10:11   [服务器]启动成功
+2022/8/31 星期三 11:10:17   Accept 127.0.0.1:54786
+2022/8/31 星期三 11:10:17   sendwelcome
+2022/8/31 星期三 11:10:22   Socket Close 127.0.0.1:54786
+2022/8/31 星期三 11:10:22   Close
+2022/8/31 星期三 11:11:18   Accept 127.0.0.1:55037
+2022/8/31 星期三 11:11:18   sendwelcome
+2022/8/31 星期三 11:11:22   Receive MsgTestPlayer
+2022/8/31 星期三 11:11:22   addPlayer
+2022/8/31 星期三 11:11:39   Socket Close 127.0.0.1:55037
+2022/8/31 星期三 11:11:39   Close
+2022/8/31 星期三 11:11:52   Accept 127.0.0.1:55091
+2022/8/31 星期三 11:11:52   sendwelcome
+2022/8/31 星期三 11:11:56   Receive MsgTestPlayer
+2022/8/31 星期三 11:11:56   addPlayer
+2022/8/31 星期三 11:12:03   Receive MsgGameChat
+2022/8/31 星期三 11:12:03   Chat
+2022/8/31 星期三 11:12:03   3
+2022/8/31 星期三 11:12:13   Socket Close 127.0.0.1:55091
+2022/8/31 星期三 11:12:13   Close
+2022/8/31 星期三 11:12:29   Accept 127.0.0.1:55102
+2022/8/31 星期三 11:12:29   sendwelcome
+2022/8/31 星期三 11:12:32   Receive MsgTestPlayer
+2022/8/31 星期三 11:12:32   addPlayer
+2022/8/31 星期三 11:12:42   Receive MsgGameChat
+2022/8/31 星期三 11:12:42   Chat
+2022/8/31 星期三 11:12:42   3
+2022/8/31 星期三 11:13:00   Socket Close 127.0.0.1:55102
+2022/8/31 星期三 11:13:00   Close
+2022/8/31 星期三 15:08:32   文件服务器已开启
+2022/8/31 星期三 15:08:33   [数据库]connect succ 
+2022/8/31 星期三 15:08:34   [服务器]启动成功
+2022/8/31 星期三 15:08:37   Accept 127.0.0.1:65007
+2022/8/31 星期三 15:08:37   sendwelcome
+2022/8/31 星期三 15:08:41   Receive MsgTestPlayer
+2022/8/31 星期三 15:08:41   addPlayer
+2022/8/31 星期三 15:08:48   Receive MsgGameChat
+2022/8/31 星期三 15:08:48   Chat
+2022/8/31 星期三 15:08:48   3
+2022/8/31 星期三 15:16:18   文件服务器已开启
+2022/8/31 星期三 15:16:20   [数据库]connect succ 
+2022/8/31 星期三 15:16:20   [服务器]启动成功
+2022/9/1 星期四 11:34:24   文件服务器已开启
+2022/9/1 星期四 11:34:25   [数据库]connect succ 
+2022/9/1 星期四 11:34:25   [服务器]启动成功
+2022/9/1 星期四 11:34:34   Accept 127.0.0.1:50527
+2022/9/1 星期四 11:34:35   sendwelcome
+2022/9/1 星期四 11:34:39   Receive MsgTestPlayer
+2022/9/1 星期四 11:34:39   addPlayer
+2022/9/1 星期四 11:35:18   Socket Close 127.0.0.1:50527
+2022/9/1 星期四 11:35:18   Close
+2022/9/1 星期四 16:23:47   文件服务器已开启
+2022/9/1 星期四 16:23:47   [数据库]connect succ 
+2022/9/1 星期四 16:23:47   [服务器]启动成功
+2022/9/1 星期四 16:24:02   Accept 127.0.0.1:58246
+2022/9/1 星期四 16:24:02   sendwelcome
+2022/9/1 星期四 16:24:34   Receive MsgTestPlayer
+2022/9/1 星期四 16:24:34   addPlayer
+2022/9/1 星期四 16:24:37   Socket Close 127.0.0.1:58246
+2022/9/1 星期四 16:24:37   Close
+2022/9/1 星期四 16:24:50   Accept 127.0.0.1:58281
+2022/9/1 星期四 16:24:50   sendwelcome
+2022/9/1 星期四 16:25:15   Socket Close 127.0.0.1:58281
+2022/9/1 星期四 16:25:15   Close
+2022/9/1 星期四 16:33:11   Accept 127.0.0.1:58693
+2022/9/1 星期四 16:33:11   sendwelcome
+2022/9/1 星期四 16:33:17   Socket Close 127.0.0.1:58693
+2022/9/1 星期四 16:33:17   Close
+2022/9/1 星期四 16:34:23   Accept 127.0.0.1:58735
+2022/9/1 星期四 16:34:23   sendwelcome
+2022/9/1 星期四 16:34:30   Socket Close 127.0.0.1:58735
+2022/9/1 星期四 16:34:30   Close
+2022/9/1 星期四 16:34:48   Accept 127.0.0.1:58741
+2022/9/1 星期四 16:34:48   sendwelcome
+2022/9/1 星期四 16:34:54   Socket Close 127.0.0.1:58741
+2022/9/1 星期四 16:34:54   Close
+2022/9/1 星期四 16:35:21   Accept 127.0.0.1:58779
+2022/9/1 星期四 16:35:21   sendwelcome
+2022/9/1 星期四 16:35:39   Socket Close 127.0.0.1:58779
+2022/9/1 星期四 16:35:39   Close
+2022/9/1 星期四 16:36:56   Accept 127.0.0.1:58852
+2022/9/1 星期四 16:36:56   sendwelcome
+2022/9/1 星期四 16:37:34   Socket Close 127.0.0.1:58852
+2022/9/1 星期四 16:37:34   Close
+2022/9/1 星期四 16:37:43   Accept 127.0.0.1:58863
+2022/9/1 星期四 16:37:43   sendwelcome
+2022/9/1 星期四 16:38:31   Socket Close 127.0.0.1:58863
+2022/9/1 星期四 16:38:31   Close
+2022/9/1 星期四 16:38:49   Accept 127.0.0.1:58906
+2022/9/1 星期四 16:38:49   sendwelcome
+2022/9/1 星期四 16:38:56   Socket Close 127.0.0.1:58906
+2022/9/1 星期四 16:38:56   Close
+2022/9/1 星期四 16:39:07   Accept 127.0.0.1:58918
+2022/9/1 星期四 16:39:07   sendwelcome
+2022/9/1 星期四 16:39:16   Socket Close 127.0.0.1:58918
+2022/9/1 星期四 16:39:16   Close
+2022/9/1 星期四 16:39:42   Accept 127.0.0.1:58922
+2022/9/1 星期四 16:39:42   sendwelcome
+2022/9/1 星期四 16:39:49   Socket Close 127.0.0.1:58922
+2022/9/1 星期四 16:39:49   Close
+2022/9/1 星期四 16:40:01   Accept 127.0.0.1:58939
+2022/9/1 星期四 16:40:01   sendwelcome
+2022/9/1 星期四 16:40:07   Socket Close 127.0.0.1:58939
+2022/9/1 星期四 16:40:07   Close
+2022/9/1 星期四 16:40:19   Accept 127.0.0.1:58955
+2022/9/1 星期四 16:40:19   sendwelcome
+2022/9/1 星期四 16:40:25   Socket Close 127.0.0.1:58955
+2022/9/1 星期四 16:40:25   Close
+2022/9/1 星期四 16:40:39   Accept 127.0.0.1:58963
+2022/9/1 星期四 16:40:39   sendwelcome
+2022/9/1 星期四 16:40:45   Receive MsgTestPlayer
+2022/9/1 星期四 16:40:45   addPlayer
+2022/9/1 星期四 16:41:11   Socket Close 127.0.0.1:58963
+2022/9/1 星期四 16:41:11   Close
+2022/9/1 星期四 16:41:35   Accept 127.0.0.1:59000
+2022/9/1 星期四 16:41:35   sendwelcome
+2022/9/1 星期四 16:41:37   Socket Close 127.0.0.1:59000
+2022/9/1 星期四 16:41:37   Close
+2022/9/1 星期四 16:41:43   Accept 127.0.0.1:59001
+2022/9/1 星期四 16:41:43   sendwelcome
+2022/9/1 星期四 16:41:44   Socket Close 127.0.0.1:59001
+2022/9/1 星期四 16:41:44   Close
+2022/9/1 星期四 16:42:03   Accept 127.0.0.1:59014
+2022/9/1 星期四 16:42:04   sendwelcome
+2022/9/1 星期四 16:42:14   Receive MsgTestPlayer
+2022/9/1 星期四 16:42:14   addPlayer
+2022/9/1 星期四 16:42:43   Socket Close 127.0.0.1:59014
+2022/9/1 星期四 16:42:43   Close
+2022/9/1 星期四 16:43:57   Accept 127.0.0.1:59069
+2022/9/1 星期四 16:43:57   sendwelcome
+2022/9/1 星期四 16:44:02   Receive MsgTestPlayer
+2022/9/1 星期四 16:44:02   addPlayer
+2022/9/1 星期四 16:44:05   Receive MsgGetAchieve
+2022/9/1 星期四 16:44:05   Receive MsgGetRoomList
+2022/9/1 星期四 16:44:05   playerGet
+2022/9/1 星期四 16:44:08   Receive MsgGetRoomList
+2022/9/1 星期四 16:44:08   playerGet
+2022/9/1 星期四 16:44:09   Receive MsgGetRoomList
+2022/9/1 星期四 16:44:09   playerGet
+2022/9/1 星期四 16:44:45   Socket Close 127.0.0.1:59069
+2022/9/1 星期四 16:44:45   Close
+2022/9/1 星期四 16:48:52   文件服务器已开启
+2022/9/1 星期四 16:48:52   [数据库]connect succ 
+2022/9/1 星期四 16:48:53   [服务器]启动成功
+2022/9/1 星期四 16:49:00   Accept 127.0.0.1:59354
+2022/9/1 星期四 16:49:00   sendwelcome
+2022/9/1 星期四 16:49:04   Receive MsgTestPlayer
+2022/9/1 星期四 16:49:04   addPlayer
+2022/9/1 星期四 16:49:07   Receive MsgGetAchieve
+2022/9/1 星期四 16:49:07   Receive MsgGetRoomList
+2022/9/1 星期四 16:49:07   playerGet
+2022/9/1 星期四 16:49:09   Receive MsgGetRoomList
+2022/9/1 星期四 16:49:09   playerGet
+2022/9/1 星期四 16:49:23   Socket Close 127.0.0.1:59354
+2022/9/1 星期四 16:49:23   Close
+2022/9/1 星期四 16:50:08   Accept 127.0.0.1:59388
+2022/9/1 星期四 16:50:08   sendwelcome
+2022/9/1 星期四 16:50:12   Receive MsgTestPlayer
+2022/9/1 星期四 16:50:12   addPlayer
+2022/9/1 星期四 16:50:13   Receive MsgGetAchieve
+2022/9/1 星期四 16:50:13   Receive MsgGetRoomList
+2022/9/1 星期四 16:50:13   playerGet
+2022/9/1 星期四 16:50:15   Receive MsgGetRoomList
+2022/9/1 星期四 16:50:15   playerGet
+2022/9/1 星期四 16:50:15   Receive MsgGetRoomList
+2022/9/1 星期四 16:50:15   playerGet
+2022/9/1 星期四 16:50:18   Receive MsgGetAchieve
+2022/9/1 星期四 16:50:18   Receive MsgGetRoomList
+2022/9/1 星期四 16:50:18   playerGet
+2022/9/1 星期四 16:50:21   Receive MsgGetAchieve
+2022/9/1 星期四 16:50:21   Receive MsgGetRoomList
+2022/9/1 星期四 16:50:21   playerGet
+2022/9/1 星期四 16:50:27   Receive MsgGetAchieve
+2022/9/1 星期四 16:50:27   Receive MsgGetRoomList
+2022/9/1 星期四 16:50:27   playerGet
+2022/9/1 星期四 16:50:30   Socket Close 127.0.0.1:59388
+2022/9/1 星期四 16:50:30   Close
+2022/9/1 星期四 16:50:55   Accept 127.0.0.1:59458
+2022/9/1 星期四 16:50:55   sendwelcome
+2022/9/1 星期四 16:50:58   Receive MsgTestPlayer
+2022/9/1 星期四 16:50:58   addPlayer
+2022/9/1 星期四 16:51:01   Receive MsgGetAchieve
+2022/9/1 星期四 16:51:01   Receive MsgGetRoomList
+2022/9/1 星期四 16:51:01   playerGet
+2022/9/1 星期四 16:51:27   Socket Close 127.0.0.1:59458
+2022/9/1 星期四 16:51:27   Close
+2022/9/1 星期四 16:53:15   Accept 127.0.0.1:56500
+2022/9/1 星期四 16:53:15   sendwelcome
+2022/9/1 星期四 16:53:16   Accept 127.0.0.1:56501
+2022/9/1 星期四 16:53:16   sendwelcome
+2022/9/1 星期四 16:53:25   Receive MsgTestPlayer
+2022/9/1 星期四 16:53:25   addPlayer
+2022/9/1 星期四 16:53:33   Receive MsgTestPlayer
+2022/9/1 星期四 16:53:33   addPlayer
+2022/9/1 星期四 16:53:35   Receive MsgGetAchieve
+2022/9/1 星期四 16:53:35   Receive MsgGetRoomList
+2022/9/1 星期四 16:53:35   playerGet
+2022/9/1 星期四 16:53:50   Receive MsgCreateRoom
+2022/9/1 星期四 16:53:55   Socket Close 127.0.0.1:56501
+2022/9/1 星期四 16:53:55   Close
+2022/9/1 星期四 16:54:02   Socket Close 127.0.0.1:56500
+2022/9/1 星期四 16:54:02   Close
+2022/9/1 星期四 16:54:02   1号房间由于没有人被删除了
+2022/9/1 星期四 16:54:29   Accept 127.0.0.1:56553
+2022/9/1 星期四 16:54:29   sendwelcome
+2022/9/1 星期四 16:54:31   Accept 127.0.0.1:56560
+2022/9/1 星期四 16:54:31   sendwelcome
+2022/9/1 星期四 16:54:38   Receive MsgTestPlayer
+2022/9/1 星期四 16:54:38   addPlayer
+2022/9/1 星期四 16:54:42   Receive MsgTestPlayer
+2022/9/1 星期四 16:54:42   addPlayer
+2022/9/1 星期四 16:54:43   Receive MsgGetAchieve
+2022/9/1 星期四 16:54:43   Receive MsgGetRoomList
+2022/9/1 星期四 16:54:43   playerGet
+2022/9/1 星期四 16:54:54   Receive MsgCreateRoom
+2022/9/1 星期四 16:54:55   Receive MsgGetAchieve
+2022/9/1 星期四 16:54:55   Receive MsgGetRoomList
+2022/9/1 星期四 16:54:55   playerGet
+2022/9/1 星期四 16:55:01   Socket Close 127.0.0.1:56560
+2022/9/1 星期四 16:55:01   Close
+2022/9/1 星期四 16:55:03   Socket Close 127.0.0.1:56553
+2022/9/1 星期四 16:55:03   Close
+2022/9/1 星期四 16:55:03   2号房间由于没有人被删除了
+2022/9/1 星期四 16:59:05   Accept 127.0.0.1:56810
+2022/9/1 星期四 16:59:05   sendwelcome
+2022/9/1 星期四 16:59:11   Accept 127.0.0.1:56821
+2022/9/1 星期四 16:59:11   sendwelcome
+2022/9/1 星期四 16:59:14   Receive MsgTestPlayer
+2022/9/1 星期四 16:59:14   addPlayer
+2022/9/1 星期四 16:59:22   Receive MsgTestPlayer
+2022/9/1 星期四 16:59:22   addPlayer
+2022/9/1 星期四 16:59:26   Receive MsgGetAchieve
+2022/9/1 星期四 16:59:26   Receive MsgGetRoomList
+2022/9/1 星期四 16:59:26   playerGet
+2022/9/1 星期四 16:59:36   Receive MsgCreateRoom
+2022/9/1 星期四 16:59:39   Receive MsgGetAchieve
+2022/9/1 星期四 16:59:39   Receive MsgGetRoomList
+2022/9/1 星期四 16:59:39   playerGet
+2022/9/1 星期四 17:00:07   Socket Close 127.0.0.1:56810
+2022/9/1 星期四 17:00:07   Close
+2022/9/1 星期四 17:00:07   3号房间由于没有人被删除了
+2022/9/1 星期四 17:00:09   Socket Close 127.0.0.1:56821
+2022/9/1 星期四 17:00:09   Close
+2022/9/1 星期四 17:00:55   Accept 127.0.0.1:56890
+2022/9/1 星期四 17:00:55   sendwelcome
+2022/9/1 星期四 17:00:56   Accept 127.0.0.1:56891
+2022/9/1 星期四 17:00:56   sendwelcome
+2022/9/1 星期四 17:01:04   Receive MsgTestPlayer
+2022/9/1 星期四 17:01:04   addPlayer
+2022/9/1 星期四 17:01:07   Receive MsgTestPlayer
+2022/9/1 星期四 17:01:07   addPlayer
+2022/9/1 星期四 17:01:11   Receive MsgGetAchieve
+2022/9/1 星期四 17:01:11   Receive MsgGetRoomList
+2022/9/1 星期四 17:01:11   playerGet
+2022/9/1 星期四 17:01:23   Receive MsgCreateRoom
+2022/9/1 星期四 17:01:25   Receive MsgGetAchieve
+2022/9/1 星期四 17:01:25   Receive MsgGetRoomList
+2022/9/1 星期四 17:01:25   playerGet
+2022/9/1 星期四 17:01:29   Socket Close 127.0.0.1:56891
+2022/9/1 星期四 17:01:29   Close
+2022/9/1 星期四 17:01:30   Socket Close 127.0.0.1:56890
+2022/9/1 星期四 17:01:30   Close
+2022/9/1 星期四 17:01:30   4号房间由于没有人被删除了
+2022/9/1 星期四 17:15:07   文件服务器已开启
+2022/9/1 星期四 17:15:07   [数据库]connect succ 
+2022/9/1 星期四 17:15:07   [服务器]启动成功
+2022/9/1 星期四 17:15:13   Accept 127.0.0.1:52615
+2022/9/1 星期四 17:15:13   sendwelcome
+2022/9/1 星期四 17:15:20   Accept 127.0.0.1:52618
+2022/9/1 星期四 17:15:20   sendwelcome
+2022/9/1 星期四 17:15:28   Receive MsgTestPlayer
+2022/9/1 星期四 17:15:28   addPlayer
+2022/9/1 星期四 17:15:31   Receive MsgTestPlayer
+2022/9/1 星期四 17:15:31   addPlayer
+2022/9/1 星期四 17:15:33   Receive MsgGetAchieve
+2022/9/1 星期四 17:15:33   Receive MsgGetRoomList
+2022/9/1 星期四 17:15:33   playerGet
+2022/9/1 星期四 17:15:49   Receive MsgCreateRoom
+2022/9/1 星期四 17:15:52   Receive MsgGetAchieve
+2022/9/1 星期四 17:15:52   Receive MsgGetRoomList
+2022/9/1 星期四 17:15:52   playerGet
+2022/9/1 星期四 17:16:01   Receive MsgGetAchieve
+2022/9/1 星期四 17:16:01   Receive MsgGetRoomList
+2022/9/1 星期四 17:16:01   playerGet
+2022/9/1 星期四 17:16:02   Receive MsgGetRoomList
+2022/9/1 星期四 17:16:02   playerGet
+2022/9/1 星期四 17:16:02   Receive MsgGetRoomList
+2022/9/1 星期四 17:16:02   playerGet
+2022/9/1 星期四 17:16:02   Receive MsgGetRoomList
+2022/9/1 星期四 17:16:02   playerGet
+2022/9/1 星期四 17:16:12   Receive MsgGetAchieve
+2022/9/1 星期四 17:16:12   Receive MsgGetRoomList
+2022/9/1 星期四 17:16:12   playerGet
+2022/9/1 星期四 17:16:24   Receive MsgGetRoomList
+2022/9/1 星期四 17:16:24   playerGet
+2022/9/1 星期四 17:17:29   Socket Close 127.0.0.1:52618
+2022/9/1 星期四 17:17:29   Close
+2022/9/1 星期四 17:17:32   Socket Close 127.0.0.1:52615
+2022/9/1 星期四 17:17:32   Close
+2022/9/1 星期四 17:17:32   1号房间由于没有人被删除了
+2022/9/1 星期四 19:15:04   [数据库]connect succ 
+2022/9/1 星期四 21:15:05   [数据库]connect succ 
+2022/9/1 星期四 21:29:07   Accept 127.0.0.1:61036
+2022/9/1 星期四 21:29:07   sendwelcome
+2022/9/1 星期四 21:29:12   Receive MsgTestPlayer
+2022/9/1 星期四 21:29:12   addPlayer
+2022/9/1 星期四 21:29:14   Socket Close 127.0.0.1:61036
+2022/9/1 星期四 21:29:14   Close
+2022/9/1 星期四 21:29:46   Accept 127.0.0.1:61052
+2022/9/1 星期四 21:29:46   sendwelcome
+2022/9/1 星期四 21:30:12   Receive MsgTestPlayer
+2022/9/1 星期四 21:30:12   addPlayer
+2022/9/1 星期四 21:30:16   Receive MsgCreateRoom
+2022/9/1 星期四 21:30:18   Receive MsgCreateRoom
+2022/9/1 星期四 21:30:18    player.roomId >= 0
+2022/9/1 星期四 21:30:19   Receive MsgCreateRoom
+2022/9/1 星期四 21:30:19    player.roomId >= 0
+2022/9/1 星期四 21:30:20   Receive MsgCreateRoom
+2022/9/1 星期四 21:30:20    player.roomId >= 0
+2022/9/1 星期四 21:30:21   Socket Close 127.0.0.1:61052
+2022/9/1 星期四 21:30:21   Close
+2022/9/1 星期四 21:30:21   2号房间由于没有人被删除了
+2022/9/1 星期四 21:31:07   Accept 127.0.0.1:61164
+2022/9/1 星期四 21:31:07   sendwelcome
+2022/9/1 星期四 21:31:19   Receive MsgTestPlayer
+2022/9/1 星期四 21:31:19   addPlayer
+2022/9/1 星期四 21:31:31   Socket Close 127.0.0.1:61164
+2022/9/1 星期四 21:31:31   Close
+2022/9/1 星期四 21:32:03   Accept 127.0.0.1:61188
+2022/9/1 星期四 21:32:03   sendwelcome
+2022/9/1 星期四 21:32:07   Receive MsgTestPlayer
+2022/9/1 星期四 21:32:07   addPlayer
+2022/9/1 星期四 21:32:10   Receive MsgGetAchieve
+2022/9/1 星期四 21:32:10   Receive MsgGetRoomList
+2022/9/1 星期四 21:32:10   playerGet
+2022/9/1 星期四 21:32:12   Receive MsgGetRoomList
+2022/9/1 星期四 21:32:12   playerGet
+2022/9/1 星期四 21:32:12   Receive MsgGetRoomList
+2022/9/1 星期四 21:32:12   playerGet
+2022/9/1 星期四 21:32:25   Receive MsgCreateRoom
+2022/9/1 星期四 21:32:30   Socket Close 127.0.0.1:61188
+2022/9/1 星期四 21:32:30   Close
+2022/9/1 星期四 21:32:30   3号房间由于没有人被删除了
+2022/9/1 星期四 21:33:40   Accept 127.0.0.1:61229
+2022/9/1 星期四 21:33:40   sendwelcome
+2022/9/1 星期四 21:33:44   Receive MsgTestPlayer
+2022/9/1 星期四 21:33:44   addPlayer
+2022/9/1 星期四 21:33:45   Receive MsgGetAchieve
+2022/9/1 星期四 21:33:45   Receive MsgGetRoomList
+2022/9/1 星期四 21:33:45   playerGet
+2022/9/1 星期四 21:33:48   Receive MsgCreateRoom
+2022/9/1 星期四 21:35:07   Socket Close 127.0.0.1:61229
+2022/9/1 星期四 21:35:07   Close
+2022/9/1 星期四 21:35:07   4号房间由于没有人被删除了
+2022/9/1 星期四 21:35:14   Accept 127.0.0.1:61272
+2022/9/1 星期四 21:35:14   sendwelcome
+2022/9/1 星期四 21:35:16   Socket Close 127.0.0.1:61272
+2022/9/1 星期四 21:35:16   Close
+2022/9/1 星期四 21:36:15   Accept 127.0.0.1:61313
+2022/9/1 星期四 21:36:15   sendwelcome
+2022/9/1 星期四 21:36:25   Receive MsgTestPlayer
+2022/9/1 星期四 21:36:25   addPlayer
+2022/9/1 星期四 21:36:28   Receive MsgGetAchieve
+2022/9/1 星期四 21:36:28   Receive MsgGetRoomList
+2022/9/1 星期四 21:36:28   playerGet
+2022/9/1 星期四 21:36:31   Receive MsgCreateRoom
+2022/9/1 星期四 21:36:31   Receive MsgGetRoomInfo
+2022/9/1 星期四 21:36:49   Socket Close 127.0.0.1:61313
+2022/9/1 星期四 21:36:49   Close
+2022/9/1 星期四 21:36:49   5号房间由于没有人被删除了
+2022/9/1 星期四 21:38:52   Accept 127.0.0.1:61376
+2022/9/1 星期四 21:38:52   sendwelcome
+2022/9/1 星期四 21:38:57   Receive MsgTestPlayer
+2022/9/1 星期四 21:38:57   addPlayer
+2022/9/1 星期四 21:38:59   Receive MsgGetAchieve
+2022/9/1 星期四 21:38:59   Receive MsgGetRoomList
+2022/9/1 星期四 21:38:59   playerGet
+2022/9/1 星期四 21:39:01   Receive MsgCreateRoom
+2022/9/1 星期四 21:39:01   Receive MsgGetRoomInfo
+2022/9/1 星期四 21:41:04   Socket Close 127.0.0.1:61376
+2022/9/1 星期四 21:41:04   Close
+2022/9/1 星期四 21:41:04   6号房间由于没有人被删除了
+2022/9/1 星期四 21:41:17   Accept 127.0.0.1:61440
+2022/9/1 星期四 21:41:17   sendwelcome
+2022/9/1 星期四 21:41:20   Receive MsgTestPlayer
+2022/9/1 星期四 21:41:20   addPlayer
+2022/9/1 星期四 21:41:21   Receive MsgGetAchieve
+2022/9/1 星期四 21:41:21   Receive MsgGetRoomList
+2022/9/1 星期四 21:41:21   playerGet
+2022/9/1 星期四 21:41:23   Receive MsgCreateRoom
+2022/9/1 星期四 21:41:23   Receive MsgGetRoomInfo
+2022/9/1 星期四 21:43:23   Socket Close 127.0.0.1:61440
+2022/9/1 星期四 21:43:23   Close
+2022/9/1 星期四 21:43:23   7号房间由于没有人被删除了
+2022/9/1 星期四 21:45:26   文件服务器已开启
+2022/9/1 星期四 21:45:27   [数据库]connect succ 
+2022/9/1 星期四 21:45:27   [服务器]启动成功
+2022/9/1 星期四 21:45:45   Accept 127.0.0.1:61652
+2022/9/1 星期四 21:45:45   sendwelcome
+2022/9/1 星期四 21:46:01   Receive MsgTestPlayer
+2022/9/1 星期四 21:46:01   addPlayer
+2022/9/1 星期四 21:46:13   Receive MsgGetAchieve
+2022/9/1 星期四 21:46:13   Receive MsgGetRoomList
+2022/9/1 星期四 21:46:13   playerGet
+2022/9/1 星期四 21:46:17   Receive MsgCreateRoom
+2022/9/1 星期四 21:46:17   Receive MsgGetRoomInfo
+2022/9/1 星期四 21:47:51   Socket Close 127.0.0.1:61652
+2022/9/1 星期四 21:47:51   Close
+2022/9/1 星期四 21:47:51   1号房间由于没有人被删除了
+2022/9/1 星期四 21:47:59   Accept 127.0.0.1:61751
+2022/9/1 星期四 21:47:59   sendwelcome
+2022/9/1 星期四 21:48:01   Socket Close 127.0.0.1:61751
+2022/9/1 星期四 21:48:01   Close
+2022/9/1 星期四 21:48:21   Accept 127.0.0.1:61767
+2022/9/1 星期四 21:48:21   sendwelcome
+2022/9/1 星期四 21:50:39   Receive MsgTestPlayer
+2022/9/1 星期四 21:50:39   addPlayer
+2022/9/1 星期四 21:50:42   Receive MsgGetAchieve
+2022/9/1 星期四 21:50:42   Receive MsgGetRoomList
+2022/9/1 星期四 21:50:42   playerGet
+2022/9/1 星期四 21:50:45   Receive MsgCreateRoom
+2022/9/1 星期四 21:50:45   Receive MsgGetRoomInfo
+2022/9/1 星期四 21:52:33   Socket Close 127.0.0.1:61767
+2022/9/1 星期四 21:52:34   Close
+2022/9/1 星期四 21:52:34   2号房间由于没有人被删除了
+2022/9/1 星期四 21:53:00   Accept 127.0.0.1:61895
+2022/9/1 星期四 21:53:00   sendwelcome
+2022/9/1 星期四 21:53:05   Receive MsgTestPlayer
+2022/9/1 星期四 21:53:05   addPlayer
+2022/9/1 星期四 21:53:06   Receive MsgGetAchieve
+2022/9/1 星期四 21:53:06   Receive MsgGetRoomList
+2022/9/1 星期四 21:53:07   playerGet
+2022/9/1 星期四 21:53:09   Receive MsgCreateRoom
+2022/9/1 星期四 21:53:09   Receive MsgGetRoomInfo
+2022/9/1 星期四 21:57:14   文件服务器已开启
+2022/9/1 星期四 21:57:14   [数据库]connect succ 
+2022/9/1 星期四 21:57:14   [服务器]启动成功
+2022/9/1 星期四 21:57:25   Accept 127.0.0.1:62012
+2022/9/1 星期四 21:57:25   sendwelcome
+2022/9/1 星期四 21:57:57   Receive MsgTestPlayer
+2022/9/1 星期四 21:57:57   addPlayer
+2022/9/1 星期四 21:58:00   Receive MsgGetAchieve
+2022/9/1 星期四 21:58:00   Receive MsgGetRoomList
+2022/9/1 星期四 21:58:00   playerGet
+2022/9/1 星期四 21:58:01   Receive MsgCreateRoom
+2022/9/1 星期四 21:58:02   Receive MsgGetRoomInfo
+2022/9/1 星期四 21:58:39   Socket Close 127.0.0.1:62012
+2022/9/1 星期四 21:58:40   Close
+2022/9/1 星期四 21:58:40   1号房间由于没有人被删除了
+2022/9/1 星期四 21:59:09   Accept 127.0.0.1:62158
+2022/9/1 星期四 21:59:09   sendwelcome
+2022/9/1 星期四 21:59:16   Receive MsgTestPlayer
+2022/9/1 星期四 21:59:16   addPlayer
+2022/9/1 星期四 21:59:17   Receive MsgGetAchieve
+2022/9/1 星期四 21:59:17   Receive MsgGetRoomList
+2022/9/1 星期四 21:59:17   playerGet
+2022/9/1 星期四 21:59:19   Receive MsgCreateRoom
+2022/9/1 星期四 21:59:19   Receive MsgGetRoomInfo
+2022/9/1 星期四 22:00:41   Socket Close 127.0.0.1:62158
+2022/9/1 星期四 22:00:41   Close
+2022/9/1 星期四 22:00:42   2号房间由于没有人被删除了
+2022/9/1 星期四 22:01:06   Accept 127.0.0.1:62203
+2022/9/1 星期四 22:01:06   sendwelcome
+2022/9/1 星期四 22:01:10   Receive MsgTestPlayer
+2022/9/1 星期四 22:01:10   addPlayer
+2022/9/1 星期四 22:01:10   Receive MsgGetAchieve
+2022/9/1 星期四 22:01:10   Receive MsgGetRoomList
+2022/9/1 星期四 22:01:10   playerGet
+2022/9/1 星期四 22:01:12   Receive MsgCreateRoom
+2022/9/1 星期四 22:01:12   Receive MsgGetRoomInfo
+2022/9/1 星期四 22:02:06   Socket Close 127.0.0.1:62203
+2022/9/1 星期四 22:02:06   Close
+2022/9/1 星期四 22:02:06   3号房间由于没有人被删除了
+2022/9/1 星期四 22:03:54   Accept 127.0.0.1:62254
+2022/9/1 星期四 22:03:54   sendwelcome
+2022/9/1 星期四 22:03:59   Receive MsgTestPlayer
+2022/9/1 星期四 22:03:59   addPlayer
+2022/9/1 星期四 22:04:00   Receive MsgGetAchieve
+2022/9/1 星期四 22:04:00   Receive MsgGetRoomList
+2022/9/1 星期四 22:04:00   playerGet
+2022/9/1 星期四 22:04:01   Receive MsgCreateRoom
+2022/9/1 星期四 22:04:02   Receive MsgGetRoomInfo
+2022/9/1 星期四 22:04:18   Socket Close 127.0.0.1:62254
+2022/9/1 星期四 22:04:18   Close
+2022/9/1 星期四 22:04:18   4号房间由于没有人被删除了
+2022/9/1 星期四 22:05:14   文件服务器已开启
+2022/9/1 星期四 22:05:14   [数据库]connect succ 
+2022/9/1 星期四 22:05:14   [服务器]启动成功
+2022/9/1 星期四 22:06:20   Accept 127.0.0.1:49714
+2022/9/1 星期四 22:06:20   sendwelcome
+2022/9/1 星期四 22:07:10   Receive MsgTestPlayer
+2022/9/1 星期四 22:07:10   addPlayer
+2022/9/1 星期四 22:07:11   Receive MsgGetAchieve
+2022/9/1 星期四 22:07:11   Receive MsgGetRoomList
+2022/9/1 星期四 22:07:11   playerGet
+2022/9/1 星期四 22:07:13   Receive MsgCreateRoom
+2022/9/1 星期四 22:07:13   Receive MsgGetRoomInfo
+2022/9/1 星期四 22:09:13   Socket Close 127.0.0.1:49714
+2022/9/1 星期四 22:09:13   Close
+2022/9/1 星期四 22:09:13   1号房间由于没有人被删除了
+2022/9/1 星期四 22:10:28   Accept 127.0.0.1:49868
+2022/9/1 星期四 22:10:28   sendwelcome
+2022/9/1 星期四 22:10:31   Receive MsgTestPlayer
+2022/9/1 星期四 22:10:31   addPlayer
+2022/9/1 星期四 22:10:35   Receive MsgGetAchieve
+2022/9/1 星期四 22:10:35   Receive MsgGetRoomList
+2022/9/1 星期四 22:10:35   playerGet
+2022/9/1 星期四 22:10:37   Receive MsgCreateRoom
+2022/9/1 星期四 22:10:37   Receive MsgGetRoomInfo
+2022/9/1 星期四 22:15:09   Socket Close 127.0.0.1:49868
+2022/9/1 星期四 22:15:09   Close
+2022/9/1 星期四 22:15:09   2号房间由于没有人被删除了
+2022/9/1 星期四 22:15:24   Accept 127.0.0.1:51062
+2022/9/1 星期四 22:15:24   sendwelcome
+2022/9/1 星期四 22:15:41   Receive MsgTestPlayer
+2022/9/1 星期四 22:15:41   addPlayer
+2022/9/1 星期四 22:15:47   Receive MsgGetAchieve
+2022/9/1 星期四 22:15:47   Receive MsgGetRoomList
+2022/9/1 星期四 22:15:47   playerGet
+2022/9/1 星期四 22:15:49   Receive MsgCreateRoom
+2022/9/1 星期四 22:15:49   Receive MsgGetRoomInfo
+2022/9/1 星期四 22:18:08   文件服务器已开启
+2022/9/1 星期四 22:18:08   [数据库]connect succ 
+2022/9/1 星期四 22:18:08   [服务器]启动成功
+2022/9/1 星期四 22:18:13   Accept 127.0.0.1:51225
+2022/9/1 星期四 22:18:13   sendwelcome
+2022/9/1 星期四 22:18:57   Receive MsgTestPlayer
+2022/9/1 星期四 22:18:57   addPlayer
+2022/9/1 星期四 22:19:20   Receive MsgGetAchieve
+2022/9/1 星期四 22:19:20   Receive MsgGetRoomList
+2022/9/1 星期四 22:19:20   playerGet
+2022/9/1 星期四 22:19:22   Receive MsgCreateRoom
+2022/9/1 星期四 22:19:23   Receive MsgGetRoomInfo
+2022/9/1 星期四 22:22:21   文件服务器已开启
+2022/9/1 星期四 22:22:21   [数据库]connect succ 
+2022/9/1 星期四 22:22:21   [服务器]启动成功
+2022/9/1 星期四 22:22:27   Accept 127.0.0.1:51347
+2022/9/1 星期四 22:22:27   sendwelcome
+2022/9/1 星期四 22:23:01   Receive MsgTestPlayer
+2022/9/1 星期四 22:23:01   addPlayer
+2022/9/1 星期四 22:23:05   Receive MsgGetAchieve
+2022/9/1 星期四 22:23:05   Receive MsgGetRoomList
+2022/9/1 星期四 22:23:05   playerGet
+2022/9/1 星期四 22:23:07   Receive MsgCreateRoom
+2022/9/1 星期四 22:23:07   Receive MsgGetRoomInfo
+2022/9/1 星期四 22:26:31   文件服务器已开启
+2022/9/1 星期四 22:26:31   [数据库]connect succ 
+2022/9/1 星期四 22:26:31   [服务器]启动成功
+2022/9/1 星期四 22:27:04   Accept 127.0.0.1:51552
+2022/9/1 星期四 22:27:04   sendwelcome
+2022/9/1 星期四 22:27:07   Receive MsgTestPlayer
+2022/9/1 星期四 22:27:07   addPlayer
+2022/9/1 星期四 22:27:10   Receive MsgGetAchieve
+2022/9/1 星期四 22:27:10   Receive MsgGetRoomList
+2022/9/1 星期四 22:27:10   playerGet
+2022/9/1 星期四 22:27:11   Receive MsgCreateRoom
+2022/9/1 星期四 22:27:11   Player88888
+2022/9/1 星期四 22:27:11   PlayermulinL
+2022/9/1 星期四 22:27:11   Player1
+2022/9/1 星期四 22:27:11   Player1
+2022/9/1 星期四 22:27:11   Player1
+2022/9/1 星期四 22:27:12   Receive MsgGetRoomInfo
+2022/9/1 星期四 22:27:12   Player88888
+2022/9/1 星期四 22:27:12   PlayermulinL
+2022/9/1 星期四 22:27:12   Player1
+2022/9/1 星期四 22:27:12   Player1
+2022/9/1 星期四 22:27:12   Player1
+2022/9/1 星期四 22:36:22   文件服务器已开启
+2022/9/1 星期四 22:36:22   [数据库]connect succ 
+2022/9/1 星期四 22:36:23   [服务器]启动成功
+2022/9/1 星期四 22:36:39   Accept 127.0.0.1:51831
+2022/9/1 星期四 22:36:39   sendwelcome
+2022/9/1 星期四 22:36:50   Receive MsgTestPlayer
+2022/9/1 星期四 22:36:50   addPlayer
+2022/9/1 星期四 22:36:53   Receive MsgGetAchieve
+2022/9/1 星期四 22:36:53   Receive MsgGetRoomList
+2022/9/1 星期四 22:36:53   playerGet
+2022/9/1 星期四 22:36:55   Receive MsgCreateRoom
+2022/9/1 星期四 22:36:55   Player88888
+2022/9/1 星期四 22:36:55   PlayermulinL
+2022/9/1 星期四 22:36:55   Player1
+2022/9/1 星期四 22:36:55   Player1
+2022/9/1 星期四 22:36:55   Player1
+2022/9/1 星期四 22:36:55   Receive MsgGetRoomInfo
+2022/9/1 星期四 22:36:55   Player88888
+2022/9/1 星期四 22:36:55   PlayermulinL
+2022/9/1 星期四 22:36:55   Player1
+2022/9/1 星期四 22:36:55   Player1
+2022/9/1 星期四 22:36:55   Player1
+2022/9/1 星期四 22:38:07   文件服务器已开启
+2022/9/1 星期四 22:38:08   [数据库]connect succ 
+2022/9/1 星期四 22:38:08   [服务器]启动成功
+2022/9/1 星期四 22:38:12   Accept 127.0.0.1:51888
+2022/9/1 星期四 22:38:12   sendwelcome
+2022/9/1 星期四 22:38:33   Receive MsgTestPlayer
+2022/9/1 星期四 22:38:33   addPlayer
+2022/9/1 星期四 22:38:34   Receive MsgGetAchieve
+2022/9/1 星期四 22:38:34   Receive MsgGetRoomList
+2022/9/1 星期四 22:38:34   playerGet
+2022/9/1 星期四 22:38:36   Receive MsgCreateRoom
+2022/9/1 星期四 22:38:36   Player88888
+2022/9/1 星期四 22:38:36   PlayermulinL
+2022/9/1 星期四 22:38:36   Player1
+2022/9/1 星期四 22:38:36   Player1
+2022/9/1 星期四 22:38:36   Player1
+2022/9/1 星期四 22:38:36   Receive MsgGetRoomInfo
+2022/9/1 星期四 22:38:36   Player88888
+2022/9/1 星期四 22:38:36   PlayermulinL
+2022/9/1 星期四 22:38:36   Player1
+2022/9/1 星期四 22:38:36   Player1
+2022/9/1 星期四 22:38:36   Player1
+2022/9/1 星期四 22:39:09   Socket Close 127.0.0.1:51888
+2022/9/1 星期四 22:39:09   Close
+2022/9/1 星期四 22:39:09   1号房间由于没有人被删除了
+2022/9/1 星期四 22:39:09   Player0
+2022/9/1 星期四 22:44:41   文件服务器已开启
+2022/9/1 星期四 22:44:41   [数据库]connect succ 
+2022/9/1 星期四 22:44:41   [服务器]启动成功
+2022/9/1 星期四 22:44:46   Accept 127.0.0.1:52074
+2022/9/1 星期四 22:44:46   sendwelcome
+2022/9/1 星期四 22:44:52   Receive MsgTestPlayer
+2022/9/1 星期四 22:44:52   addPlayer
+2022/9/1 星期四 22:44:59   Receive MsgGetAchieve
+2022/9/1 星期四 22:44:59   Receive MsgGetRoomList
+2022/9/1 星期四 22:44:59   playerGet
+2022/9/1 星期四 22:45:00   Receive MsgCreateRoom
+2022/9/1 星期四 22:45:00   Player88888
+2022/9/1 星期四 22:45:00   PlayermulinL
+2022/9/1 星期四 22:45:00   Player1
+2022/9/1 星期四 22:45:00   Player1
+2022/9/1 星期四 22:45:00   Player1
+2022/9/1 星期四 22:45:00   Receive MsgGetGameRoomInfo
+2022/9/1 星期四 22:45:00   Player88888
+2022/9/1 星期四 22:45:01   PlayermulinL
+2022/9/1 星期四 22:45:01   Player1
+2022/9/1 星期四 22:45:01   Player1
+2022/9/1 星期四 22:45:01   Player1
+2022/9/1 星期四 22:45:47   Socket Close 127.0.0.1:52074
+2022/9/1 星期四 22:45:47   Close
+2022/9/1 星期四 22:45:47   1号房间由于没有人被删除了
+2022/9/1 星期四 22:45:47   Player0
+2022/9/1 星期四 22:46:03   Accept 127.0.0.1:52114
+2022/9/1 星期四 22:46:03   sendwelcome
+2022/9/1 星期四 22:46:06   Receive MsgTestPlayer
+2022/9/1 星期四 22:46:06   addPlayer
+2022/9/1 星期四 22:46:08   Receive MsgGetAchieve
+2022/9/1 星期四 22:46:08   Receive MsgGetRoomList
+2022/9/1 星期四 22:46:08   playerGet
+2022/9/1 星期四 22:46:09   Receive MsgCreateRoom
+2022/9/1 星期四 22:46:09   Player88888
+2022/9/1 星期四 22:46:09   PlayermulinL
+2022/9/1 星期四 22:46:09   Player1
+2022/9/1 星期四 22:46:09   Player2
+2022/9/1 星期四 22:46:09   Player1
+2022/9/1 星期四 22:46:09   Receive MsgGetGameRoomInfo
+2022/9/1 星期四 22:46:09   Player88888
+2022/9/1 星期四 22:46:09   PlayermulinL
+2022/9/1 星期四 22:46:09   Player1
+2022/9/1 星期四 22:46:09   Player2
+2022/9/1 星期四 22:46:09   Player1
+2022/9/1 星期四 22:47:27   Socket Close 127.0.0.1:52114
+2022/9/1 星期四 22:47:27   Close
+2022/9/1 星期四 22:47:27   2号房间由于没有人被删除了
+2022/9/1 星期四 22:47:27   Player0
+2022/9/1 星期四 22:54:46   Accept 127.0.0.1:52447
+2022/9/1 星期四 22:54:46   sendwelcome
+2022/9/1 星期四 22:54:50   Receive MsgTestPlayer
+2022/9/1 星期四 22:54:50   addPlayer
+2022/9/1 星期四 22:54:50   Receive MsgGetAchieve
+2022/9/1 星期四 22:54:50   Receive MsgGetRoomList
+2022/9/1 星期四 22:54:50   playerGet
+2022/9/1 星期四 22:54:52   Receive MsgCreateRoom
+2022/9/1 星期四 22:54:52   Player88888
+2022/9/1 星期四 22:54:52   PlayermulinL
+2022/9/1 星期四 22:54:52   Player1
+2022/9/1 星期四 22:54:52   Player3
+2022/9/1 星期四 22:54:52   Player1
+2022/9/1 星期四 22:54:52   Receive MsgGetGameRoomInfo
+2022/9/1 星期四 22:54:52   Player88888
+2022/9/1 星期四 22:54:52   PlayermulinL
+2022/9/1 星期四 22:54:52   Player1
+2022/9/1 星期四 22:54:52   Player3
+2022/9/1 星期四 22:54:52   Player1
+2022/9/1 星期四 22:55:30   Socket Close 127.0.0.1:52447
+2022/9/1 星期四 22:55:30   Close
+2022/9/1 星期四 22:55:30   3号房间由于没有人被删除了
+2022/9/1 星期四 22:55:30   Player0
+2022/9/1 星期四 22:55:48   Accept 127.0.0.1:52493
+2022/9/1 星期四 22:55:48   sendwelcome
+2022/9/1 星期四 22:55:57   Receive MsgTestPlayer
+2022/9/1 星期四 22:55:57   addPlayer
+2022/9/1 星期四 22:55:58   Receive MsgGetAchieve
+2022/9/1 星期四 22:55:58   Receive MsgGetRoomList
+2022/9/1 星期四 22:55:58   playerGet
+2022/9/1 星期四 22:56:00   Receive MsgCreateRoom
+2022/9/1 星期四 22:56:00   Player88888
+2022/9/1 星期四 22:56:00   PlayermulinL
+2022/9/1 星期四 22:56:00   Player1
+2022/9/1 星期四 22:56:00   Player4
+2022/9/1 星期四 22:56:00   Player1
+2022/9/1 星期四 22:56:00   Receive MsgGetRoomInfo
+2022/9/1 星期四 22:56:00   Player88888
+2022/9/1 星期四 22:56:00   PlayermulinL
+2022/9/1 星期四 22:56:00   Player1
+2022/9/1 星期四 22:56:00   Player4
+2022/9/1 星期四 22:56:00   Player1
+2022/9/1 星期四 22:56:22   Socket Close 127.0.0.1:52493
+2022/9/1 星期四 22:56:22   Close
+2022/9/1 星期四 22:56:22   4号房间由于没有人被删除了
+2022/9/1 星期四 22:56:22   Player0
+2022/9/1 星期四 22:57:12   Accept 127.0.0.1:52533
+2022/9/1 星期四 22:57:12   sendwelcome
+2022/9/1 星期四 22:57:24   Receive MsgTestPlayer
+2022/9/1 星期四 22:57:24   addPlayer
+2022/9/1 星期四 22:57:25   Receive MsgGetAchieve
+2022/9/1 星期四 22:57:25   Receive MsgGetRoomList
+2022/9/1 星期四 22:57:25   playerGet
+2022/9/1 星期四 22:57:27   Receive MsgCreateRoom
+2022/9/1 星期四 22:57:27   Player88888
+2022/9/1 星期四 22:57:27   PlayermulinL
+2022/9/1 星期四 22:57:27   Player1
+2022/9/1 星期四 22:57:27   Player5
+2022/9/1 星期四 22:57:27   Player1
+2022/9/1 星期四 22:57:27   Receive MsgGetRoomInfo
+2022/9/1 星期四 22:57:27   Player88888
+2022/9/1 星期四 22:57:27   PlayermulinL
+2022/9/1 星期四 22:57:27   Player1
+2022/9/1 星期四 22:57:27   Player5
+2022/9/1 星期四 22:57:27   Player1
+2022/9/1 星期四 22:58:07   Socket Close 127.0.0.1:52533
+2022/9/1 星期四 22:58:07   Close
+2022/9/1 星期四 22:58:07   5号房间由于没有人被删除了
+2022/9/1 星期四 22:58:07   Player0
+2022/9/1 星期四 22:58:33   Accept 127.0.0.1:52558
+2022/9/1 星期四 22:58:33   sendwelcome
+2022/9/1 星期四 22:58:37   Receive MsgTestPlayer
+2022/9/1 星期四 22:58:37   addPlayer
+2022/9/1 星期四 22:58:40   Receive MsgGetAchieve
+2022/9/1 星期四 22:58:40   Receive MsgGetRoomList
+2022/9/1 星期四 22:58:40   playerGet
+2022/9/1 星期四 22:58:42   Receive MsgCreateRoom
+2022/9/1 星期四 22:58:42   Player88888
+2022/9/1 星期四 22:58:42   PlayermulinL
+2022/9/1 星期四 22:58:42   Player1
+2022/9/1 星期四 22:58:42   Player6
+2022/9/1 星期四 22:58:42   Player1
+2022/9/1 星期四 22:58:43   Receive MsgGetRoomInfo
+2022/9/1 星期四 22:58:43   Player88888
+2022/9/1 星期四 22:58:43   PlayermulinL
+2022/9/1 星期四 22:58:43   Player1
+2022/9/1 星期四 22:58:43   Player6
+2022/9/1 星期四 22:58:43   Player1
+2022/9/1 星期四 22:58:47   Receive MsgStartBattle
+2022/9/1 星期四 22:58:49   Socket Close 127.0.0.1:52558
+2022/9/1 星期四 22:58:49   Close
+2022/9/1 星期四 22:58:49   6号房间由于没有人被删除了
+2022/9/1 星期四 22:58:49   Player0
+2022/9/1 星期四 22:59:47   Accept 127.0.0.1:52587
+2022/9/1 星期四 22:59:47   sendwelcome
+2022/9/1 星期四 22:59:56   Receive MsgTestPlayer
+2022/9/1 星期四 22:59:56   addPlayer
+2022/9/1 星期四 22:59:58   Receive MsgGetAchieve
+2022/9/1 星期四 22:59:58   Receive MsgGetRoomList
+2022/9/1 星期四 22:59:58   playerGet
+2022/9/1 星期四 23:00:01   Receive MsgCreateRoom
+2022/9/1 星期四 23:00:01   Player88888
+2022/9/1 星期四 23:00:01   PlayermulinL
+2022/9/1 星期四 23:00:01   Player1
+2022/9/1 星期四 23:00:01   Player7
+2022/9/1 星期四 23:00:01   Player1
+2022/9/1 星期四 23:00:01   Receive MsgGetRoomInfo
+2022/9/1 星期四 23:00:01   Player88888
+2022/9/1 星期四 23:00:01   PlayermulinL
+2022/9/1 星期四 23:00:01   Player1
+2022/9/1 星期四 23:00:01   Player7
+2022/9/1 星期四 23:00:01   Player1
+2022/9/1 星期四 23:00:03   Receive MsgStartBattle
+2022/9/1 星期四 23:00:10   Socket Close 127.0.0.1:52587
+2022/9/1 星期四 23:00:10   Close
+2022/9/1 星期四 23:00:10   7号房间由于没有人被删除了
+2022/9/1 星期四 23:00:10   Player0
+2022/9/1 星期四 23:00:34   Accept 127.0.0.1:52608
+2022/9/1 星期四 23:00:34   sendwelcome
+2022/9/1 星期四 23:02:06   Socket Close 127.0.0.1:52608
+2022/9/1 星期四 23:02:06   Close
+2022/9/1 星期四 23:02:28   Accept 127.0.0.1:52648
+2022/9/1 星期四 23:02:28   sendwelcome
+2022/9/1 星期四 23:02:31   Receive MsgTestPlayer
+2022/9/1 星期四 23:02:31   addPlayer
+2022/9/1 星期四 23:02:35   Receive MsgGameChat
+2022/9/1 星期四 23:02:35   Chat
+2022/9/1 星期四 23:02:35   3
+2022/9/1 星期四 23:02:43   Socket Close 127.0.0.1:52648
+2022/9/1 星期四 23:02:43   Close
+2022/9/1 星期四 23:02:59   Accept 127.0.0.1:52686
+2022/9/1 星期四 23:02:59   sendwelcome
+2022/9/1 星期四 23:04:46   Receive MsgTestPlayer
+2022/9/1 星期四 23:04:46   addPlayer
+2022/9/1 星期四 23:04:50   Receive MsgGameChat
+2022/9/1 星期四 23:04:50   Chat
+2022/9/1 星期四 23:04:50   3
+2022/9/1 星期四 23:04:56   Receive MsgCreateRoom
+2022/9/1 星期四 23:04:56   Player88888
+2022/9/1 星期四 23:04:56   PlayermulinL
+2022/9/1 星期四 23:04:56   Player1
+2022/9/1 星期四 23:04:56   Player8
+2022/9/1 星期四 23:04:56   Player1
+2022/9/1 星期四 23:04:57   Receive MsgGetAchieve
+2022/9/1 星期四 23:04:57   Receive MsgGetRoomList
+2022/9/1 星期四 23:04:57   playerGet
+2022/9/1 星期四 23:05:36   Socket Close 127.0.0.1:52686
+2022/9/1 星期四 23:05:36   Close
+2022/9/1 星期四 23:05:36   8号房间由于没有人被删除了
+2022/9/1 星期四 23:05:36   Player0
+2022/9/1 星期四 23:08:41   Accept 127.0.0.1:52903
+2022/9/1 星期四 23:08:41   sendwelcome
+2022/9/1 星期四 23:08:45   Receive MsgTestPlayer
+2022/9/1 星期四 23:08:45   addPlayer
+2022/9/1 星期四 23:08:49   Receive MsgGetAchieve
+2022/9/1 星期四 23:08:49   Receive MsgGetRoomList
+2022/9/1 星期四 23:08:49   playerGet
+2022/9/1 星期四 23:08:51   Receive MsgCreateRoom
+2022/9/1 星期四 23:08:51   Player88888
+2022/9/1 星期四 23:08:51   PlayermulinL
+2022/9/1 星期四 23:08:51   Player1
+2022/9/1 星期四 23:08:51   Player9
+2022/9/1 星期四 23:08:51   Player1
+2022/9/1 星期四 23:08:51   Receive MsgGetRoomInfo
+2022/9/1 星期四 23:08:51   Player88888
+2022/9/1 星期四 23:08:51   PlayermulinL
+2022/9/1 星期四 23:08:51   Player1
+2022/9/1 星期四 23:08:51   Player9
+2022/9/1 星期四 23:08:51   Player1
+2022/9/1 星期四 23:08:55   Receive MsgStartBattle
+2022/9/1 星期四 23:11:35   Socket Close 127.0.0.1:52903
+2022/9/1 星期四 23:11:35   Close
+2022/9/1 星期四 23:11:35   9号房间由于没有人被删除了
+2022/9/1 星期四 23:11:35   Player0
+2022/9/1 星期四 23:14:37   Accept 127.0.0.1:53123
+2022/9/1 星期四 23:14:37   sendwelcome
+2022/9/1 星期四 23:14:40   Receive MsgTestPlayer
+2022/9/1 星期四 23:14:40   addPlayer
+2022/9/1 星期四 23:14:41   Receive MsgGetAchieve
+2022/9/1 星期四 23:14:41   Receive MsgGetRoomList
+2022/9/1 星期四 23:14:41   playerGet
+2022/9/1 星期四 23:14:43   Receive MsgCreateRoom
+2022/9/1 星期四 23:14:43   Player88888
+2022/9/1 星期四 23:14:43   PlayermulinL
+2022/9/1 星期四 23:14:43   Player1
+2022/9/1 星期四 23:14:43   Player10
+2022/9/1 星期四 23:14:43   Player1
+2022/9/1 星期四 23:14:43   Receive MsgGetRoomInfo
+2022/9/1 星期四 23:14:43   Player88888
+2022/9/1 星期四 23:14:43   PlayermulinL
+2022/9/1 星期四 23:14:43   Player1
+2022/9/1 星期四 23:14:43   Player10
+2022/9/1 星期四 23:14:43   Player1
+2022/9/1 星期四 23:14:52   Receive MsgStartBattle
+2022/9/1 星期四 23:17:20   Socket Close 127.0.0.1:53123
+2022/9/1 星期四 23:17:20   Close
+2022/9/1 星期四 23:17:20   10号房间由于没有人被删除了
+2022/9/1 星期四 23:17:20   Player0

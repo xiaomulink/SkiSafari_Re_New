@@ -1,0 +1,19 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+public class Msgselect : MsgBase
+{
+    //设置协议名
+    public Msgselect()
+    {
+        this.protoName = "Msgselect";
+    }
+
+    // 接下来填写参数
+    public int type;//0=get,1=set
+    public int itemtype;//0=char,1=weapon,2=item
+    public string item;
+}

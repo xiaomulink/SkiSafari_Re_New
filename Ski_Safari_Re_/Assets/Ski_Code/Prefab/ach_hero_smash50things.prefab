@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1997131766878899}
+  m_IsPrefabParent: 1
+--- !u!1 &1997131766878899
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4790383392815732}
+  - 114: {fileID: 114099539490096698}
+  m_Layer: 0
+  m_Name: ach_hero_smash50things
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4790383392815732
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1997131766878899}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &114099539490096698
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1997131766878899}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78fc070506fb6904183c230b37aa7919, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  description: Smash 50 things as Hero Sven
+  descriptionTextScale: 1
+  requiredFlags: 0
+  requiredLevel: 0
+  requiredItem: {fileID: 114753189013415242, guid: c06dce382555edf47be756f9be2cdb53, type: 2}
+  otherRequiredItems: []
+  persistent: 1
+  requiredCount: 50
+  requiredHazardCategory:
+  requiredMountCategory:
+  requiredIgnitionLevel: 0

@@ -1,0 +1,184 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1762794909957415}
+  m_IsPrefabParent: 1
+--- !u!1 &1762794909957415
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4283020049345253}
+  - 114: {fileID: 114250383030878389}
+  m_Layer: 9
+  m_Name: Attachment_Penguin
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4283020049345253
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1762794909957415}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4871672649004499}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &114250383030878389
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1762794909957415}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8009ae2a9fc92da43a6549da67a14bc9, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  attachmentGroup: 8
+  attachmentCategory: penguin
+  detachedPrefab: {fileID: 1404484302578974, guid: 73d2eb65ee2fcda439bb754fe19837d3, type: 2}
+  leaderPrefabs: []
+  sprite: {fileID: 114195552098727868}
+  autoDetachDelay: -1
+  alwaysOverwrite: 0
+  attachSound: {fileID: 11400000, guid: e2a60e38208ab654cbdb4d914138d9f7, type: 2}
+  igniteSound: {fileID: 11400000, guid: a6be13c26835a8c41b52ee478103e392, type: 2}
+  detachSound: {fileID: 11400000, guid: 9e4ed487815d1b84887eb525f6398c11, type: 2}
+  detachEffectPrefab: {fileID: 1009923081421203, guid: f42fd0d4ff716134b8dc82eade988c52, type: 2}
+  followSound: {fileID: 0}
+  isPlayer: 0
+--- !u!1 &1218156627844385
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4871672649004499}
+  - 23: {fileID: 23233805724720858}
+  - 33: {fileID: 33519660458467484}
+  - 114: {fileID: 114195552098727868}
+  m_Layer: 9
+  m_Name: Sprite
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4871672649004499
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1218156627844385}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.6152792, z: 0}
+  m_LocalScale: {x: 2, y: 2, z: 2}
+  m_Children: []
+  m_Father: {fileID: 4283020049345253}
+  m_RootOrder: 0
+--- !u!23 &23233805724720858
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1218156627844385}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 8ddd8bfdddacc7b4bb0dd16e7e473e91, type: 2}
+  m_SubsetIndices: []
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_ReflectionProbeUsage: 1
+  m_ProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &33519660458467484
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1218156627844385}
+  m_Mesh: {fileID: 4300000, guid: 26cc80a219ea8a142be89fcb9506f8c9, type: 2}
+--- !u!114 &114195552098727868
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1218156627844385}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ef5293669d216149aca25912c716ab3, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  rect:
+    serializedVersion: 2
+    x: 0
+    y: 128
+    width: 64
+    height: 64
+  bakedMesh: {fileID: 4300000, guid: 26cc80a219ea8a142be89fcb9506f8c9, type: 2}
+  realtime: 0
+  animations:
+  - name: idle
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 128
+      width: 64
+      height: 64
+    frameCount: 1
+    initialFrame: 0
+    fps: 0
+    looping: 0
+    hold: 0
+    synchronise: 0
+    sound: {fileID: 0}
+    nodeTracks: []
+    bakedMeshes:
+    - {fileID: 4300000, guid: 34215e80940e9df4aaeb75a892bc197e, type: 2}
+  - name: glide
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 128
+      width: 64
+      height: 64
+    frameCount: 1
+    initialFrame: 0
+    fps: 0
+    looping: 0
+    hold: 0
+    synchronise: 0
+    sound: {fileID: 0}
+    nodeTracks: []
+    bakedMeshes:
+    - {fileID: 4300000, guid: 198b9e00d8a99db418285c00fb896114, type: 2}
+  initialAnimationName:

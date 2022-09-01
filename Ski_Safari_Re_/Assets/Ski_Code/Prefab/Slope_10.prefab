@@ -1,0 +1,190 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1099791201886212}
+  m_IsPrefabParent: 1
+--- !u!1 &1099791201886212
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4620761100527590}
+  - component: {fileID: 114145138342726838}
+  m_Layer: 0
+  m_Name: Slope_09
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4620761100527590
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1099791201886212}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114145138342726838
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1099791201886212}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 16852b9997a4136429210198fa1addac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cost: 10000
+  discountCost: 5000
+  discountYear: -1
+  discountMonthStart: 12
+  discountDayStart: 11
+  discountMonthEnd: 1
+  discountDayEnd: 1
+  requiredLevel: 0
+  requiredItem: {fileID: 0}
+  lockedUntilUpdate: 0
+  displayName: "\u7406\u5858\u96EA\u5C71"
+  description: "\u592A\u7F8E\u4E3D\u4E86\u7406\u5858\uFF0C\u5509\u8FD9\u4E0D\u662FDJ\u5417"
+  descriptionTextScale: 1
+  iconTextureName: gui_item_slope_08
+  bannerTextureName: 
+  iOSBannerUrl: 
+  iOSProductId: 
+  googlePlayBannerUrl: 
+  amazonBannerUrl: 
+  nookBannerUrl: 
+  selectSound: {fileID: 11400000, guid: 699e507a7e5a77b4db17439d046d27db, type: 2}
+  achievements:
+  - {fileID: 114561557541916565, guid: f14645a872aa8cc429752641f1964c3b, type: 2}
+  - {fileID: 114136923479004522, guid: a27a86dedbfaa8b4db28803c0e60225d, type: 2}
+  - {fileID: 114889493674792411, guid: 645648054d8780842aa7dda21564097c, type: 2}
+  - {fileID: 114891626782058982, guid: edd4a2adbe4ec7844903d4ffa05618ba, type: 2}
+  - {fileID: 114335551767522498, guid: f59e9411dc15fe94588ffc2dd44a7c41, type: 2}
+  - {fileID: 114633342757416291, guid: 4e4971abebefef6409e1b4927accfc81, type: 2}
+  - {fileID: 114216485872865512, guid: d5907b22363325243978a6d7c246c117, type: 2}
+  achievementFlags: 0
+  guiReward: {fileID: 0}
+  guiShopPopup: {fileID: 114991532619916080, guid: 5105072adbfc49744becff8ddb38fc26,
+    type: 2}
+  bundles:
+  - {fileID: 11400000, guid: 913fa5c3e98db27428bc8d7d2bb914ab, type: 2}
+  - {fileID: 11400000, guid: fb594a684d835f84282815f54dc66fdc, type: 2}
+  - {fileID: 11400000, guid: 4a50986c45c75f74d949e4ff40c5a669, type: 2}
+  - {fileID: 11400000, guid: 095052f872a04cb45a514744e12bfdce, type: 2}
+  - {fileID: 11400000, guid: df39235af8c6ed94c82af92b4dd358bd, type: 2}
+  - {fileID: 11400000, guid: 00b9f06c6a26b404ea65686ba02b7ce1, type: 2}
+  - {fileID: 11400000, guid: 072d864a0722f4e42be7b2b626c20b68, type: 2}
+  - {fileID: 11400000, guid: e3f4fe9238e202743b8856aa247a0a9b, type: 2}
+  - {fileID: 11400000, guid: 19f89dd28fcfff644baec94f600fde79, type: 2}
+  - {fileID: 11400000, guid: e2c59a95e3689e8428d1414cec748357, type: 2}
+  - {fileID: 11400000, guid: ac4b7f659aa2e194a9d543a822e958c3, type: 2}
+  - {fileID: 11400000, guid: 2163566fdd6166545b6d72d2e4f0c764, type: 2}
+  leaderboardId: high_scores_8
+  leaderboardTextScale: 1
+  scorePerDistance: 1
+  theme: {fileID: 11400000, guid: c6b925e8570ded44aa6ec9fe4f1b1de6, type: 2}
+  signPrefab: {fileID: 114393034804091118, guid: 48ce21f8a45c25a45b570e6e9baa2879,
+    type: 2}
+  titleParticles: {fileID: 87790818759098530, guid: 47dd1b0cb99616c43ade81ca98fce04b,
+    type: 2}
+  titleParticlesSound: {fileID: 11400000, guid: 45b23217f0e54b04aac765619498681c,
+    type: 2}
+  titleErodeDelay: 2
+  titleErodeDuration: 1.5
+  titleCameraOffset: {x: 0, y: 6, z: -20}
+  tutorialPageSetOverrides:
+  - name: Trail
+    category: 2
+    pageNames:
+    - gui_tut_change_slope_christmas
+  startingSkierOverrides:
+  - oldStartingSkier: {fileID: 114762096595847013, guid: 098d4cb0ebfe50e45913175bd6189e95,
+      type: 2}
+    newStartingSkier: {fileID: 114260975561627812, guid: 45891521c6e0d0f4e9435077ac29dc55,
+      type: 2}
+  startPositionOffset: {x: 0, y: 1, z: 0}
+  sleepingEffectOffset: {x: -1.5, y: 0.5, z: 0}
+  slopeSignPosition: {x: -11, y: -0.75, z: 0.5}
+  startingSkierSignOffset: {x: 2, y: 0, z: 0}
+  startingAmbientSpawns:
+  - {fileID: 114956866661026302, guid: 1596bfc2c69f1a045a7a9fd63b46015a, type: 2}
+  - {fileID: 114782155788664319, guid: 03792548f7874e141bb9c66e422a37c2, type: 2}
+  - {fileID: 114619792008690819, guid: 3503776339eae114ebd50561cbefd156, type: 2}
+  initialQueuedSpawns:
+  - spawnParams: {fileID: 114632121464201471, guid: 7043300d0f0770a4fa419c0094b82658,
+      type: 2}
+    spawnFlags: -1
+    minPosX: 0
+  - spawnParams: {fileID: 114311728647495702, guid: 7e7d4cb292ef4294b8e27d30b4219f00,
+      type: 2}
+    spawnFlags: -1
+    minPosX: 100
+  randomAttachments:
+  - {fileID: 114250383030878389, guid: b8835f729f6b1cb4bb081c72eb82b4e2, type: 2}
+  spawnParams:
+  - {fileID: 114141703267279965, guid: 6b8fcf6ec41aebc479c1c0d2268c8406, type: 2}
+  - {fileID: 114311728647495702, guid: 7e7d4cb292ef4294b8e27d30b4219f00, type: 2}
+  - {fileID: 114924802728901235, guid: 30dea9c213570954bacf2328c6228f3b, type: 2}
+  - {fileID: 114164625255775941, guid: 8b6a645d404680c4385397264b30139c, type: 2}
+  - {fileID: 114632121464201471, guid: 7043300d0f0770a4fa419c0094b82658, type: 2}
+  - {fileID: 114333341919986793, guid: 552f87dc8e13169478026bfe8d92450f, type: 2}
+  - {fileID: 114956866661026302, guid: 1596bfc2c69f1a045a7a9fd63b46015a, type: 2}
+  - {fileID: 114590918687589559, guid: ec4d3ee7121c45f429e4d9186e41adab, type: 2}
+  - {fileID: 114782155788664319, guid: 03792548f7874e141bb9c66e422a37c2, type: 2}
+  - {fileID: 114507966431811325, guid: b5b68016ef0b9a248a4bcecd0beaf02b, type: 2}
+  - {fileID: 114080373800911800, guid: 314272d557d16234796db665882f9e6e, type: 2}
+  - {fileID: 114464489184554660, guid: a152bcb629cca704a8c847a4b96de722, type: 2}
+  - {fileID: 114568581443239529, guid: bb8ba911821ad1a4884095e7fb8e6b24, type: 2}
+  - {fileID: 114582679800841345, guid: 63f3353a1b1b28d478a05bb5ac5387b5, type: 2}
+  - {fileID: 114923001894835756, guid: 1fd93347ef208dd41ad7ad86f31c346b, type: 2}
+  cloudSpawnParams:
+  - {fileID: 114630379985299853, guid: 7be86f23592a2934794c5567030e0f1b, type: 2}
+  spawnParamsBG1:
+  - {fileID: 114617176200649402, guid: 9737db359c62d6843be88e23cc662a2a, type: 2}
+  - {fileID: 114872880554281016, guid: 5b6a3f2d146dbbe4f81516bc984cb6ef, type: 2}
+  spawnParamsBG2:
+  - {fileID: 114247057498403919, guid: 23aa044ef77a2a549956ee2a9620db12, type: 2}
+  - {fileID: 114915743869539569, guid: 600dfbf01913f1b4da00b0360d608062, type: 2}
+  - {fileID: 114524710830609846, guid: 3be2d1abbd773ed44b26c652ed1b930c, type: 2}
+  initialCurveParams: {fileID: 114828713356850723, guid: 50734ec74847f2b489289ba388d6b7e0,
+    type: 2}
+  curveParams:
+  - {fileID: 114812986480055164, guid: 8985c4752d919cf498d6a8f30643fa41, type: 2}
+  - {fileID: 114429014026716639, guid: 34d0b022720ed254c8c95898b09c7ccb, type: 2}
+  - {fileID: 114832279890359258, guid: c95d9c143d8aefa49a0f20b15155f1f6, type: 2}
+  - {fileID: 114112176360527419, guid: c098ad1e38fbda041b9a4a74217dc255, type: 2}
+  - {fileID: 114994518015712208, guid: 04f1f58d8c26b7146bf3e2fd6ed1e55a, type: 2}
+  - {fileID: 114453355967809841, guid: b641f6e50680a234297874e92007f2ee, type: 2}
+  initialCurveParamsBG1: {fileID: 114341845209179346, guid: f80cbbd96f3958340a500251d48bba7e,
+    type: 2}
+  curveParamsBG1:
+  - {fileID: 114516096125840331, guid: f1ab47a14cf39dd4b8ed7bd1e2023c14, type: 2}
+  initialCurveParamsBG2: {fileID: 114924487806888014, guid: dee355c31f6a75d4d9017d64d02325a2,
+    type: 2}
+  curveParamsBG2:
+  - {fileID: 114918091794974995, guid: cf50c78169096d948b9d9f2ae27306d8, type: 2}
+  avalanchePrefab: {fileID: 114453886579227882, guid: b66616f9e361c8d4a8db165682cd05bc,
+    type: 2}
+  avalancheStartDistance: -55
+  skyBoxPrefab: {fileID: 1972086953936256, guid: 970f99cd0fb0e154f84e9dac9812b996,
+    type: 2}
+  skyParticlesPrefab: {fileID: 1393208064824262, guid: eea7584bdcb1e8746b7c067673232ce4,
+    type: 2}

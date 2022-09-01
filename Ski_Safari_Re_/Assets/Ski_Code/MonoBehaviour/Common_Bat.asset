@@ -1,0 +1,121 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfc92633e96eb6844b65f27e8c7d258b, type: 3}
+  m_Name: Common_Bat
+  m_EditorClassIdentifier:
+  resident: 0
+  version: 3
+  library:
+    textures:
+    - name: fx_bat_debris
+      materials:
+      - {fileID: 2100000, guid: 0467b710a9270d049ad07732b53301c8, type: 2}
+    - name: npc_bat
+      materials:
+      - {fileID: 2100000, guid: 61cd43b110334b840a9210cae2d9cc30, type: 2}
+    sounds:
+    - name: vo_bat_alert
+      sounds:
+      - {fileID: 11400000, guid: e65eaffa57679ed419e481419d71d0c8, type: 2}
+    - name: vo_bat_flap_01
+      sounds:
+      - {fileID: 11400000, guid: cd1806c329d389948bcb5b85b2587962, type: 2}
+    - name: vo_bat_flap_02
+      sounds:
+      - {fileID: 11400000, guid: 478e1863e790ab54eacb580685969cc3, type: 2}
+    - name: vo_bat_flap_03
+      sounds:
+      - {fileID: 11400000, guid: 40c40348fde46674d947582e33883ee3, type: 2}
+    - name: vo_bat_hit_01
+      sounds:
+      - {fileID: 11400000, guid: 72a2d4ab30925bb4e816bf7e5e1690e7, type: 2}
+    - name: vo_bat_ignite_01
+      sounds:
+      - {fileID: 11400000, guid: 7e0ca2fe8b4edad4cb2938a271cf7f52, type: 2}
+    - name: vo_bat_ignite_02
+      sounds:
+      - {fileID: 11400000, guid: c116490bacfaa4e4eb69a0ac7e0efe16, type: 2}
+    - name: vo_bat_land_01
+      sounds:
+      - {fileID: 11400000, guid: 4c0b701fd5749c34ca06d96059497e29, type: 2}
+    - name: vo_bat_land_02
+      sounds:
+      - {fileID: 11400000, guid: 31f832ec72732394eb967aa6b1cb3467, type: 2}
+    - name: vo_bat_mount_01
+      sounds:
+      - {fileID: 11400000, guid: 9ab0582a832477942a82728810662a78, type: 2}
+      - {fileID: 11400000, guid: 9d0113471af950548b9b05528fa449c6, type: 2}
+  platforms:
+  - platform: 0
+    sd:
+      mode: 0
+      version: 0
+      assetBundleName:
+      remoteURL:
+      size: 0
+    hd:
+      mode: 0
+      version: 0
+      assetBundleName:
+      remoteURL:
+      size: 0
+  - platform: 1
+    sd:
+      mode: 0
+      version: 0
+      assetBundleName:
+      remoteURL:
+      size: 0
+    hd:
+      mode: 0
+      version: 0
+      assetBundleName:
+      remoteURL:
+      size: 0
+  - platform: 2
+    sd:
+      mode: 0
+      version: 0
+      assetBundleName:
+      remoteURL:
+      size: 0
+    hd:
+      mode: 0
+      version: 0
+      assetBundleName:
+      remoteURL:
+      size: 0
+  - platform: 3
+    sd:
+      mode: 0
+      version: 0
+      assetBundleName:
+      remoteURL:
+      size: 0
+    hd:
+      mode: 0
+      version: 0
+      assetBundleName:
+      remoteURL:
+      size: 0
+  - platform: 4
+    sd:
+      mode: 0
+      version: 0
+      assetBundleName:
+      remoteURL:
+      size: 0
+    hd:
+      mode: 2
+      version: 0
+      assetBundleName:
+      remoteURL:
+      size: 0

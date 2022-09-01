@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1456886604140431}
+  m_IsPrefabParent: 1
+--- !u!1 &1456886604140431
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4591486421315410}
+  - 114: {fileID: 114731650358984874}
+  m_Layer: 0
+  m_Name: ach_santa_slideroofsreindeer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4591486421315410
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1456886604140431}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &114731650358984874
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1456886604140431}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0407fc399eafe2b4f9b3ee2e615ae1c2, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  description: Ride reindeers across 5 rooftops
+  descriptionTextScale: 1
+  requiredFlags: 0
+  requiredLevel: 5
+  requiredItem: {fileID: 114079327473317858, guid: fae00983172c0a249b1f3d50192dd585, type: 2}
+  otherRequiredItems:
+  - {fileID: 114809421813411304, guid: def9181acee600240b6dbc8f7f709fbc, type: 2}
+  persistent: 1
+  requiredCount: 5
+  lineColliderCategory: roof
+  requiredMountCategory: reindeer
+  allowTakeoff: 1
+  resetOnLand: 0
+  requiredIgnitionLevel: 0

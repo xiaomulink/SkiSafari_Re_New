@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1559346171944711}
+  m_IsPrefabParent: 1
+--- !u!1 &1559346171944711
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4473773228147626}
+  - 114: {fileID: 114714726567467411}
+  m_Layer: 0
+  m_Name: ach_qinsven_ridellamacloud
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4473773228147626
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1559346171944711}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &114714726567467411
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1559346171944711}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0407fc399eafe2b4f9b3ee2e615ae1c2, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  description: Ride a Llama on a cloud as Qin Sven
+  descriptionTextScale: 1
+  requiredFlags: 0
+  requiredLevel: 8
+  requiredItem: {fileID: 114303754602138043, guid: 386eb770b1e39a448b49a7cf87a30f0f, type: 2}
+  otherRequiredItems:
+  - {fileID: 114271980192298724, guid: 9867cf0630705f740951c445ded52d76, type: 2}
+  persistent: 0
+  requiredCount: 1
+  lineColliderCategory: cloud
+  requiredMountCategory: llama
+  allowTakeoff: 1
+  resetOnLand: 1
+  requiredIgnitionLevel: 0

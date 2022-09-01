@@ -1,0 +1,27 @@
+public enum AchievementFlags
+{
+	None = 0,
+	Wolf = 1,
+	Freeze = 2,
+	Rocket = 4,
+	Bat = 8,
+	Penguin = 16,
+	Yeti = 32,
+	Eagle = 64,
+	Cabin = 128,
+	Rock = 256,
+	IcePond = 512,
+	Launchpad = 1024,
+	Wolf_Freeze = 3,
+	Wolf_Freeze_Bat = 11,
+	Yeti_Wolf = 33,
+	Yeti_Freeze = 34,
+	Wolf_Yeti_Penguin_Freeze = 51,
+	Penguin_Yeti_Eagle = 112,
+	Eagle_Cabin = 192,
+	Eagle_Rocket_Launchpad = 1092,
+	Wolf_IcePond = 513,
+	Penguin_IcePond = 528,
+	IcePond_Freeze = 514,
+	Rocket_Launchpad = 1028
+}

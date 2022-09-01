@@ -1,0 +1,259 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfc92633e96eb6844b65f27e8c7d258b, type: 3}
+  m_Name: Slope_06
+  m_EditorClassIdentifier:
+  resident: 0
+  version: 45
+  library:
+    textures:
+    - name: env_cabin_glow_china
+      materials:
+      - {fileID: 2100000, guid: 4bde4456b17f0064f9b39738bf15dcbe, type: 2}
+    - name: env_cave_wall_china
+      materials:
+      - {fileID: 2100000, guid: 0033bd4f0fdd9dd46917310d1786d3a0, type: 2}
+    - name: env_chinahouse
+      materials:
+      - {fileID: 2100000, guid: e7014cb06dd8ce549bdca8fb4412e372, type: 2}
+      - {fileID: 2100000, guid: 82830dbdc7ad97c49ac3c909018bcd06, type: 2}
+    - name: env_clouds_china
+      materials:
+      - {fileID: 2100000, guid: df6b1af3ea7b5c54fa4de4c03ef794a8, type: 2}
+    - name: env_follower_rope_china
+      materials:
+      - {fileID: 2100000, guid: 45124ef628508d743ae88aa78ebe30d6, type: 2}
+    - name: env_moon_china
+      materials:
+      - {fileID: 2100000, guid: 2fccb7cef9fd54f4d946b51f12637b83, type: 2}
+    - name: env_moon_glow_china
+      materials:
+      - {fileID: 2100000, guid: 34923a38767f1f04b878d2279fd6bf48, type: 2}
+    - name: env_signs_china
+      materials:
+      - {fileID: 2100000, guid: 8dd0b8e64cc60df4bbe94416b58bbaed, type: 2}
+      - {fileID: 2100000, guid: b5b45ec87ae85984f9386a60799d6661, type: 2}
+    - name: env_sky_china
+      materials:
+      - {fileID: 2100000, guid: 9e59cfc260292b9458b52d463e4617a9, type: 2}
+    - name: env_slope_sign_china
+      materials:
+      - {fileID: 2100000, guid: f1911eac5dc55b44593a4225c89007cc, type: 2}
+    - name: env_terrain_china_bg1_edge
+      materials:
+      - {fileID: 2100000, guid: 76b0472c25aa8094a99beb16f0df005c, type: 2}
+    - name: env_terrain_china_bg1_fill
+      materials:
+      - {fileID: 2100000, guid: c461bca578f02344cbf09163d6b1f94d, type: 2}
+    - name: env_terrain_china_bg2_edge
+      materials:
+      - {fileID: 2100000, guid: 9cecfacc721389048bae09f7b81bc28b, type: 2}
+    - name: env_terrain_china_bg2_fill
+      materials:
+      - {fileID: 2100000, guid: 21efbb173b7620d4ebc4a070701e8187, type: 2}
+    - name: env_terrain_china_game_edge
+      materials:
+      - {fileID: 2100000, guid: 9a22aa6a85b5dc84eb88b3faba6f3cc4, type: 2}
+    - name: env_terrain_china_game_fill
+      materials:
+      - {fileID: 2100000, guid: 42c59418b80c988469d8d871c72b2aca, type: 2}
+    - name: env_tree_china
+      materials:
+      - {fileID: 2100000, guid: 83200303e95074c4481051cb291faa82, type: 2}
+    - name: env_tree_china_bg
+      materials:
+      - {fileID: 2100000, guid: d242df463a970544694f9f1d3698c583, type: 2}
+      - {fileID: 2100000, guid: 4f7d0ddf590b2484ba886b32425767b5, type: 2}
+    - name: env_trees_china
+      materials:
+      - {fileID: 2100000, guid: 9417286aa66d3ed4f97d4d623726d96d, type: 2}
+      - {fileID: 2100000, guid: 1f1b0242b27ec434081e307e9b0111d7, type: 2}
+    - name: fx_flowers_china
+      materials:
+      - {fileID: 2100000, guid: fd846253e57246b4bb27976a346c39ad, type: 2}
+    - name: npc_crane
+      materials:
+      - {fileID: 2100000, guid: b9a9e7038e024ae4c8e974ef400b69c8, type: 2}
+    - name: npc_llama
+      materials:
+      - {fileID: 2100000, guid: c498d574ac3a289438760b34daf50e92, type: 2}
+    - name: npc_panda
+      materials:
+      - {fileID: 2100000, guid: e73c2fdb12df96a42bcbefedef639456, type: 2}
+    - name: npc_panda_bg
+      materials:
+      - {fileID: 2100000, guid: 368c7067cfe2aac409bf386e312ba045, type: 2}
+    - name: npc_panda_roll
+      materials:
+      - {fileID: 2100000, guid: f0b83671972b44d44a0ed5a866adae74, type: 2}
+    - name: npc_redpanda
+      materials:
+      - {fileID: 2100000, guid: a21fe6fae0c1bd845a4a379c697270ee, type: 2}
+    - name: npc_rocket_china1
+      materials:
+      - {fileID: 2100000, guid: 030cefe63ff893846b4c8d3fada280f8, type: 2}
+    sounds:
+    - name: fx_china_house_crash_01
+      sounds:
+      - {fileID: 11400000, guid: 771b33306b6dcb7498f94ff269cc3ac5, type: 2}
+    - name: fx_crane_flapping
+      sounds:
+      - {fileID: 11400000, guid: f61b207d3ea2da84e8da2ee3cc610431, type: 2}
+    - name: fx_llama_run_snow
+      sounds:
+      - {fileID: 11400000, guid: 9a6268a870182944c87b1dc401b4fb4e, type: 2}
+    - name: fx_llama_run_wood
+      sounds:
+      - {fileID: 11400000, guid: 68d62360da281d34d91fe438aa128196, type: 2}
+    - name: fx_panda_muffle
+      sounds:
+      - {fileID: 11400000, guid: c7cbc01cb0a00a749ac44251700417d4, type: 2}
+    - name: fx_panda_roll_snow
+      sounds:
+      - {fileID: 11400000, guid: 29adc0d6ff7731548bd892b10853af41, type: 2}
+    - name: fx_redpanda_run_snow
+      sounds:
+      - {fileID: 11400000, guid: e7a288f4729e1364598cf8e00a77640e, type: 2}
+    - name: fx_redpanda_run_wood
+      sounds:
+      - {fileID: 11400000, guid: e3e57ca1345e14743ad74e7b6dad434a, type: 2}
+    - name: fx_rustle_leaves
+      sounds:
+      - {fileID: 11400000, guid: 4349ea6264203944bace572452c9eb35, type: 2}
+    - name: music_game_china
+      sounds:
+      - {fileID: 11400000, guid: e29cc8ba218402b42ba531ea86e12167, type: 2}
+    - name: music_title_china
+      sounds:
+      - {fileID: 11400000, guid: 4b1d921bce146f841b8fa4bf6c9eba51, type: 2}
+    - name: vo_crane_alert
+      sounds:
+      - {fileID: 11400000, guid: 39998e0aef905b9408bae8fe40d99e1c, type: 2}
+    - name: vo_crane_call_01
+      sounds:
+      - {fileID: 11400000, guid: 0c292d13efd533b45a6926c72a256e63, type: 2}
+      - {fileID: 11400000, guid: 47f996dd06dc25c458d47fe3e4bdfa09, type: 2}
+    - name: vo_crane_call_02
+      sounds:
+      - {fileID: 11400000, guid: de2dcae3eaf3f9146955a39ac23bf9db, type: 2}
+    - name: vo_crane_hit
+      sounds:
+      - {fileID: 11400000, guid: fa32d7ca2c17d7d4a8722456f8b1a270, type: 2}
+    - name: vo_crane_mount
+      sounds:
+      - {fileID: 11400000, guid: 180ae3cbd98f6a040a31f2b8442922e1, type: 2}
+    - name: vo_llama_baa
+      sounds:
+      - {fileID: 11400000, guid: 20a1f45a4fd490c45b7f21af10e30d72, type: 2}
+      - {fileID: 11400000, guid: 39b9eb26ade1dd44fbcdbe3cfc4bcdb9, type: 2}
+    - name: vo_llama_breathing
+      sounds:
+      - {fileID: 11400000, guid: ccbf0796e75bcc4449198368c42d96b5, type: 2}
+    - name: vo_llama_hit
+      sounds:
+      - {fileID: 11400000, guid: 6380bc13c02d972478edaeb514f80b1a, type: 2}
+    - name: vo_llama_mount
+      sounds:
+      - {fileID: 11400000, guid: c2d1143e5b8337d4d89af2fb542a8b6e, type: 2}
+    - name: vo_panda_attach
+      sounds:
+      - {fileID: 11400000, guid: 2f78b2a14f3f8014db8c61476ea2c539, type: 2}
+    - name: vo_panda_detach
+      sounds:
+      - {fileID: 11400000, guid: f341654b4584e9142b7be122acf24d54, type: 2}
+      - {fileID: 11400000, guid: 7e83776a47ea9f14ebb138c74057a045, type: 2}
+    - name: vo_panda_jump
+      sounds:
+      - {fileID: 11400000, guid: 77ad28215feb8d2478a8a1ca9551b734, type: 2}
+    - name: vo_panda_pain_01
+      sounds:
+      - {fileID: 11400000, guid: 2706cd55b0a977d45971f9e0b35d601c, type: 2}
+    - name: vo_panda_run_01
+      sounds:
+      - {fileID: 11400000, guid: cdb25524124ce7b48a4ca1e875334fb9, type: 2}
+    - name: vo_redpanda_hardland
+      sounds:
+      - {fileID: 11400000, guid: 92d13d3f0a486054f82eb8987eafb2db, type: 2}
+    - name: vo_redpanda_hit
+      sounds:
+      - {fileID: 11400000, guid: 66a0466850fa786428caa4aecb3e5806, type: 2}
+    - name: vo_redpanda_jump
+      sounds:
+      - {fileID: 11400000, guid: 4f4b1a534fb413c43874b115fe1e0879, type: 2}
+    - name: vo_redpanda_mount
+      sounds:
+      - {fileID: 11400000, guid: 60b373c416895b646a4ae663f1d78a2e, type: 2}
+  platforms:
+  - platform: 0
+    sd:
+      mode: 0
+      version: 0
+      assetBundleName:
+      remoteURL:
+      size: 0
+    hd:
+      mode: 0
+      version: 0
+      assetBundleName:
+      remoteURL:
+      size: 0
+  - platform: 1
+    sd:
+      mode: 0
+      version: 45
+      assetBundleName:
+      remoteURL:
+      size: 0
+    hd:
+      mode: 0
+      version: 45
+      assetBundleName:
+      remoteURL:
+      size: 0
+  - platform: 2
+    sd:
+      mode: 0
+      version: 0
+      assetBundleName:
+      remoteURL:
+      size: 0
+    hd:
+      mode: 0
+      version: 0
+      assetBundleName:
+      remoteURL:
+      size: 0
+  - platform: 3
+    sd:
+      mode: 0
+      version: 0
+      assetBundleName:
+      remoteURL:
+      size: 0
+    hd:
+      mode: 0
+      version: 0
+      assetBundleName:
+      remoteURL:
+      size: 0
+  - platform: 4
+    sd:
+      mode: 0
+      version: 0
+      assetBundleName:
+      remoteURL:
+      size: 0
+    hd:
+      mode: 2
+      version: 0
+      assetBundleName:
+      remoteURL:
+      size: 0

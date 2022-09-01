@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1647740194877819}
+  m_IsPrefabParent: 1
+--- !u!1 &1647740194877819
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4884858916349877}
+  - 114: {fileID: 114946663682560185}
+  m_Layer: 0
+  m_Name: Upgrade_DeepSleeper
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4884858916349877
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1647740194877819}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &114946663682560185
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1647740194877819}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0aed7ca034e054941bcc8422d089df2d, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  cost: 3000
+  discountCost: -1
+  discountYear: 0
+  discountMonthStart: 0
+  discountDayStart: 0
+  discountMonthEnd: 0
+  discountDayEnd: 0
+  requiredLevel: 0
+  requiredItem: {fileID: 0}
+  lockedUntilUpdate: 0
+  displayName: Deep Sleeper
+  description: Sometimes you just don't want to get out of bed.
+  descriptionTextScale: 1
+  iconTextureName: gui_item_upgrade_bedbouncer
+  bannerTextureName:
+  iOSBannerUrl:
+  iOSProductId:
+  googlePlayBannerUrl:
+  amazonBannerUrl:
+  nookBannerUrl:
+  selectSound: {fileID: 11400000, guid: 708e247ffae3f4147ba66209bd0116ea, type: 2}
+  achievements:
+  - {fileID: 114850134203981986, guid: a508f20a97a85624caed4b75111d4cdd, type: 2}
+  achievementFlags: 0
+  guiReward: {fileID: 0}
+  guiShopPopup: {fileID: 0}
+  bundles: []
+  oldPrefab: {fileID: 1140675574169710, guid: 7c7cd0410c4dd554d988e93e80d0d58e, type: 2}
+  newPrefab: {fileID: 1077993573931015, guid: 2518ed785b9b92a48879fcceaa919102, type: 2}
+  materialName: player_sleeping
+  oldTextureName: player_sleeping
+  newTextureName: player_sleeping_upgrade

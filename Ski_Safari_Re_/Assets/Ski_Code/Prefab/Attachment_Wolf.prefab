@@ -1,0 +1,170 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1659972415686087}
+  m_IsPrefabParent: 1
+--- !u!1 &1659972415686087
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4461810182251316}
+  - 114: {fileID: 114507162058252139}
+  m_Layer: 9
+  m_Name: Attachment_Wolf
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4461810182251316
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1659972415686087}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.569981, y: 0.3257037, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4343394434638248}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &114507162058252139
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1659972415686087}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8009ae2a9fc92da43a6549da67a14bc9, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  attachmentGroup: 20
+  attachmentCategory: wolf
+  detachedPrefab: {fileID: 1442653687559078, guid: dc470435e273d1b4c8fb4490a149ea1b, type: 2}
+  leaderPrefabs: []
+  sprite: {fileID: 114141608195762261}
+  autoDetachDelay: -1
+  alwaysOverwrite: 0
+  attachSound: {fileID: 11400000, guid: 7f025e41559a6b240965da52a7e63c38, type: 2}
+  igniteSound: {fileID: 11400000, guid: 41d498ade0efff048ad47aff420a8136, type: 2}
+  detachSound: {fileID: 11400000, guid: b36bf2fe0981e5448941d55f856c99ca, type: 2}
+  detachEffectPrefab: {fileID: 1903691755795507, guid: 188d4172265d5f24881723230ed17156, type: 2}
+  followSound: {fileID: 0}
+  isPlayer: 0
+--- !u!1 &1101809006168020
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4343394434638248}
+  - 23: {fileID: 23499217334655767}
+  - 33: {fileID: 33477653504641689}
+  - 114: {fileID: 114141608195762261}
+  m_Layer: 9
+  m_Name: Sprite
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4343394434638248
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1101809006168020}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.52511495, y: 1.1824696, z: 0}
+  m_LocalScale: {x: 3, y: 3, z: 2}
+  m_Children: []
+  m_Father: {fileID: 4461810182251316}
+  m_RootOrder: 0
+--- !u!23 &23499217334655767
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1101809006168020}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 363dee3447ff09245a702e116e9b54ca, type: 2}
+  m_SubsetIndices: []
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_ReflectionProbeUsage: 1
+  m_ProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &33477653504641689
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1101809006168020}
+  m_Mesh: {fileID: 4300000, guid: 12c2b2adbd53ecb449faec6f14207baf, type: 2}
+--- !u!114 &114141608195762261
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1101809006168020}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ef5293669d216149aca25912c716ab3, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  rect:
+    serializedVersion: 2
+    x: 0
+    y: 512
+    width: 128
+    height: 128
+  bakedMesh: {fileID: 4300000, guid: 12c2b2adbd53ecb449faec6f14207baf, type: 2}
+  realtime: 0
+  animations:
+  - name: idle
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 512
+      width: 128
+      height: 128
+    frameCount: 4
+    initialFrame: 0
+    fps: 8
+    looping: 1
+    hold: 0
+    synchronise: 0
+    sound: {fileID: 0}
+    nodeTracks: []
+    bakedMeshes:
+    - {fileID: 4300000, guid: 146a4bebbcb798744b997f88e46bbff3, type: 2}
+    - {fileID: 4300000, guid: 2989c3808bf3f32459c33d6202056b68, type: 2}
+    - {fileID: 4300000, guid: 3d1d4a22212caff429e1eeec257f1738, type: 2}
+    - {fileID: 4300000, guid: 738136fb6357bd64e82ac1785d25cd75, type: 2}
+  initialAnimationName: idle

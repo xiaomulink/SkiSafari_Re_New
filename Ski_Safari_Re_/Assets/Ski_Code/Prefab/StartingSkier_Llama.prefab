@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1787316405458035}
+  m_IsPrefabParent: 1
+--- !u!1 &1787316405458035
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4580861472879611}
+  - 114: {fileID: 114312342695843160}
+  m_Layer: 0
+  m_Name: StartingSkier_Llama
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4580861472879611
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1787316405458035}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &114312342695843160
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1787316405458035}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fc3293675974f34f852011f6c320c95, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  cost: 0
+  discountCost: -1
+  discountYear: 0
+  discountMonthStart: 0
+  discountDayStart: 0
+  discountMonthEnd: 0
+  discountDayEnd: 0
+  requiredLevel: 14
+  requiredItem: {fileID: 0}
+  lockedUntilUpdate: 0
+  displayName: Llama
+  description:
+  descriptionTextScale: 1
+  iconTextureName: gui_item_starting_skier_wolf
+  bannerTextureName:
+  iOSBannerUrl:
+  iOSProductId:
+  googlePlayBannerUrl:
+  amazonBannerUrl:
+  nookBannerUrl:
+  selectSound: {fileID: 11400000, guid: 39b9eb26ade1dd44fbcdbe3cfc4bcdb9, type: 2}
+  achievements: []
+  achievementFlags: 0
+  guiReward: {fileID: 0}
+  guiShopPopup: {fileID: 0}
+  bundles: []
+  animal: {fileID: 1118243914345314, guid: a6112e8c1cc579b4d9162e53bebb245d, type: 2}
+  animalOffset: {x: -20, y: 1, z: 0}
+  animalSpawnDelay: 1.5
+  skier: {fileID: 114200663383864268, guid: d42fdfc836ab7ad4099e25394e0c520c, type: 2}
+  spawnDelay: 2.4
+  npcSpawnParams: {fileID: 114950056158218110, guid: 1e604386d943e2846b722c94d97d0a1a, type: 2}
+  guiStartingSkier: {fileID: 114973843362956059, guid: 251c22a76dffca349b8445a4eb472369, type: 2}
+  signPrefab: {fileID: 114348690093670936, guid: 16c7266d3953eaf47b4104f3488b97f0, type: 2}
+  signPosition: {x: 6, y: -1, z: 1}
+  signRotation: {x: 0, y: 0, z: 0, w: 1}

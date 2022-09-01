@@ -1,0 +1,188 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1244930856047920}
+  m_IsPrefabParent: 1
+--- !u!1 &1244930856047920
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4672495034893947}
+  - component: {fileID: 114303937476916316}
+  m_Layer: 0
+  m_Name: Slope_04
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4672495034893947
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1244930856047920}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114303937476916316
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1244930856047920}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 16852b9997a4136429210198fa1addac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cost: 20000
+  discountCost: 5000
+  discountYear: -1
+  discountMonthStart: 10
+  discountDayStart: 24
+  discountMonthEnd: 11
+  discountDayEnd: 7
+  requiredLevel: 0
+  requiredItem: {fileID: 0}
+  lockedUntilUpdate: 0
+  displayName: Monster Mountain
+  description: What comes out when the sun goes down?
+  descriptionTextScale: 1
+  iconTextureName: gui_item_slope_04
+  bannerTextureName: 
+  iOSBannerUrl: 
+  iOSProductId: 
+  googlePlayBannerUrl: 
+  amazonBannerUrl: 
+  nookBannerUrl: 
+  selectSound: {fileID: 11400000, guid: 407fcef818813a44aa44de28186803a5, type: 2}
+  achievements:
+  - {fileID: 114790463382879064, guid: b21fec629e9772c4dafdb4b9badb0691, type: 2}
+  - {fileID: 114079647532980172, guid: e5991eae061f14a42a1287899e09a637, type: 2}
+  - {fileID: 114392821242341363, guid: 6e34d4a8004e78a448284ee13c3f0ea4, type: 2}
+  - {fileID: 114018124445407558, guid: 4eaf7048f9615604c996f4cb3b300301, type: 2}
+  - {fileID: 114142195518564628, guid: 3524b1f8ffe3bfa4392a164c01ea99dc, type: 2}
+  - {fileID: 114206199343060461, guid: b11b0e42778b52f489516eeb8da7fd2f, type: 2}
+  - {fileID: 114331637539817658, guid: a97a7b0e4d3382b438826f309eb2b37d, type: 2}
+  achievementFlags: 0
+  guiReward: {fileID: 114751531017656885, guid: de56440811e03a447b8ed315925b7a85,
+    type: 2}
+  guiShopPopup: {fileID: 0}
+  bundles:
+  - {fileID: 11400000, guid: 913fa5c3e98db27428bc8d7d2bb914ab, type: 2}
+  - {fileID: 11400000, guid: 4a50986c45c75f74d949e4ff40c5a669, type: 2}
+  - {fileID: 11400000, guid: 072d864a0722f4e42be7b2b626c20b68, type: 2}
+  - {fileID: 11400000, guid: b519cd411b7b4d24583051a1af3990fa, type: 2}
+  - {fileID: 11400000, guid: 4293eb5aefb9cc34fa67fe74b1e81962, type: 2}
+  leaderboardId: high_scores_4
+  leaderboardTextScale: 0.8
+  scorePerDistance: 1
+  theme: {fileID: 11400000, guid: f12197afd24d23b45ae09d6cab47d3e6, type: 2}
+  signPrefab: {fileID: 114481708207815261, guid: c295cf6022506ba4684f393db187d814,
+    type: 2}
+  titleParticles: {fileID: 198253160254366532, guid: 47dd1b0cb99616c43ade81ca98fce04b,
+    type: 2}
+  titleParticlesSound: {fileID: 11400000, guid: bff95b10e1ed6d74fadfb073cd236beb,
+    type: 2}
+  titleErodeDelay: 1.5
+  titleErodeDuration: 0.5
+  titleCameraOffset: {x: 0, y: 8, z: -20}
+  tutorialPageSetOverrides:
+  - name: Trail
+    category: 2
+    pageNames:
+    - gui_tut_change_slope
+  startingSkierOverrides:
+  - oldStartingSkier: {fileID: 114922276999135508, guid: 2d37470b2cee81740bd970f831aad382,
+      type: 2}
+    newStartingSkier: {fileID: 114271903576992416, guid: 452c404f28fc0e64a8d4bdb1d561b829,
+      type: 2}
+  - oldStartingSkier: {fileID: 114729964659164580, guid: 03ad65697832735439055a585f261b76,
+      type: 2}
+    newStartingSkier: {fileID: 114415619997821440, guid: a236b0d87334e0b4e8b91cfecfb3ce85,
+      type: 2}
+  - oldStartingSkier: {fileID: 114672043329721940, guid: d7d89d5157ff7cf4a84b91fd791660ec,
+      type: 2}
+    newStartingSkier: {fileID: 114762209220403385, guid: 47d7fd5c9eca8624994fb396ee35fb21,
+      type: 2}
+  startPositionOffset: {x: 0, y: 1, z: 0}
+  sleepingEffectOffset: {x: 0, y: 0, z: 0}
+  slopeSignPosition: {x: -11, y: -0.75, z: 0.5}
+  startingSkierSignOffset: {x: 3, y: 0, z: 0}
+  startingAmbientSpawns:
+  - {fileID: 114143273826142621, guid: eed79a6c6324ba6429cc7da113367242, type: 2}
+  - {fileID: 114398988214111298, guid: 880357b14affcb640825ee1896e4afaf, type: 2}
+  - {fileID: 114727436718053106, guid: d6055038337224549b2c16b9e6dcf7f4, type: 2}
+  - {fileID: 114822504071474055, guid: 15142e378877f6f429eb742906ef0a67, type: 2}
+  initialQueuedSpawns:
+  - spawnParams: {fileID: 114701957397972976, guid: ad46c7a886a02c643bce998ad61cf352,
+      type: 2}
+    spawnFlags: -1
+    minPosX: 0
+  - spawnParams: {fileID: 114347019938901262, guid: 8dd6e23ea3d33b04ea26bd1be3a47b82,
+      type: 2}
+    spawnFlags: -1
+    minPosX: 100
+  randomAttachments:
+  - {fileID: 114341353809536925, guid: 0f8e99b4b49f4344883c2d43d26fc289, type: 2}
+  spawnParams:
+  - {fileID: 114626327406234205, guid: eef204486bce44a4ea30d140487daeea, type: 2}
+  - {fileID: 114347019938901262, guid: 8dd6e23ea3d33b04ea26bd1be3a47b82, type: 2}
+  - {fileID: 114979273052891878, guid: 5766d03a1a570264e868c827e37e1a86, type: 2}
+  - {fileID: 114164625255775941, guid: 8b6a645d404680c4385397264b30139c, type: 2}
+  - {fileID: 114701957397972976, guid: ad46c7a886a02c643bce998ad61cf352, type: 2}
+  - {fileID: 114333341919986793, guid: 552f87dc8e13169478026bfe8d92450f, type: 2}
+  - {fileID: 114398988214111298, guid: 880357b14affcb640825ee1896e4afaf, type: 2}
+  - {fileID: 114727436718053106, guid: d6055038337224549b2c16b9e6dcf7f4, type: 2}
+  - {fileID: 114143273826142621, guid: eed79a6c6324ba6429cc7da113367242, type: 2}
+  - {fileID: 114736904037071808, guid: ccfa3646a3485f14a82c3061cfc341c9, type: 2}
+  - {fileID: 114822504071474055, guid: 15142e378877f6f429eb742906ef0a67, type: 2}
+  - {fileID: 114827394948799671, guid: 6356d448fb326dc4c9a49207fbe1a4c2, type: 2}
+  cloudSpawnParams:
+  - {fileID: 114283891627055551, guid: 9ea1bdc0d9cdaa148993fddecbbae239, type: 2}
+  spawnParamsBG1:
+  - {fileID: 114528093763441248, guid: 11f1011d56355504b8914449a2ed1a98, type: 2}
+  spawnParamsBG2:
+  - {fileID: 114511769383147279, guid: d17f30190eaa52f4fa438cda78c3f03d, type: 2}
+  - {fileID: 114524710830609846, guid: 3be2d1abbd773ed44b26c652ed1b930c, type: 2}
+  initialCurveParams: {fileID: 114661425609326352, guid: 40978d6d77bff764d88815c0a2d79c1c,
+    type: 2}
+  curveParams:
+  - {fileID: 114569488952894233, guid: 118fe03605e7118488bfd4fb14ec520f, type: 2}
+  - {fileID: 114735764103737698, guid: e2ca2b66df417ad468884d550fb9cd4a, type: 2}
+  - {fileID: 114164972996738234, guid: d301f08aea4e84a40bb214c273424cec, type: 2}
+  - {fileID: 114537584162649517, guid: eb331c35f3f37834a8bf85e77d9a2666, type: 2}
+  - {fileID: 114055090378494667, guid: d33d7d2ee4e2a704ab86ddb6c6133115, type: 2}
+  - {fileID: 114744529977345394, guid: 24fde46e93f1ce046852aabe94c0ab45, type: 2}
+  - {fileID: 114927930920574503, guid: 6fc3f1df00979b94a8ea1753aa9a8f36, type: 2}
+  initialCurveParamsBG1: {fileID: 114858584639045457, guid: 01e762b591ae4824f8e64998c1830bf8,
+    type: 2}
+  curveParamsBG1:
+  - {fileID: 114118897969594850, guid: 4cae21eec2ca86c4d8ddb6ab2c1a1e07, type: 2}
+  initialCurveParamsBG2: {fileID: 114852857030371729, guid: 789a6124e9a1c05458ec3bf6ad885456,
+    type: 2}
+  curveParamsBG2:
+  - {fileID: 114109189230349183, guid: 424ab4f68bd52744582646320abce1bb, type: 2}
+  avalanchePrefab: {fileID: 114453886579227882, guid: b66616f9e361c8d4a8db165682cd05bc,
+    type: 2}
+  avalancheStartDistance: -55
+  skyBoxPrefab: {fileID: 1875883967961439, guid: 4ee2cdec4815e994ea9c5794592e0c0c,
+    type: 2}
+  skyParticlesPrefab: {fileID: 1159686553898563, guid: b1de0ae5fafe21841b812bfa98aa18d7,
+    type: 2}

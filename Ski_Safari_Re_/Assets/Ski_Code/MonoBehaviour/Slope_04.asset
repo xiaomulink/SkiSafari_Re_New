@@ -1,0 +1,250 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfc92633e96eb6844b65f27e8c7d258b, type: 3}
+  m_Name: Slope_04
+  m_EditorClassIdentifier:
+  resident: 0
+  version: 29
+  library:
+    textures:
+    - name: env_cave_detail_halloween
+      materials:
+      - {fileID: 2100000, guid: 2d21e7cafee970f4cb381e937f8e8665, type: 2}
+    - name: env_cave_surface_halloween
+      materials:
+      - {fileID: 2100000, guid: 60f2e7bc06c38d34aa400493b5f405cf, type: 2}
+    - name: env_cave_wall_halloween
+      materials:
+      - {fileID: 2100000, guid: 0033bd4f0fdd9dd46917310d1786d3a0, type: 2}
+    - name: env_clouds_halloween
+      materials:
+      - {fileID: 2100000, guid: 042afe75e0305cf4688847b9492939f1, type: 2}
+      - {fileID: 2100000, guid: 02a4307ec6a7fc3438db9040d62bece1, type: 2}
+    - name: env_hauntedhouse
+      materials:
+      - {fileID: 2100000, guid: f229f33c286f6aa41bacecc0e4fee6e2, type: 2}
+      - {fileID: 2100000, guid: bb4d1d5a8db9d394a853fe09c8af14a5, type: 2}
+    - name: env_hazards_01_halloween
+      materials:
+      - {fileID: 2100000, guid: cd60754fbbf39b04fa08288d796e1122, type: 2}
+      - {fileID: 2100000, guid: 288b426a411806b4586c6753cf8ff645, type: 2}
+    - name: env_rocket_launchpad_halloween
+      materials:
+      - {fileID: 2100000, guid: 21706cb8f94d2574e99be38e5e05867f, type: 2}
+      - {fileID: 2100000, guid: ba8877c6912e19b4dae7215fbb1e6f25, type: 2}
+    - name: env_rocks_halloween
+      materials:
+      - {fileID: 2100000, guid: f03837da5b084f742b5f55e47d653a94, type: 2}
+    - name: env_signs_halloween
+      materials:
+      - {fileID: 2100000, guid: 8dd0b8e64cc60df4bbe94416b58bbaed, type: 2}
+      - {fileID: 2100000, guid: b5b45ec87ae85984f9386a60799d6661, type: 2}
+    - name: env_sky_halloween
+      materials:
+      - {fileID: 2100000, guid: 9e59cfc260292b9458b52d463e4617a9, type: 2}
+    - name: env_slope_sign_halloween
+      materials:
+      - {fileID: 2100000, guid: a4287a189f5112c4f8c3a359db10961a, type: 2}
+    - name: env_slope_sign_halloween_back
+      materials:
+      - {fileID: 2100000, guid: 865fc0edb3bcf3e4c96c6c28897b2592, type: 2}
+    - name: env_stalactite_halloween
+      materials:
+      - {fileID: 2100000, guid: 1b98b726815e7cb4e8f1c27b245c1563, type: 2}
+    - name: env_terrain_04_bg1_edge
+      materials:
+      - {fileID: 2100000, guid: 76b0472c25aa8094a99beb16f0df005c, type: 2}
+    - name: env_terrain_04_bg1_fill
+      materials:
+      - {fileID: 2100000, guid: c461bca578f02344cbf09163d6b1f94d, type: 2}
+    - name: env_terrain_04_bg2_edge
+      materials:
+      - {fileID: 2100000, guid: 9cecfacc721389048bae09f7b81bc28b, type: 2}
+    - name: env_terrain_04_bg2_fill
+      materials:
+      - {fileID: 2100000, guid: 21efbb173b7620d4ebc4a070701e8187, type: 2}
+    - name: env_terrain_04_game_edge
+      materials:
+      - {fileID: 2100000, guid: 9a22aa6a85b5dc84eb88b3faba6f3cc4, type: 2}
+    - name: env_terrain_04_game_fill
+      materials:
+      - {fileID: 2100000, guid: 42c59418b80c988469d8d871c72b2aca, type: 2}
+    - name: env_tree_spooky
+      materials:
+      - {fileID: 2100000, guid: 33018dd4489a31942805d861b73b85a8, type: 2}
+    - name: env_tree_spooky_tinted
+      materials:
+      - {fileID: 2100000, guid: 8dbf184f4093b8642b8c673730a0f011, type: 2}
+      - {fileID: 2100000, guid: 5c3d4568f14cd7c48ad9fc3a37505132, type: 2}
+    - name: fx_bat_small
+      materials:
+      - {fileID: 2100000, guid: 71f58e5d71122224db6833ff2b6ee38f, type: 2}
+    - name: fx_frank_bits
+      materials:
+      - {fileID: 2100000, guid: 459f2f00e0cd040468ed07d786fe118a, type: 2}
+    - name: fx_pumpkin_bits
+      materials:
+      - {fileID: 2100000, guid: 67c727b7c0ea4e64e8a9fe35cdc351e3, type: 2}
+    - name: fx_tombstone_bits
+      materials:
+      - {fileID: 2100000, guid: 54ce48ec582f3a0429dbabe502fbcf4e, type: 2}
+    - name: gui_title_halloween
+      materials:
+      - {fileID: 2100000, guid: c4049b7504da5cd4ebbc930f87759583, type: 2}
+      - {fileID: 2100000, guid: 864931a950801df45ac3af755e98ae71, type: 2}
+    - name: gui_title_overlay_halloween
+      materials:
+      - {fileID: 2100000, guid: e66abf16b0c0b9447814cedaf6a564a3, type: 2}
+    - name: npc_frankenstein
+      materials:
+      - {fileID: 2100000, guid: a6c6bceaef2e0ec429ecda624c4d9ae9, type: 2}
+    - name: npc_frankenstein_sheet2
+      materials:
+      - {fileID: 2100000, guid: a817228ab3144824abd12ff2205f1289, type: 2}
+    - name: npc_hand
+      materials:
+      - {fileID: 2100000, guid: 3edfdae880bce5c41a9bc63abc7b0dba, type: 2}
+      - {fileID: 2100000, guid: 0987b271bb1a17147a2e1df606b3e9ef, type: 2}
+    - name: npc_rocket_halloween
+      materials:
+      - {fileID: 2100000, guid: 030cefe63ff893846b4c8d3fada280f8, type: 2}
+    - name: npc_wolf_spooky
+      materials:
+      - {fileID: 2100000, guid: 363dee3447ff09245a702e116e9b54ca, type: 2}
+    sounds:
+    - name: fx_hand_gallop_snow_01
+      sounds:
+      - {fileID: 11400000, guid: d9768dec9f158874bae50342b0a4b8f6, type: 2}
+    - name: fx_house_scream_01
+      sounds:
+      - {fileID: 11400000, guid: 8eabc2f121baa6a4c9d3e54e33c3ace7, type: 2}
+    - name: fx_house_scream_02
+      sounds:
+      - {fileID: 11400000, guid: b4fa9c549b862d741ba0acb6c31b95ba, type: 2}
+    - name: fx_pumpkin_smash
+      sounds:
+      - {fileID: 11400000, guid: 31bb1bf8499297b4a8e0e677b0903c8b, type: 2}
+    - name: gui_item_slope_04_select
+      sounds:
+      - {fileID: 11400000, guid: 407fcef818813a44aa44de28186803a5, type: 2}
+    - name: gui_title_bateffect
+      sounds:
+      - {fileID: 11400000, guid: bff95b10e1ed6d74fadfb073cd236beb, type: 2}
+    - name: music_game_halloween
+      sounds:
+      - {fileID: 11400000, guid: e29cc8ba218402b42ba531ea86e12167, type: 2}
+    - name: music_title_halloween
+      sounds:
+      - {fileID: 11400000, guid: 4b1d921bce146f841b8fa4bf6c9eba51, type: 2}
+    - name: vo_frank_chatter_01
+      sounds:
+      - {fileID: 11400000, guid: 99106f9dd17e02946b37efc1bb0565ca, type: 2}
+    - name: vo_frank_chatter_02
+      sounds:
+      - {fileID: 11400000, guid: ddf8f623c683c2f43823b85031fd22ac, type: 2}
+    - name: vo_frank_dismount_01
+      sounds:
+      - {fileID: 11400000, guid: 27335137762e05d4c9697047f7133a5f, type: 2}
+      - {fileID: 11400000, guid: 073ac88f2977bea4481e0f0152455fea, type: 2}
+    - name: vo_frank_fall_01
+      sounds:
+      - {fileID: 11400000, guid: 0691c6ad30c6ed44595171a62628afb5, type: 2}
+    - name: vo_frank_fall_02
+      sounds:
+      - {fileID: 11400000, guid: 17d9854854a012f48a37e9f511ba5a59, type: 2}
+    - name: vo_frank_mount_01
+      sounds:
+      - {fileID: 11400000, guid: bb73560eccf051b4e81436000032305c, type: 2}
+    - name: vo_frank_mount_02
+      sounds:
+      - {fileID: 11400000, guid: 059c1023f5b81ad49b8832d9118dfafc, type: 2}
+    - name: vo_frank_pain_01
+      sounds:
+      - {fileID: 11400000, guid: 4914bd7074c2edf49a4233083b8997b8, type: 2}
+    - name: vo_frank_pain_02
+      sounds:
+      - {fileID: 11400000, guid: 20d9c6b1d4764f445a6be3694034f1ef, type: 2}
+    - name: vo_frank_yay
+      sounds:
+      - {fileID: 11400000, guid: e18b5fff64e51c149833287a703ec787, type: 2}
+    - name: vo_hand_idle_02
+      sounds:
+      - {fileID: 11400000, guid: 7f28c187c2fd3414697086442dd7d030, type: 2}
+    - name: vo_hand_mount_01
+      sounds:
+      - {fileID: 11400000, guid: f76047eb65eb0a143b692dd04b4ad40b, type: 2}
+      - {fileID: 11400000, guid: 1eda5c800c6a53c44be15913e8a715ef, type: 2}
+  platforms:
+  - platform: 0
+    sd:
+      mode: 0
+      version: 0
+      assetBundleName:
+      remoteURL:
+      size: 0
+    hd:
+      mode: 0
+      version: 0
+      assetBundleName:
+      remoteURL:
+      size: 0
+  - platform: 1
+    sd:
+      mode: 0
+      version: 13
+      assetBundleName:
+      remoteURL:
+      size: 0
+    hd:
+      mode: 0
+      version: 13
+      assetBundleName:
+      remoteURL:
+      size: 0
+  - platform: 2
+    sd:
+      mode: 0
+      version: 0
+      assetBundleName:
+      remoteURL:
+      size: 0
+    hd:
+      mode: 0
+      version: 0
+      assetBundleName:
+      remoteURL:
+      size: 0
+  - platform: 3
+    sd:
+      mode: 0
+      version: 0
+      assetBundleName:
+      remoteURL:
+      size: 0
+    hd:
+      mode: 0
+      version: 0
+      assetBundleName:
+      remoteURL:
+      size: 0
+  - platform: 4
+    sd:
+      mode: 0
+      version: 0
+      assetBundleName:
+      remoteURL:
+      size: 0
+    hd:
+      mode: 2
+      version: 0
+      assetBundleName:
+      remoteURL:
+      size: 0

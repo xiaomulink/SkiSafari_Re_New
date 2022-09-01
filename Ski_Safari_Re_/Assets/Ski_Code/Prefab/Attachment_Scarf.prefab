@@ -1,0 +1,201 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1023365125986756}
+  m_IsPrefabParent: 1
+--- !u!1 &1023365125986756
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4959229503648673}
+  - 114: {fileID: 114115273581808726}
+  - 114: {fileID: 114283812540331858}
+  m_Layer: 0
+  m_Name: Attachment_Scarf
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4959229503648673
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1023365125986756}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4962534554442536}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &114115273581808726
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1023365125986756}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8009ae2a9fc92da43a6549da67a14bc9, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  attachmentGroup: 0
+  attachmentCategory: hat
+  detachedPrefab: {fileID: 0}
+  leaderPrefabs: []
+  sprite: {fileID: 114528127021730703}
+  autoDetachDelay: -1
+  alwaysOverwrite: 0
+  attachSound: {fileID: 0}
+  igniteSound: {fileID: 0}
+  detachSound: {fileID: 0}
+  detachEffectPrefab: {fileID: 0}
+  followSound: {fileID: 0}
+  isPlayer: 0
+--- !u!114 &114283812540331858
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1023365125986756}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a05fd384f67d25459e2996ac2a71dc2, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  movementThreshold: 0.25
+  rotationLimit: -1
+  rotationFilter: 5
+--- !u!1 &1769201551620972
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4962534554442536}
+  - 23: {fileID: 23843747139672117}
+  - 33: {fileID: 33040289298368952}
+  - 114: {fileID: 114528127021730703}
+  m_Layer: 0
+  m_Name: Sprite
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4962534554442536
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1769201551620972}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.5, y: 0, z: 0}
+  m_LocalScale: {x: 3, y: 0.75, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4959229503648673}
+  m_RootOrder: 0
+--- !u!23 &23843747139672117
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1769201551620972}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 070ca89fa960e6446b56ec056870ba37, type: 2}
+  m_SubsetIndices: []
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_ReflectionProbeUsage: 1
+  m_ProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &33040289298368952
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1769201551620972}
+  m_Mesh: {fileID: 4300000, guid: ebaef7506da1f3c4689cf62868b46c89, type: 2}
+--- !u!114 &114528127021730703
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1769201551620972}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ef5293669d216149aca25912c716ab3, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  rect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 128
+    height: 32
+  bakedMesh: {fileID: 4300000, guid: ebaef7506da1f3c4689cf62868b46c89, type: 2}
+  realtime: 0
+  animations:
+  - name: idle
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 128
+      height: 32
+    frameCount: 3
+    initialFrame: 0
+    fps: 20
+    looping: 1
+    hold: 0
+    synchronise: 0
+    sound: {fileID: 0}
+    nodeTracks: []
+    bakedMeshes:
+    - {fileID: 4300000, guid: 28e4dd4a5e0fb03458e7cc289124bdc7, type: 2}
+    - {fileID: 4300000, guid: 538a7149d97e4e6418a9a8f76cdf51bf, type: 2}
+    - {fileID: 4300000, guid: 55f1c35c25bbe324086fa4a4e1e23342, type: 2}
+  - name: freeze
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 128
+      height: 32
+    frameCount: 1
+    initialFrame: 0
+    fps: 0
+    looping: 0
+    hold: 0
+    synchronise: 0
+    sound: {fileID: 0}
+    nodeTracks: []
+    bakedMeshes:
+    - {fileID: 4300000, guid: ce80d08fe61ca1b4884c1653764f4682, type: 2}
+  initialAnimationName: idle

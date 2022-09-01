@@ -1,0 +1,341 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1451200208707680}
+  m_IsPrefabParent: 1
+--- !u!1 &1060125513409556
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4756757353157630}
+  - component: {fileID: 33174941141687693}
+  - component: {fileID: 23339487603617370}
+  - component: {fileID: 114773537482488877}
+  m_Layer: 9
+  m_Name: Sprite
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1451200208707680
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4593834204820966}
+  - component: {fileID: 114269015106471130}
+  - component: {fileID: 114994596139574542}
+  - component: {fileID: 114091289658767777}
+  - component: {fileID: 114243891784417504}
+  - component: {fileID: 114916010019890569}
+  m_Layer: 9
+  m_Name: NPC_Sun
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1847381977308554
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4789934942858384}
+  - component: {fileID: 114904897704080851}
+  m_Layer: 9
+  m_Name: Trail
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4593834204820966
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1451200208707680}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4756757353157630}
+  - {fileID: 4789934942858384}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4756757353157630
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1060125513409556}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 4, y: 4, z: 4}
+  m_Children: []
+  m_Father: {fileID: 4593834204820966}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4789934942858384
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1847381977308554}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.5386076, y: -0.34861034, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4593834204820966}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &23339487603617370
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1060125513409556}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: b9a9e7038e024ae4c8e974ef400b69c8, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &33174941141687693
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1060125513409556}
+  m_Mesh: {fileID: 4300000, guid: 6d817c0a069ffba42a419c8db5f11a4b, type: 2}
+--- !u!114 &114091289658767777
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1451200208707680}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0829bf6915f7d41489bc81d6879b1916, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  terrainLayer: 0
+  radius: 1
+  velocity: {x: 0, y: 0, z: 0}
+  gravity: -10
+  maxSpeed: 34
+  bounce: 0.25
+  reflect: 0
+  suction: 0
+  drag: 0
+  groundContactTimeThreshold: 0.1
+  maxCollisionSteps: 2
+--- !u!114 &114243891784417504
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1451200208707680}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03f836d37220459448722836a473d43f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioSourceSettings: {fileID: 11400000, guid: 3d133e1ee58bed94788ab9222480d0d7,
+    type: 2}
+  chatterSounds:
+  - {fileID: 11400000, guid: de2dcae3eaf3f9146955a39ac23bf9db, type: 2}
+  - {fileID: 11400000, guid: 0c292d13efd533b45a6926c72a256e63, type: 2}
+  minTimeBetweenChatter: 3
+  maxTimeBetweenChatter: 10
+--- !u!114 &114269015106471130
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1451200208707680}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a318b93684cca514687f5605eb56e83d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  defaultSpeed: 40
+  acceleration: 50
+  minLateralDrag: 100
+  maxLateralDrag: 600
+  reverseDrag: 20
+  minGravityRotationSpeed: 30
+  maxGravityRotationSpeed: 90
+  minInputRotationSpeed: 90
+  maxInputRotationSpeed: 180
+  minWindRotationSpeed: 180
+  maxWindRotationSpeed: 360
+  maxWindSpeedForRotation: 50
+  groundRotationFilter: 5
+  groundRotationOffset: 5
+  groundAcceleration: 0
+  groundSuction: 0
+  groundDrag: 0
+--- !u!114 &114773537482488877
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1060125513409556}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ef5293669d216149aca25912c716ab3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 128
+    height: 128
+  bakedMesh: {fileID: 4300000, guid: 5c5fae996984ee24ba903c44e968bf19, type: 2}
+  realtime: 0
+  animations:
+  - name: idle
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 128
+      height: 128
+    frameCount: 8
+    initialFrame: 0
+    fps: 16
+    looping: 1
+    hold: 1
+    synchronise: 0
+    sound: {fileID: 0}
+    nodeTracks: []
+    bakedMeshes:
+    - {fileID: 4300000, guid: 6d817c0a069ffba42a419c8db5f11a4b, type: 2}
+    - {fileID: 4300000, guid: 20d25f2806d05034aa8860b35d048c98, type: 2}
+    - {fileID: 4300000, guid: d4a440fd992aa964da0cf204b8fad490, type: 2}
+    - {fileID: 4300000, guid: c3417f357b96fc243ac17445e9020dfe, type: 2}
+    - {fileID: 4300000, guid: 8eab34d5116fc8f47920857b7dd21dd6, type: 2}
+    - {fileID: 4300000, guid: 27df8a29d6409504ba1120a7ae6e946a, type: 2}
+    - {fileID: 4300000, guid: 33706d8a0694609439af5e89ab2fec48, type: 2}
+    - {fileID: 4300000, guid: b8ec710ab1f76d04bb6418e10c9dc328, type: 2}
+  initialAnimationName: idle
+--- !u!114 &114904897704080851
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1847381977308554}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aeeeb400ff3d97c40b9e550f043c56c7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lifeTime: 1
+  maxSegments: 50
+  minSegmentDistance: 0.25
+  startWidth: 0.5
+  endWidth: 0
+  startColor: {r: 0.99607843, g: 0.99607843, b: 0.8627451, a: 1}
+  endColor: {r: 0.9843137, g: 0.7921569, b: 0.5921569, a: 0}
+  material: {fileID: 2100000, guid: 8088972df7b280a4d88955e62021f649, type: 2}
+--- !u!114 &114916010019890569
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1451200208707680}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce650321416741f4a9361b1ab9903db1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  radius: 3
+  category: crane
+  mountConfig:
+    prefab: {fileID: 114398013397482015, guid: 7cf80a4db774e1343ac0b8c6ff35792c, type: 2}
+    initialDelay: 2
+    spawnDirectionOverride: {x: 1, y: 0, z: 0}
+    velocityOverride: {x: 0, y: 0, z: 0}
+    usePlayerPosition: 1
+    usePlayerRotation: 1
+    startIgnited: 0
+    disableOnMount: 0
+    instantMount: 0
+    playerAttachment: {fileID: 0}
+    numInitialRandomAttachments: 0
+    sounds:
+    - {fileID: 11400000, guid: 180ae3cbd98f6a040a31f2b8442922e1, type: 2}
+  followConfig:
+    leaderPrefabs: []
+    followSound: {fileID: 0}
+  attachConfig:
+    prefab: {fileID: 114292508394599680, guid: 798de46dc7c206b48be0fe81550e1a95, type: 2}
+  tumbleConfig:
+    prefab: {fileID: 0}
+    categories: []
+    initialDelay: 2
+    kickVelocity: {x: 0, y: 0, z: 0}
+    sound: {fileID: 0}
+    effect: {fileID: 0}
+  passConfig:
+    initialDelay: 2
+    effect: {fileID: 0}
+    disableOnPass: 0
+  disableOnTrigger: 0
+  destroyableOwner: {fileID: 0}
+--- !u!114 &114994596139574542
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1451200208707680}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9d257b34e7fb6f40bd23cb67a56d343, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  terrainLayer: 0
+  heightAboveTerrain: 15
+  heightFilter: 0.1
+  diveRecoveryAngle: 60

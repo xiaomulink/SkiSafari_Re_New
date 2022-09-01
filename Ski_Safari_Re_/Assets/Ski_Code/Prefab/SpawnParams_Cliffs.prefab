@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1674161644111603}
+  m_IsPrefabParent: 1
+--- !u!1 &1674161644111603
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4118258932515432}
+  - 114: {fileID: 114141520495243765}
+  m_Layer: 0
+  m_Name: SpawnParams_Cliffs
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4118258932515432
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1674161644111603}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &114141520495243765
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1674161644111603}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2031ae3dc37a9b24284b31d080d8ea83, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  achievementFlags: 0
+  prefabs:
+  - {fileID: 1160686158179377, guid: 6e5dccacfc028034a8b26ad447a4ba20, type: 2}
+  maxActiveSpawns: 2
+  requiredDistance: 150
+  blackListCurves: []
+  blackListCurveDistance: 0
+  radius: 0
+  leftClearance: 0
+  rightClearance: 0
+  minSeparation: 100
+  maxSeparation: 200
+  groupable: 0
+  groupChance: 0.5
+  minSlope: -15
+  maxSlope: 15
+  matchSlopeRotation: 1
+  terrainHeightOffset: 0
+  randomTerrainHeightOffset: 0
+  avoidCaveBoundaries: 0
+  cullBehindDistance: 100
+  cullForwardDistance: 10000

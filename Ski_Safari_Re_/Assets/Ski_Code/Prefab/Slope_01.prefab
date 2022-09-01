@@ -1,0 +1,180 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1167272294444193}
+  m_IsPrefabParent: 1
+--- !u!1 &1167272294444193
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4892170283495486}
+  - component: {fileID: 114203825375261785}
+  m_Layer: 0
+  m_Name: Slope_01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4892170283495486
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1167272294444193}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114203825375261785
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1167272294444193}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 16852b9997a4136429210198fa1addac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cost: 0
+  discountCost: -1
+  discountYear: 0
+  discountMonthStart: 0
+  discountDayStart: 0
+  discountMonthEnd: 0
+  discountDayEnd: 0
+  requiredLevel: 0
+  requiredItem: {fileID: 0}
+  lockedUntilUpdate: 0
+  displayName: "\u6C88\u9633\u5927\u8857"
+  description: "\u72E0\u6D3B\u5F00\u59CB\u7684\u5730\u65B9\uFF01"
+  descriptionTextScale: 1
+  iconTextureName: gui_item_slope_01
+  bannerTextureName: 
+  iOSBannerUrl: 
+  iOSProductId: 
+  googlePlayBannerUrl: 
+  amazonBannerUrl: 
+  nookBannerUrl: 
+  selectSound: {fileID: 11400000, guid: 99f3e44b25667c041a1bcb43f549a53c, type: 2}
+  achievements:
+  - {fileID: 114084738504591301, guid: c63d586d94bd5334e9229e6a2cc5a441, type: 2}
+  achievementFlags: 0
+  guiReward: {fileID: 0}
+  guiShopPopup: {fileID: 0}
+  bundles:
+  - {fileID: 11400000, guid: 913fa5c3e98db27428bc8d7d2bb914ab, type: 2}
+  - {fileID: 11400000, guid: 7199f220c8a90944b986260c23db5750, type: 2}
+  - {fileID: 11400000, guid: fb594a684d835f84282815f54dc66fdc, type: 2}
+  - {fileID: 11400000, guid: 095052f872a04cb45a514744e12bfdce, type: 2}
+  - {fileID: 11400000, guid: df39235af8c6ed94c82af92b4dd358bd, type: 2}
+  - {fileID: 11400000, guid: 00b9f06c6a26b404ea65686ba02b7ce1, type: 2}
+  - {fileID: 11400000, guid: fba3a62391765d64cbcb4bb129bab20d, type: 2}
+  - {fileID: 11400000, guid: 9b607e13a43cd6b40983101a54f9de17, type: 2}
+  - {fileID: 11400000, guid: e3f4fe9238e202743b8856aa247a0a9b, type: 2}
+  - {fileID: 11400000, guid: 19f89dd28fcfff644baec94f600fde79, type: 2}
+  - {fileID: 11400000, guid: 2d3d7912008de394fa6ac4d809a0cac1, type: 2}
+  - {fileID: 11400000, guid: 8cab3d7bd9e957e4fb550fe705f11735, type: 2}
+  - {fileID: 11400000, guid: e2c59a95e3689e8428d1414cec748357, type: 2}
+  - {fileID: 11400000, guid: 18c7db5e746267341b98dc8ad0e4d78c, type: 2}
+  - {fileID: 11400000, guid: f79ef088ac905124da31f9e8f61426d2, type: 2}
+  - {fileID: 11400000, guid: b519cd411b7b4d24583051a1af3990fa, type: 2}
+  - {fileID: 11400000, guid: d34609e1b49e48a4aa9e7397a1842181, type: 2}
+  - {fileID: 11400000, guid: 2d9988f2bab2af34dbb10c00626804b8, type: 2}
+  - {fileID: 11400000, guid: 053d5ab1d0c7b264cb1d5cb99a1312ea, type: 2}
+  leaderboardId: high_scores
+  leaderboardTextScale: 1
+  scorePerDistance: 1
+  theme: {fileID: 11400000, guid: 7fcc3fa5c1064fd4295b3ae6a8a417c1, type: 2}
+  signPrefab: {fileID: 114352488963087731, guid: b5e8c9650f564744581cbfe8fe0f4e9e,
+    type: 2}
+  titleParticles: {fileID: 198253160254366532, guid: 47dd1b0cb99616c43ade81ca98fce04b,
+    type: 2}
+  titleParticlesSound: {fileID: 11400000, guid: 45b23217f0e54b04aac765619498681c,
+    type: 2}
+  titleErodeDelay: 2
+  titleErodeDuration: 1.5
+  titleCameraOffset: {x: 0, y: 6, z: -20}
+  tutorialPageSetOverrides: []
+  startingSkierOverrides: []
+  startPositionOffset: {x: 0, y: 1, z: 0}
+  sleepingEffectOffset: {x: 0, y: 0, z: 0}
+  slopeSignPosition: {x: -10, y: -0.75, z: 0.5}
+  startingSkierSignOffset: {x: 0, y: 0, z: 0}
+  startingAmbientSpawns:
+  - {fileID: 114956866661026302, guid: 1596bfc2c69f1a045a7a9fd63b46015a, type: 2}
+  - {fileID: 114619792008690819, guid: 3503776339eae114ebd50561cbefd156, type: 2}
+  - {fileID: 114048095941738342, guid: 3b04aaeaf5b1753458a8de31b77961da, type: 2}
+  initialQueuedSpawns:
+  - spawnParams: {fileID: 114306210957479944, guid: 0e54bca2b6e9edb49bd62ae77265f5ed,
+      type: 2}
+    spawnFlags: -1
+    minPosX: 0
+  - spawnParams: {fileID: 114311728647495702, guid: 7e7d4cb292ef4294b8e27d30b4219f00,
+      type: 2}
+    spawnFlags: -1
+    minPosX: 100
+  randomAttachments:
+  - {fileID: 114250383030878389, guid: b8835f729f6b1cb4bb081c72eb82b4e2, type: 2}
+  spawnParams:
+  - {fileID: 114552016520777930, guid: b6fd080b1652ac94ba2e5b121a51361d, type: 2}
+  - {fileID: 114311728647495702, guid: 7e7d4cb292ef4294b8e27d30b4219f00, type: 2}
+  - {fileID: 114668115729270048, guid: 72b81521ed0b4d04bb72cac083ea3dc8, type: 2}
+  - {fileID: 114164625255775941, guid: 8b6a645d404680c4385397264b30139c, type: 2}
+  - {fileID: 114306210957479944, guid: 0e54bca2b6e9edb49bd62ae77265f5ed, type: 2}
+  - {fileID: 114333341919986793, guid: 552f87dc8e13169478026bfe8d92450f, type: 2}
+  - {fileID: 114956866661026302, guid: 1596bfc2c69f1a045a7a9fd63b46015a, type: 2}
+  - {fileID: 114619792008690819, guid: 3503776339eae114ebd50561cbefd156, type: 2}
+  - {fileID: 114048095941738342, guid: 3b04aaeaf5b1753458a8de31b77961da, type: 2}
+  - {fileID: 114507966431811325, guid: b5b68016ef0b9a248a4bcecd0beaf02b, type: 2}
+  - {fileID: 114340189128041727, guid: 88465fc38d41d5347b0ef65359aaa7cf, type: 2}
+  - {fileID: 114080373800911800, guid: 314272d557d16234796db665882f9e6e, type: 2}
+  - {fileID: 114643465150999422, guid: d4ac52fdce730f54eaf2f0498b5c1363, type: 2}
+  - {fileID: 114568581443239529, guid: bb8ba911821ad1a4884095e7fb8e6b24, type: 2}
+  cloudSpawnParams:
+  - {fileID: 114283891627055551, guid: 9ea1bdc0d9cdaa148993fddecbbae239, type: 2}
+  spawnParamsBG1:
+  - {fileID: 114811480965769558, guid: 6599b53f4f060a94b9fef84d4c6f4693, type: 2}
+  - {fileID: 114768662948951159, guid: 3e8407ae3baadfd43bbfe19cc3631e8f, type: 2}
+  spawnParamsBG2:
+  - {fileID: 114247057498403919, guid: 23aa044ef77a2a549956ee2a9620db12, type: 2}
+  - {fileID: 114411509399576028, guid: dc96d11ad2fe6e24db632f44cc31f486, type: 2}
+  - {fileID: 114524710830609846, guid: 3be2d1abbd773ed44b26c652ed1b930c, type: 2}
+  initialCurveParams: {fileID: 114661425609326352, guid: 40978d6d77bff764d88815c0a2d79c1c,
+    type: 2}
+  curveParams:
+  - {fileID: 114315713426837874, guid: 86875ae84253875488bee36a2676ea56, type: 2}
+  - {fileID: 114569488952894233, guid: 118fe03605e7118488bfd4fb14ec520f, type: 2}
+  - {fileID: 114735764103737698, guid: e2ca2b66df417ad468884d550fb9cd4a, type: 2}
+  - {fileID: 114164972996738234, guid: d301f08aea4e84a40bb214c273424cec, type: 2}
+  - {fileID: 114537584162649517, guid: eb331c35f3f37834a8bf85e77d9a2666, type: 2}
+  initialCurveParamsBG1: {fileID: 114858584639045457, guid: 01e762b591ae4824f8e64998c1830bf8,
+    type: 2}
+  curveParamsBG1:
+  - {fileID: 114118897969594850, guid: 4cae21eec2ca86c4d8ddb6ab2c1a1e07, type: 2}
+  initialCurveParamsBG2: {fileID: 114852857030371729, guid: 789a6124e9a1c05458ec3bf6ad885456,
+    type: 2}
+  curveParamsBG2:
+  - {fileID: 114109189230349183, guid: 424ab4f68bd52744582646320abce1bb, type: 2}
+  avalanchePrefab: {fileID: 114453886579227882, guid: b66616f9e361c8d4a8db165682cd05bc,
+    type: 2}
+  avalancheStartDistance: -55
+  skyBoxPrefab: {fileID: 1372747416225559, guid: d54d5f677f57c634fa31227c003ccb50,
+    type: 2}
+  skyParticlesPrefab: {fileID: 1277112283097039, guid: dd394d6efcd1aea428569b6700898be4,
+    type: 2}

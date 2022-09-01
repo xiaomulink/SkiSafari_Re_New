@@ -1,0 +1,136 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1897726089384071}
+  m_IsPrefabParent: 1
+--- !u!1 &1897726089384071
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4702725033937634}
+  - 114: {fileID: 114772652234760951}
+  m_Layer: 0
+  m_Name: Stunt_Backfip
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4702725033937634
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1897726089384071}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &114772652234760951
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1897726089384071}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 179c3f1a1c26ab6468bc76c654162fc5, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  mountDescriptors:
+  - mountCategory: penguin
+    descriptions:
+    - 鸭略！
+    - 唐老鸭Double忽略！
+    -  唐老鸭Triple忽略！
+    multiDescription: Birdflips!
+    score: 200
+  - mountCategory: yeti
+    descriptions:
+    - 虎略！
+    - 虎哥Double忽略！
+    - 虎哥Triple忽略！
+    multiDescription: 虎略！
+    score: 800
+  - mountCategory: snowmobile
+    descriptions:
+    - 机车翻转!
+    - 机车Double翻转!
+    - 机车Triple翻转!
+    multiDescription: 机车翻转!
+    score: 1000
+  - mountCategory: eagle
+    descriptions:
+    - 敢不敢跟我比划比划！
+    - 知不知道什么叫黑手！
+    multiDescription: 敢不敢跟我比划比划！
+    score: 2000
+  - mountCategory: wolf
+    descriptions:
+    - Wolf Flip!
+    multiDescription: Wolf Flips!
+    score: 2000
+  - mountCategory: frankenstein
+    descriptions:
+    - Monster Flip!
+    - Double Monster Flip!
+    - Triple Monster Flip!
+    multiDescription: Monster Flips!
+    score: 800
+  - mountCategory: hand
+    descriptions:
+    - Hand Flip!
+    - Double Hand Flip!
+    - Triple Hand Flip!
+    multiDescription: Hand Flips!
+    score: 200
+  - mountCategory: reindeer
+    descriptions:
+    - 鹿翻转！
+    - Double 鹿翻转！
+    - Triple 鹿翻转！
+    multiDescription: Deer Flips!
+    score: 2000
+  - mountCategory: panda
+    descriptions:
+    - Panda Spin!
+    - Double Panda Spin!
+    - Triple Panda Spin!
+    multiDescription: Panda Flips!
+    score: 1000
+  - mountCategory: llama
+    descriptions:
+    - 叫翻转！
+    - DOUBLE LlAMA!
+    - TRIPLE LlAMA!
+    multiDescription: Lama Flips!
+    score: 1000
+  - mountCategory: redpanda
+    descriptions:
+    - 小熊猫翻转！
+    - Double 小熊猫翻转！
+    - Triple 小熊猫翻转！
+    multiDescription: Red Panda Flips!
+    score: 200
+  defaultDescriptor:
+    mountCategory:
+    descriptions:
+    - 忽略！
+    - 忽略略！
+    - 忽略略略！
+    - 忽略略略略略略略略略略略略略！
+    multiDescription: 忽略！
+    score: 50

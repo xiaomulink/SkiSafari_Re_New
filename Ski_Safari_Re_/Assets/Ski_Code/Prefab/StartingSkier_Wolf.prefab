@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1532505693092017}
+  m_IsPrefabParent: 1
+--- !u!1 &1532505693092017
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4208366632265165}
+  - 114: {fileID: 114762096595847013}
+  m_Layer: 0
+  m_Name: StartingSkier_Wolf
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4208366632265165
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1532505693092017}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &114762096595847013
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1532505693092017}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fc3293675974f34f852011f6c320c95, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  cost: 0
+  discountCost: -1
+  discountYear: 0
+  discountMonthStart: 0
+  discountDayStart: 0
+  discountMonthEnd: 0
+  discountDayEnd: 0
+  requiredLevel: 14
+  requiredItem: {fileID: 0}
+  lockedUntilUpdate: 0
+  displayName: Wolf
+  description: Slumbering Sven's best friend.
+  descriptionTextScale: 1
+  iconTextureName: gui_item_starting_skier_wolf
+  bannerTextureName:
+  iOSBannerUrl:
+  iOSProductId:
+  googlePlayBannerUrl:
+  amazonBannerUrl:
+  nookBannerUrl:
+  selectSound: {fileID: 11400000, guid: ba626cd47e6eb5e46b1e6b4f607549b2, type: 2}
+  achievements: []
+  achievementFlags: 1
+  guiReward: {fileID: 114916616564674372, guid: 976a8f65e50b9b746bc57e282c681ad4, type: 2}
+  guiShopPopup: {fileID: 0}
+  bundles: []
+  animal: {fileID: 1442653687559078, guid: dc470435e273d1b4c8fb4490a149ea1b, type: 2}
+  animalOffset: {x: -20, y: 1, z: 0}
+  animalSpawnDelay: 1.5
+  skier: {fileID: 114101830846438322, guid: ee543df6364a42a48a65abc21f3f065e, type: 2}
+  spawnDelay: 2.3
+  npcSpawnParams: {fileID: 114822504071474055, guid: 15142e378877f6f429eb742906ef0a67, type: 2}
+  guiStartingSkier: {fileID: 114973843362956059, guid: 251c22a76dffca349b8445a4eb472369, type: 2}
+  signPrefab: {fileID: 114348690093670936, guid: 16c7266d3953eaf47b4104f3488b97f0, type: 2}
+  signPosition: {x: 6, y: -1, z: 1}
+  signRotation: {x: 0, y: 0, z: 0, w: 1}

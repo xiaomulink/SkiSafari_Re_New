@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1271924909999130}
+  m_IsPrefabParent: 1
+--- !u!1 &1271924909999130
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4840979030803023}
+  - 114: {fileID: 114790875307852827}
+  m_Layer: 0
+  m_Name: SocialManager_Gamecircle
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4840979030803023
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1271924909999130}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &114790875307852827
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1271924909999130}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f6d26257d3cae845a306dc1eade5fd8, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  achievements:
+  - id: yeti_grunt
+    achievement: {fileID: 114938721587246589, guid: 9e36f4c3c1fad7242b7009d9991d3219, type: 2}
+    steps: 0
+  - id: safari_master
+    achievement: {fileID: 114136095970423137, guid: bf4eb3a06146c144a9fc7cac5cc18485, type: 2}
+    steps: 0
+  - id: safari_grandmaster
+    achievement: {fileID: 114133154818258983, guid: 3099435b83eef3f47bdbd42c9cad8048, type: 2}
+    steps: 0
+  - id: snowmobile_collector
+    achievement: {fileID: 114080785974553137, guid: 7551bf2d51a6573449c9d7ef75ed85ac, type: 2}
+    steps: 8
+  - id: fashionista
+    achievement: {fileID: 114831187261938638, guid: afae91b99aad0624b8461a3d1bf8e059, type: 2}
+    steps: 10

@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1001821001306999}
+  m_IsPrefabParent: 1
+--- !u!1 &1001821001306999
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4534815394786553}
+  - 114: {fileID: 114790463382879064}
+  m_Layer: 0
+  m_Name: ach_smash40pumpkins
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4534815394786553
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1001821001306999}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &114790463382879064
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1001821001306999}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78fc070506fb6904183c230b37aa7919, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  description: Smash 40 pumpkins in one run
+  descriptionTextScale: 1
+  requiredFlags: 0
+  requiredLevel: 0
+  requiredItem: {fileID: 114303937476916316, guid: dffdc2ee63d4cf24e8b590b9edb99f7d, type: 2}
+  otherRequiredItems: []
+  persistent: 0
+  requiredCount: 40
+  requiredHazardCategory: pumpkin
+  requiredMountCategory:
+  requiredIgnitionLevel: 0

@@ -1,0 +1,191 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1958159254842360}
+  m_IsPrefabParent: 1
+--- !u!1 &1958159254842360
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4138347969859201}
+  - 114: {fileID: 114462421547766727}
+  m_Layer: 9
+  m_Name: Attachment_Bat
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4138347969859201
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1958159254842360}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4418005083215081}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &114462421547766727
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1958159254842360}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8009ae2a9fc92da43a6549da67a14bc9, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  attachmentGroup: 24
+  attachmentCategory: bat
+  detachedPrefab: {fileID: 1374038686373797, guid: 45a276fe443a02b4888f7d4bb3eb8c79, type: 2}
+  leaderPrefabs: []
+  sprite: {fileID: 114785363588161238}
+  autoDetachDelay: -1
+  alwaysOverwrite: 0
+  attachSound: {fileID: 11400000, guid: 9d0113471af950548b9b05528fa449c6, type: 2}
+  igniteSound: {fileID: 11400000, guid: 7e0ca2fe8b4edad4cb2938a271cf7f52, type: 2}
+  detachSound: {fileID: 11400000, guid: 72a2d4ab30925bb4e816bf7e5e1690e7, type: 2}
+  detachEffectPrefab: {fileID: 1453801614962608, guid: 804f404b4924ada4c8e56ad07aea74c9, type: 2}
+  followSound: {fileID: 0}
+  isPlayer: 0
+--- !u!1 &1498982286132384
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4418005083215081}
+  - 23: {fileID: 23812740423987146}
+  - 33: {fileID: 33222534886818623}
+  - 114: {fileID: 114785363588161238}
+  m_Layer: 9
+  m_Name: Sprite
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4418005083215081
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1498982286132384}
+  m_LocalRotation: {x: 0.039281487, y: -0.006163008, z: -0.30692726, w: 0.95090204}
+  m_LocalPosition: {x: 0.3314042, y: 1.0020616, z: -0.03712342}
+  m_LocalScale: {x: 3, y: 3, z: 3}
+  m_Children: []
+  m_Father: {fileID: 4138347969859201}
+  m_RootOrder: 0
+--- !u!23 &23812740423987146
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1498982286132384}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 61cd43b110334b840a9210cae2d9cc30, type: 2}
+  m_SubsetIndices: []
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_ReflectionProbeUsage: 1
+  m_ProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &33222534886818623
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1498982286132384}
+  m_Mesh: {fileID: 4300000, guid: 4dba6d8fb8cc6bf4380bed9ddecda186, type: 2}
+--- !u!114 &114785363588161238
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1498982286132384}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ef5293669d216149aca25912c716ab3, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  rect:
+    serializedVersion: 2
+    x: 0
+    y: 256
+    width: 128
+    height: 128
+  bakedMesh: {fileID: 4300000, guid: 4dba6d8fb8cc6bf4380bed9ddecda186, type: 2}
+  realtime: 0
+  animations:
+  - name: idle
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 256
+      width: 128
+      height: 128
+    frameCount: 1
+    initialFrame: 0
+    fps: 0
+    looping: 0
+    hold: 1
+    synchronise: 0
+    sound: {fileID: 0}
+    nodeTracks: []
+    bakedMeshes:
+    - {fileID: 4300000, guid: 945e75f3eb66a6b469cd07286bcd28b6, type: 2}
+  - name: glide
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 256
+      width: 128
+      height: 128
+    frameCount: 8
+    initialFrame: 0
+    fps: 16
+    looping: 1
+    hold: 0
+    synchronise: 0
+    sound: {fileID: 0}
+    nodeTracks: []
+    bakedMeshes:
+    - {fileID: 4300000, guid: 722818e8085c4304cb9ad6a071854126, type: 2}
+    - {fileID: 4300000, guid: 0272c5f9f57776544bb6e8230d3ce8da, type: 2}
+    - {fileID: 4300000, guid: b8921973991e76a499d8be53f44cb985, type: 2}
+    - {fileID: 4300000, guid: 4f93ecd56b242c643bf95d9a4bee523e, type: 2}
+    - {fileID: 4300000, guid: 98f67eb4af69c764bbe3b4e905b739c3, type: 2}
+    - {fileID: 4300000, guid: 3a55ba1fd579d3b4bbc152f4144ae7b5, type: 2}
+    - {fileID: 4300000, guid: 3907136993416714cb8d5603693f1fbe, type: 2}
+    - {fileID: 4300000, guid: d41286a2ce26f8549bd1d6cb533b3255, type: 2}
+  initialAnimationName: idle

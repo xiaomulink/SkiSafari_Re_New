@@ -1,0 +1,417 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!128 &12800000
+Font:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Jet Set (7.0)
+  m_AsciiStartOffset: 0
+  m_Tracking: 1
+  m_LineSpacing: 169
+  m_CharacterSpacing: 1
+  m_CharacterPadding: 0
+  m_ConvertCase: 3
+  m_DefaultMaterial: {fileID: 2100000, guid: 520c548f1d864594289ef6596a771479, type: 2}
+  m_CharacterRects:
+  - serializedVersion: 2
+    index: 49
+    uv:
+      serializedVersion: 2
+      x: 0
+      y: 0.21875
+      width: 0.09765625
+      height: -0.21875
+    vert:
+      serializedVersion: 2
+      x: 8
+      y: 112
+      width: 25
+      height: -112
+    advance: 42
+    flipped: 0
+  - serializedVersion: 2
+    index: 50
+    uv:
+      serializedVersion: 2
+      x: 0.1015625
+      y: 0.21875
+      width: 0.25390625
+      height: -0.21875
+    vert:
+      serializedVersion: 2
+      x: 9
+      y: 112
+      width: 65
+      height: -112
+    advance: 83
+    flipped: 0
+  - serializedVersion: 2
+    index: 51
+    uv:
+      serializedVersion: 2
+      x: 0
+      y: 0.43945312
+      width: 0.25
+      height: -0.21875
+    vert:
+      serializedVersion: 2
+      x: 9
+      y: 112
+      width: 64
+      height: -112
+    advance: 82
+    flipped: 0
+  - serializedVersion: 2
+    index: 52
+    uv:
+      serializedVersion: 2
+      x: 0.25390625
+      y: 0.43945312
+      width: 0.25390625
+      height: -0.21875
+    vert:
+      serializedVersion: 2
+      x: 7
+      y: 112
+      width: 65
+      height: -112
+    advance: 81
+    flipped: 0
+  - serializedVersion: 2
+    index: 53
+    uv:
+      serializedVersion: 2
+      x: 0.51171875
+      y: 0.22070312
+      width: 0.25390625
+      height: -0.21875
+    vert:
+      serializedVersion: 2
+      x: 9
+      y: 112
+      width: 65
+      height: -112
+    advance: 83
+    flipped: 0
+  - serializedVersion: 2
+    index: 54
+    uv:
+      serializedVersion: 2
+      x: 0.51171875
+      y: 0.44140625
+      width: 0.25390625
+      height: -0.21875
+    vert:
+      serializedVersion: 2
+      x: 9
+      y: 112
+      width: 65
+      height: -112
+    advance: 83
+    flipped: 0
+  - serializedVersion: 2
+    index: 55
+    uv:
+      serializedVersion: 2
+      x: 0
+      y: 0.71875
+      width: 0.25
+      height: -0.21875
+    vert:
+      serializedVersion: 2
+      x: 8
+      y: 112
+      width: 64
+      height: -112
+    advance: 80
+    flipped: 0
+  - serializedVersion: 2
+    index: 56
+    uv:
+      serializedVersion: 2
+      x: 0.25390625
+      y: 0.71875
+      width: 0.25390625
+      height: -0.21875
+    vert:
+      serializedVersion: 2
+      x: 9
+      y: 112
+      width: 65
+      height: -112
+    advance: 83
+    flipped: 0
+  - serializedVersion: 2
+    index: 57
+    uv:
+      serializedVersion: 2
+      x: 0
+      y: 0.9394531
+      width: 0.25390625
+      height: -0.21875
+    vert:
+      serializedVersion: 2
+      x: 9
+      y: 112
+      width: 65
+      height: -112
+    advance: 83
+    flipped: 0
+  - serializedVersion: 2
+    index: 48
+    uv:
+      serializedVersion: 2
+      x: 0.51171875
+      y: 0.71875
+      width: 0.25390625
+      height: -0.21875
+    vert:
+      serializedVersion: 2
+      x: 9
+      y: 112
+      width: 65
+      height: -112
+    advance: 83
+    flipped: 0
+  - serializedVersion: 2
+    index: 109
+    uv:
+      serializedVersion: 2
+      x: 0.2578125
+      y: 0.87890625
+      width: 0.3125
+      height: -0.15820312
+    vert:
+      serializedVersion: 2
+      x: 9
+      y: 80
+      width: 81
+      height: -80
+    advance: 99
+    flipped: 1
+  m_Texture: {fileID: 2800000, guid: 3e6ba713909581e49bcd7262054e007f, type: 3}
+  m_KerningValues:
+  - first:
+      48: 50
+    second: -3
+  - first:
+      48: 52
+    second: -1
+  - first:
+      48: 53
+    second: -3
+  - first:
+      48: 54
+    second: -3
+  - first:
+      48: 55
+    second: -2
+  - first:
+      48: 56
+    second: -3
+  - first:
+      49: 48
+    second: -3
+  - first:
+      49: 49
+    second: -2
+  - first:
+      49: 50
+    second: -3
+  - first:
+      49: 51
+    second: -2
+  - first:
+      49: 53
+    second: -3
+  - first:
+      49: 54
+    second: -3
+  - first:
+      49: 55
+    second: -1
+  - first:
+      49: 56
+    second: -3
+  - first:
+      49: 57
+    second: -3
+  - first:
+      50: 48
+    second: -3
+  - first:
+      50: 50
+    second: -3
+  - first:
+      50: 51
+    second: -2
+  - first:
+      50: 53
+    second: -3
+  - first:
+      50: 54
+    second: -3
+  - first:
+      50: 55
+    second: -1
+  - first:
+      50: 57
+    second: -3
+  - first:
+      51: 48
+    second: -3
+  - first:
+      51: 50
+    second: -3
+  - first:
+      51: 51
+    second: -2
+  - first:
+      51: 53
+    second: -3
+  - first:
+      51: 54
+    second: -3
+  - first:
+      51: 55
+    second: -1
+  - first:
+      51: 56
+    second: -3
+  - first:
+      51: 57
+    second: -3
+  - first:
+      52: 48
+    second: -3
+  - first:
+      52: 51
+    second: -3
+  - first:
+      52: 53
+    second: -3
+  - first:
+      52: 55
+    second: -2
+  - first:
+      52: 57
+    second: -3
+  - first:
+      53: 48
+    second: -3
+  - first:
+      53: 50
+    second: -3
+  - first:
+      53: 51
+    second: -2
+  - first:
+      53: 53
+    second: -3
+  - first:
+      53: 54
+    second: -3
+  - first:
+      53: 55
+    second: -1
+  - first:
+      53: 56
+    second: -3
+  - first:
+      53: 57
+    second: -3
+  - first:
+      54: 50
+    second: -3
+  - first:
+      54: 51
+    second: -2
+  - first:
+      54: 53
+    second: -3
+  - first:
+      54: 55
+    second: -1
+  - first:
+      54: 56
+    second: -3
+  - first:
+      55: 48
+    second: -2
+  - first:
+      55: 50
+    second: -2
+  - first:
+      55: 51
+    second: -1
+  - first:
+      55: 53
+    second: -2
+  - first:
+      55: 54
+    second: -2
+  - first:
+      55: 56
+    second: -2
+  - first:
+      55: 57
+    second: -2
+  - first:
+      56: 48
+    second: -3
+  - first:
+      56: 50
+    second: -3
+  - first:
+      56: 51
+    second: -3
+  - first:
+      56: 52
+    second: -1
+  - first:
+      56: 53
+    second: -3
+  - first:
+      56: 54
+    second: -3
+  - first:
+      56: 55
+    second: -2
+  - first:
+      56: 56
+    second: -3
+  - first:
+      56: 57
+    second: -3
+  - first:
+      57: 48
+    second: -3
+  - first:
+      57: 50
+    second: -3
+  - first:
+      57: 51
+    second: -2
+  - first:
+      57: 53
+    second: -3
+  - first:
+      57: 54
+    second: -3
+  - first:
+      57: 55
+    second: -1
+  - first:
+      57: 56
+    second: -3
+  m_PixelScale: 0.1
+  m_FontData:
+  m_FontSize: 128
+  m_Ascent: 148
+  m_DefaultStyle: 0
+  m_FontNames:
+  - Jet Set
+  m_FallbackFonts: []
+  m_FontRenderingMode: 0

@@ -1,0 +1,108 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfc92633e96eb6844b65f27e8c7d258b, type: 3}
+  m_Name: Slope_01
+  m_EditorClassIdentifier: 
+  resident: 0
+  version: 3
+  library:
+    textures:
+    - name: env_cave_wall_01
+      materials:
+      - {fileID: 2100000, guid: 0033bd4f0fdd9dd46917310d1786d3a0, type: 2}
+    - name: env_sky_01
+      materials:
+      - {fileID: 2100000, guid: 9e59cfc260292b9458b52d463e4617a9, type: 2}
+    - name: env_terrain_01_bg1_edge
+      materials:
+      - {fileID: 2100000, guid: 76b0472c25aa8094a99beb16f0df005c, type: 2}
+    - name: env_terrain_01_bg1_fill
+      materials:
+      - {fileID: 2100000, guid: c461bca578f02344cbf09163d6b1f94d, type: 2}
+    - name: env_terrain_01_bg2_edge
+      materials:
+      - {fileID: 2100000, guid: 9cecfacc721389048bae09f7b81bc28b, type: 2}
+    - name: env_terrain_01_bg2_fill
+      materials:
+      - {fileID: 2100000, guid: 21efbb173b7620d4ebc4a070701e8187, type: 2}
+    - name: env_terrain_01_game_edge
+      materials:
+      - {fileID: 2100000, guid: 9a22aa6a85b5dc84eb88b3faba6f3cc4, type: 2}
+    - name: env_terrain_01_game_fill_1
+      materials:
+      - {fileID: 2100000, guid: 42c59418b80c988469d8d871c72b2aca, type: 2}
+    sounds: []
+  platforms:
+  - platform: 0
+    sd:
+      mode: 0
+      version: 0
+      assetBundleName: 
+      remoteURL: 
+      size: 0
+    hd:
+      mode: 0
+      version: 0
+      assetBundleName: 
+      remoteURL: 
+      size: 0
+  - platform: 1
+    sd:
+      mode: 0
+      version: 0
+      assetBundleName: 
+      remoteURL: 
+      size: 0
+    hd:
+      mode: 0
+      version: 0
+      assetBundleName: 
+      remoteURL: 
+      size: 0
+  - platform: 2
+    sd:
+      mode: 0
+      version: 0
+      assetBundleName: 
+      remoteURL: 
+      size: 0
+    hd:
+      mode: 0
+      version: 0
+      assetBundleName: 
+      remoteURL: 
+      size: 0
+  - platform: 3
+    sd:
+      mode: 0
+      version: 0
+      assetBundleName: 
+      remoteURL: 
+      size: 0
+    hd:
+      mode: 0
+      version: 0
+      assetBundleName: 
+      remoteURL: 
+      size: 0
+  - platform: 4
+    sd:
+      mode: 0
+      version: 0
+      assetBundleName: 
+      remoteURL: 
+      size: 0
+    hd:
+      mode: 2
+      version: 0
+      assetBundleName: 
+      remoteURL: 
+      size: 0
